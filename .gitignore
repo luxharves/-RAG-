@@ -1,0 +1,40 @@
+# Environment
+.env
+
+# Local models (large files)
+models/
+
+# Milvus Lite data (directories, not files)
+milvus.db/
+milvus_api.db/
+*.lock
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# Test
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Temp
+.tmp/
+.tmp_check.txt
+.tmp_err.txt
+
+# Debug artifacts
+resume_text.txt
+
+# Local Claude settings
+.claude/settings.local.json

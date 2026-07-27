@@ -1,0 +1,186 @@
+{
+  "run_id": "final_eval_20260720_045738",
+  "timestamp": "2026-07-20T04:57:38",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_100.json",
+  "dataset_sha256": "728a1180a2449b25d13b308107e78f743ad719019d47f3475cecf69196abaf9a",
+  "source_document": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+  "source_document_sha256": "c9cfb1a97aaf55699441c81b1faa17707495d45f545987ae03732cdc029970f1",
+  "total_questions": 100,
+  "modality_counts": {
+    "text": 99,
+    "image": 1
+  },
+  "ragas_version": "0.4.3",
+  "versions": {
+    "V0": {
+      "version": "V0",
+      "retrieval_metrics": {
+        "evaluated_question_count": 100,
+        "hit_at_5": 0.92,
+        "recall_at_5": 0.89,
+        "mrr": 0.7587,
+        "top1_hit_rate": 0.64,
+        "avg_retrieval_latency_s": 3.1622,
+        "avg_generation_latency_s": 3.1622
+      },
+      "ragas_metrics": {
+        "evaluated_question_count": 100,
+        "faithfulness": 0.9217,
+        "context_precision": 0.6949,
+        "context_recall": 0.8214,
+        "answer_relevancy": 0.91,
+        "avg_ragas_latency_s": 0.0003,
+        "valid_sample_counts": {
+          "faithfulness": 66,
+          "context_precision": 100,
+          "context_recall": 98,
+          "answer_relevancy": 100
+        },
+        "engine": {
+          "faithfulness": "ragas==0.4.3",
+          "context_precision": "ragas==0.4.3",
+          "context_recall": "ragas==0.4.3",
+          "answer_relevancy": "custom_llm_judge (embedding API unavailable)"
+        }
+      }
+    },
+    "V1": {
+      "version": "V1",
+      "retrieval_metrics": {
+        "evaluated_question_count": 100,
+        "hit_at_5": 0.87,
+        "recall_at_5": 0.8142,
+        "mrr": 0.7288,
+        "top1_hit_rate": 0.67,
+        "avg_retrieval_latency_s": 3.2324,
+        "avg_generation_latency_s": 3.2324
+      },
+      "ragas_metrics": {
+        "evaluated_question_count": 100,
+        "faithfulness": 0.8799,
+        "context_precision": 0.6824,
+        "context_recall": 0.7727,
+        "answer_relevancy": 0.835,
+        "avg_ragas_latency_s": 0.0003,
+        "valid_sample_counts": {
+          "faithfulness": 72,
+          "context_precision": 99,
+          "context_recall": 99,
+          "answer_relevancy": 100
+        },
+        "engine": {
+          "faithfulness": "ragas==0.4.3",
+          "context_precision": "ragas==0.4.3",
+          "context_recall": "ragas==0.4.3",
+          "answer_relevancy": "custom_llm_judge (embedding API unavailable)"
+        }
+      }
+    },
+    "V2": {
+      "version": "V2",
+      "retrieval_metrics": {
+        "evaluated_question_count": 100,
+        "hit_at_5": 0.92,
+        "recall_at_5": 0.8775,
+        "mrr": 0.8373,
+        "top1_hit_rate": 0.79,
+        "avg_retrieval_latency_s": 3.3167,
+        "avg_generation_latency_s": 3.3167
+      },
+      "ragas_metrics": {
+        "evaluated_question_count": 100,
+        "faithfulness": 0.9239,
+        "context_precision": 0.7624,
+        "context_recall": 0.8337,
+        "answer_relevancy": 0.896,
+        "avg_ragas_latency_s": 0.0003,
+        "valid_sample_counts": {
+          "faithfulness": 71,
+          "context_precision": 100,
+          "context_recall": 98,
+          "answer_relevancy": 100
+        },
+        "engine": {
+          "faithfulness": "ragas==0.4.3",
+          "context_precision": "ragas==0.4.3",
+          "context_recall": "ragas==0.4.3",
+          "answer_relevancy": "custom_llm_judge (embedding API unavailable)"
+        }
+      }
+    },
+    "V3": {
+      "version": "V3",
+      "retrieval_metrics": {
+        "evaluated_question_count": 100,
+        "hit_at_5": 0.95,
+        "recall_at_5": 0.9092,
+        "mrr": 0.8583,
+        "top1_hit_rate": 0.81,
+        "avg_retrieval_latency_s": 20.4676,
+        "avg_generation_latency_s": 20.4676
+      },
+      "ragas_metrics": {
+        "evaluated_question_count": 100,
+        "faithfulness": 0.9533,
+        "context_precision": 0.8662,
+        "context_recall": 0.8698,
+        "answer_relevancy": 0.918,
+        "avg_ragas_latency_s": 0.0004,
+        "valid_sample_counts": {
+          "faithfulness": 81,
+          "context_precision": 100,
+          "context_recall": 96,
+          "answer_relevancy": 100
+        },
+        "engine": {
+          "faithfulness": "ragas==0.4.3",
+          "context_precision": "ragas==0.4.3",
+          "context_recall": "ragas==0.4.3",
+          "answer_relevancy": "custom_llm_judge (embedding API unavailable)"
+        }
+      }
+    },
+    "V4": {
+      "version": "V4",
+      "retrieval_metrics": {
+        "evaluated_question_count": 100,
+        "hit_at_5": 0.95,
+        "recall_at_5": 0.9092,
+        "mrr": 0.8583,
+        "top1_hit_rate": 0.81,
+        "avg_retrieval_latency_s": 16.7227,
+        "avg_generation_latency_s": 16.7227
+      },
+      "ragas_metrics": {
+        "evaluated_question_count": 100,
+        "faithfulness": 0.8994,
+        "context_precision": 0.8525,
+        "context_recall": 0.8758,
+        "answer_relevancy": 0.907,
+        "avg_ragas_latency_s": 60.8174,
+        "valid_sample_counts": {
+          "faithfulness": 77,
+          "context_precision": 100,
+          "context_recall": 99,
+          "answer_relevancy": 100
+        },
+        "engine": {
+          "faithfulness": "ragas==0.4.3",
+          "context_precision": "ragas==0.4.3",
+          "context_recall": "ragas==0.4.3",
+          "answer_relevancy": "custom_llm_judge (embedding API unavailable)"
+        }
+      }
+    }
+  },
+  "v5_incremental_metrics": {
+    "added_count": 0,
+    "unchanged_count": 1,
+    "modified_count": 0,
+    "deleted_count": 0,
+    "reprocessed_pages": 0,
+    "reused_chunks": 39,
+    "embedded_chunks": 0,
+    "removed_chunks": 0
+  }
+}

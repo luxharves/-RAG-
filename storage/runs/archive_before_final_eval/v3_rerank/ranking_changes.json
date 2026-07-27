@@ -1,0 +1,1022 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "v2_top3_pages": [
+      12,
+      24,
+      12
+    ],
+    "v3_top3_pages": [
+      24,
+      10,
+      8
+    ],
+    "changes": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 1,
+        "fusion_score": 0.031778,
+        "rerank_score": 0.5239
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 14,
+        "rerank_rank": 2,
+        "fusion_score": 0.015152,
+        "rerank_score": 0.1431
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 3,
+        "fusion_score": 0.014706,
+        "rerank_score": 0.1286
+      },
+      {
+        "chunk_id": "66b1a5f2e3e1856d",
+        "page_number": 23,
+        "content_type": "image",
+        "original_hybrid_rank": 8,
+        "rerank_rank": 4,
+        "fusion_score": 0.028439,
+        "rerank_score": 0.0823
+      },
+      {
+        "chunk_id": "7e9039482f69219c",
+        "page_number": 9,
+        "content_type": "text",
+        "original_hybrid_rank": 13,
+        "rerank_rank": 5,
+        "fusion_score": 0.015625,
+        "rerank_score": 0.0809
+      }
+    ]
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "v2_top3_pages": [
+      6,
+      3,
+      15
+    ],
+    "v3_top3_pages": [
+      6,
+      15,
+      5
+    ],
+    "changes": [
+      {
+        "chunk_id": "d062551c0c9193f5",
+        "page_number": 15,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 2,
+        "fusion_score": 0.030118,
+        "rerank_score": 0.6158
+      },
+      {
+        "chunk_id": "27080450d5c822c9",
+        "page_number": 5,
+        "content_type": "text",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 3,
+        "fusion_score": 0.03009,
+        "rerank_score": 0.5956
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 8,
+        "rerank_rank": 4,
+        "fusion_score": 0.028531,
+        "rerank_score": 0.5138
+      },
+      {
+        "chunk_id": "8b7c8092a77526af",
+        "page_number": 13,
+        "content_type": "text",
+        "original_hybrid_rank": 17,
+        "rerank_rank": 5,
+        "fusion_score": 0.015152,
+        "rerank_score": 0.3642
+      }
+    ]
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "v2_top3_pages": [
+      14,
+      14,
+      13
+    ],
+    "v3_top3_pages": [
+      14,
+      14,
+      13
+    ],
+    "changes": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 11,
+        "rerank_rank": 4,
+        "fusion_score": 0.027651,
+        "rerank_score": 0.425
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 5,
+        "fusion_score": 0.03055,
+        "rerank_score": 0.3493
+      }
+    ]
+  },
+  {
+    "question": "如何连接手机APP？",
+    "v2_top3_pages": [
+      11,
+      10,
+      12
+    ],
+    "v3_top3_pages": [
+      10,
+      11,
+      10
+    ],
+    "changes": [
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 1,
+        "fusion_score": 0.032002,
+        "rerank_score": 0.8312
+      },
+      {
+        "chunk_id": "309346ac50caf1f8",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 2,
+        "fusion_score": 0.032522,
+        "rerank_score": 0.5865
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 3,
+        "fusion_score": 0.030777,
+        "rerank_score": 0.5556
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 4,
+        "fusion_score": 0.031778,
+        "rerank_score": 0.095
+      },
+      {
+        "chunk_id": "1e62ac5ee26aca72",
+        "page_number": 2,
+        "content_type": "text",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 5,
+        "fusion_score": 0.030798,
+        "rerank_score": 0.0132
+      }
+    ]
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "v2_top3_pages": [
+      19,
+      24,
+      24
+    ],
+    "v3_top3_pages": [
+      19,
+      24,
+      24
+    ],
+    "changes": [
+      {
+        "chunk_id": "c942df91d9c6ba82",
+        "page_number": 21,
+        "content_type": "text",
+        "original_hybrid_rank": 6,
+        "rerank_rank": 4,
+        "fusion_score": 0.029911,
+        "rerank_score": 0.0618
+      },
+      {
+        "chunk_id": "44f4946e7139679b",
+        "page_number": 17,
+        "content_type": "text",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 5,
+        "fusion_score": 0.015152,
+        "rerank_score": 0.0438
+      }
+    ]
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "v2_top3_pages": [
+      13,
+      24,
+      3
+    ],
+    "v3_top3_pages": [
+      24,
+      6,
+      24
+    ],
+    "changes": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 7,
+        "rerank_rank": 1,
+        "fusion_score": 0.02885,
+        "rerank_score": 0.1027
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 9,
+        "rerank_rank": 2,
+        "fusion_score": 0.028083,
+        "rerank_score": 0.0665
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 3,
+        "fusion_score": 0.031099,
+        "rerank_score": 0.0608
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 6,
+        "rerank_rank": 5,
+        "fusion_score": 0.02901,
+        "rerank_score": 0.0259
+      }
+    ]
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "v2_top3_pages": [
+      3,
+      3,
+      26
+    ],
+    "v3_top3_pages": [
+      10,
+      3,
+      11
+    ],
+    "changes": [
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "original_hybrid_rank": 18,
+        "rerank_rank": 1,
+        "fusion_score": 0.015385,
+        "rerank_score": 0.3196
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 7,
+        "rerank_rank": 3,
+        "fusion_score": 0.028787,
+        "rerank_score": 0.2034
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 4,
+        "fusion_score": 0.02901,
+        "rerank_score": 0.0227
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 10,
+        "rerank_rank": 5,
+        "fusion_score": 0.028446,
+        "rerank_score": 0.0197
+      }
+    ]
+  },
+  {
+    "question": "如何更换拖布？",
+    "v2_top3_pages": [
+      18,
+      20,
+      13
+    ],
+    "v3_top3_pages": [
+      18,
+      8,
+      24
+    ],
+    "changes": [
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 2,
+        "fusion_score": 0.015385,
+        "rerank_score": 0.0804
+      },
+      {
+        "chunk_id": "9e4a7ee3ae2b3e34",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 3,
+        "fusion_score": 0.030159,
+        "rerank_score": 0.0725
+      },
+      {
+        "chunk_id": "d062551c0c9193f5",
+        "page_number": 15,
+        "content_type": "text",
+        "original_hybrid_rank": 6,
+        "rerank_rank": 4,
+        "fusion_score": 0.02938,
+        "rerank_score": 0.0408
+      },
+      {
+        "chunk_id": "192e04de5e630adb",
+        "page_number": 7,
+        "content_type": "image",
+        "original_hybrid_rank": 8,
+        "rerank_rank": 5,
+        "fusion_score": 0.028405,
+        "rerank_score": 0.0385
+      }
+    ]
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "v2_top3_pages": [
+      13,
+      14,
+      13
+    ],
+    "v3_top3_pages": [
+      6,
+      13,
+      3
+    ],
+    "changes": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 6,
+        "rerank_rank": 1,
+        "fusion_score": 0.029911,
+        "rerank_score": 0.9821
+      },
+      {
+        "chunk_id": "868645e07a8d1dcb",
+        "page_number": 13,
+        "content_type": "text",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 2,
+        "fusion_score": 0.032787,
+        "rerank_score": 0.9805
+      },
+      {
+        "chunk_id": "f045cc8c6f61b95e",
+        "page_number": 3,
+        "content_type": "text",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 3,
+        "fusion_score": 0.031281,
+        "rerank_score": 0.9582
+      },
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 4,
+        "fusion_score": 0.031746,
+        "rerank_score": 0.9317
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 7,
+        "rerank_rank": 5,
+        "fusion_score": 0.029469,
+        "rerank_score": 0.898
+      }
+    ]
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "v2_top3_pages": [
+      9,
+      3,
+      10
+    ],
+    "v3_top3_pages": [
+      14,
+      10,
+      6
+    ],
+    "changes": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "original_hybrid_rank": 11,
+        "rerank_rank": 1,
+        "fusion_score": 0.016393,
+        "rerank_score": 0.0492
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 10,
+        "rerank_rank": 2,
+        "fusion_score": 0.016393,
+        "rerank_score": 0.0078
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 17,
+        "rerank_rank": 3,
+        "fusion_score": 0.014706,
+        "rerank_score": 0.0073
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 18,
+        "rerank_rank": 4,
+        "fusion_score": 0.014493,
+        "rerank_score": 0.0059
+      },
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 5,
+        "fusion_score": 0.029116,
+        "rerank_score": 0.0046
+      }
+    ]
+  },
+  {
+    "question": "主刷被缠绕了怎么处理？",
+    "v2_top3_pages": [
+      16,
+      15,
+      24
+    ],
+    "v3_top3_pages": [
+      16,
+      24,
+      15
+    ],
+    "changes": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 6,
+        "rerank_rank": 2,
+        "fusion_score": 0.030214,
+        "rerank_score": 0.2039
+      },
+      {
+        "chunk_id": "a22c07acab075254",
+        "page_number": 15,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 3,
+        "fusion_score": 0.031545,
+        "rerank_score": 0.2011
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 10,
+        "rerank_rank": 4,
+        "fusion_score": 0.027106,
+        "rerank_score": 0.1159
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 11,
+        "rerank_rank": 5,
+        "fusion_score": 0.02632,
+        "rerank_score": 0.0991
+      }
+    ]
+  },
+  {
+    "question": "清水箱需要加什么水？",
+    "v2_top3_pages": [
+      12,
+      19,
+      8
+    ],
+    "v3_top3_pages": [
+      12,
+      8,
+      6
+    ],
+    "changes": [
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 2,
+        "fusion_score": 0.030777,
+        "rerank_score": 0.1493
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 13,
+        "rerank_rank": 3,
+        "fusion_score": 0.025479,
+        "rerank_score": 0.0814
+      },
+      {
+        "chunk_id": "36eefb6f7bbb97a6",
+        "page_number": 19,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 4,
+        "fusion_score": 0.032258,
+        "rerank_score": 0.0617
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 18,
+        "rerank_rank": 5,
+        "fusion_score": 0.013889,
+        "rerank_score": 0.0201
+      }
+    ]
+  },
+  {
+    "question": "指示灯的几种颜色分别代表什么？",
+    "v2_top3_pages": [
+      5,
+      8,
+      11
+    ],
+    "v3_top3_pages": [
+      11,
+      8,
+      11
+    ],
+    "changes": [
+      {
+        "chunk_id": "309346ac50caf1f8",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 13,
+        "rerank_rank": 1,
+        "fusion_score": 0.016393,
+        "rerank_score": 0.8463
+      },
+      {
+        "chunk_id": "c6bc5158b127f9e0",
+        "page_number": 8,
+        "content_type": "text",
+        "original_hybrid_rank": 16,
+        "rerank_rank": 2,
+        "fusion_score": 0.015152,
+        "rerank_score": 0.2387
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 4,
+        "fusion_score": 0.031498,
+        "rerank_score": 0.0925
+      },
+      {
+        "chunk_id": "27080450d5c822c9",
+        "page_number": 5,
+        "content_type": "text",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 5,
+        "fusion_score": 0.015385,
+        "rerank_score": 0.0909
+      }
+    ]
+  },
+  {
+    "question": "如何恢复出厂设置？",
+    "v2_top3_pages": [
+      14,
+      24,
+      13
+    ],
+    "v3_top3_pages": [
+      14,
+      6,
+      12
+    ],
+    "changes": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 2,
+        "fusion_score": 0.014925,
+        "rerank_score": 0.1216
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "original_hybrid_rank": 10,
+        "rerank_rank": 3,
+        "fusion_score": 0.015873,
+        "rerank_score": 0.0778
+      },
+      {
+        "chunk_id": "66b1a5f2e3e1856d",
+        "page_number": 23,
+        "content_type": "image",
+        "original_hybrid_rank": 9,
+        "rerank_rank": 4,
+        "fusion_score": 0.016129,
+        "rerank_score": 0.0505
+      },
+      {
+        "chunk_id": "8b7c8092a77526af",
+        "page_number": 13,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 5,
+        "fusion_score": 0.030622,
+        "rerank_score": 0.0372
+      }
+    ]
+  },
+  {
+    "question": "机器人为什么一直回充？",
+    "v2_top3_pages": [
+      24,
+      24,
+      5
+    ],
+    "v3_top3_pages": [
+      24,
+      24,
+      5
+    ],
+    "changes": [
+      {
+        "chunk_id": "868645e07a8d1dcb",
+        "page_number": 13,
+        "content_type": "text",
+        "original_hybrid_rank": 12,
+        "rerank_rank": 5,
+        "fusion_score": 0.027072,
+        "rerank_score": 0.2682
+      }
+    ]
+  },
+  {
+    "question": "可以遥控机器人吗？",
+    "v2_top3_pages": [
+      2,
+      13,
+      14
+    ],
+    "v3_top3_pages": [
+      14,
+      3,
+      6
+    ],
+    "changes": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 1,
+        "fusion_score": 0.030478,
+        "rerank_score": 0.4366
+      },
+      {
+        "chunk_id": "f045cc8c6f61b95e",
+        "page_number": 3,
+        "content_type": "text",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 2,
+        "fusion_score": 0.029031,
+        "rerank_score": 0.2199
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 3,
+        "fusion_score": 0.029437,
+        "rerank_score": 0.0596
+      },
+      {
+        "chunk_id": "1e62ac5ee26aca72",
+        "page_number": 2,
+        "content_type": "text",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 4,
+        "fusion_score": 0.031754,
+        "rerank_score": 0.0196
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "original_hybrid_rank": 16,
+        "rerank_rank": 5,
+        "fusion_score": 0.016393,
+        "rerank_score": 0.0194
+      }
+    ]
+  },
+  {
+    "question": "如何清洁集尘盒？",
+    "v2_top3_pages": [
+      17,
+      24,
+      8
+    ],
+    "v3_top3_pages": [
+      17,
+      20,
+      21
+    ],
+    "changes": [
+      {
+        "chunk_id": "9b8f6f7e19af923e",
+        "page_number": 20,
+        "content_type": "text",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 2,
+        "fusion_score": 0.029727,
+        "rerank_score": 0.8816
+      },
+      {
+        "chunk_id": "c942df91d9c6ba82",
+        "page_number": 21,
+        "content_type": "text",
+        "original_hybrid_rank": 15,
+        "rerank_rank": 3,
+        "fusion_score": 0.014925,
+        "rerank_score": 0.6416
+      },
+      {
+        "chunk_id": "9e4a7ee3ae2b3e34",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 4,
+        "fusion_score": 0.031498,
+        "rerank_score": 0.5086
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 12,
+        "rerank_rank": 5,
+        "fusion_score": 0.026993,
+        "rerank_score": 0.2081
+      }
+    ]
+  },
+  {
+    "question": "机器人会不会从楼梯摔下去？",
+    "v2_top3_pages": [
+      6,
+      11,
+      24
+    ],
+    "v3_top3_pages": [
+      6,
+      3,
+      8
+    ],
+    "changes": [
+      {
+        "chunk_id": "799e1cb0c013880d",
+        "page_number": 3,
+        "content_type": "text",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 2,
+        "fusion_score": 0.030159,
+        "rerank_score": 0.7076
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 19,
+        "rerank_rank": 3,
+        "fusion_score": 0.014085,
+        "rerank_score": 0.0453
+      },
+      {
+        "chunk_id": "7e9039482f69219c",
+        "page_number": 9,
+        "content_type": "text",
+        "original_hybrid_rank": 14,
+        "rerank_rank": 4,
+        "fusion_score": 0.026857,
+        "rerank_score": 0.0388
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 5,
+        "fusion_score": 0.030622,
+        "rerank_score": 0.0344
+      }
+    ]
+  },
+  {
+    "question": "开机后机器人不动怎么办？",
+    "v2_top3_pages": [
+      11,
+      12,
+      14
+    ],
+    "v3_top3_pages": [
+      24,
+      14,
+      12
+    ],
+    "changes": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "original_hybrid_rank": 5,
+        "rerank_rank": 1,
+        "fusion_score": 0.030303,
+        "rerank_score": 0.4485
+      },
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 2,
+        "fusion_score": 0.03125,
+        "rerank_score": 0.4271
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "original_hybrid_rank": 4,
+        "rerank_rank": 3,
+        "fusion_score": 0.030886,
+        "rerank_score": 0.3223
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 4,
+        "fusion_score": 0.032002,
+        "rerank_score": 0.2274
+      },
+      {
+        "chunk_id": "61b643029529e492",
+        "page_number": 12,
+        "content_type": "text",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 5,
+        "fusion_score": 0.031778,
+        "rerank_score": 0.1953
+      }
+    ]
+  },
+  {
+    "question": "设备的保修期是多久？",
+    "v2_top3_pages": [
+      25,
+      8,
+      3
+    ],
+    "v3_top3_pages": [
+      25,
+      25,
+      10
+    ],
+    "changes": [
+      {
+        "chunk_id": "f20e1499ecd37f1d",
+        "page_number": 25,
+        "content_type": "text",
+        "original_hybrid_rank": 10,
+        "rerank_rank": 1,
+        "fusion_score": 0.016393,
+        "rerank_score": 0.1301
+      },
+      {
+        "chunk_id": "e6da4fffa8b63616",
+        "page_number": 25,
+        "content_type": "text",
+        "original_hybrid_rank": 1,
+        "rerank_rank": 2,
+        "fusion_score": 0.032002,
+        "rerank_score": 0.0967
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "original_hybrid_rank": 14,
+        "rerank_rank": 3,
+        "fusion_score": 0.015625,
+        "rerank_score": 0.0162
+      },
+      {
+        "chunk_id": "0ebe4de41fa1ad5c",
+        "page_number": 3,
+        "content_type": "text",
+        "original_hybrid_rank": 3,
+        "rerank_rank": 4,
+        "fusion_score": 0.02967,
+        "rerank_score": 0.0128
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "original_hybrid_rank": 2,
+        "rerank_rank": 5,
+        "fusion_score": 0.029877,
+        "rerank_score": 0.0126
+      }
+    ]
+  }
+]

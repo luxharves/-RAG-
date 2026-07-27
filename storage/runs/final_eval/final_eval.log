@@ -1,0 +1,120 @@
+V0: checkpoint exists, loading
+V0: running RAGAS on 100 questions
+V0 RAGAS: 5/100 (checkpoint)
+V0 RAGAS: 10/100 (checkpoint)
+V0 RAGAS: 15/100 (checkpoint)
+V0 RAGAS: 20/100 (checkpoint)
+V0 RAGAS: 25/100 (checkpoint)
+V0 RAGAS: 30/100 (checkpoint)
+V0 RAGAS: 35/100 (checkpoint)
+V0 RAGAS: 40/100 (checkpoint)
+V0 RAGAS: 45/100 (checkpoint)
+V0 RAGAS: 50/100 (checkpoint)
+V0 RAGAS: 55/100 (checkpoint)
+V0 RAGAS: 60/100 (checkpoint)
+V0 RAGAS: 65/100 (checkpoint)
+V0 RAGAS: 70/100 (checkpoint)
+V0 RAGAS: 75/100 (checkpoint)
+V0 RAGAS: 80/100 (checkpoint)
+V0 RAGAS: 85/100 (checkpoint)
+V0 RAGAS: 90/100 (checkpoint)
+V0 RAGAS: 95/100 (checkpoint)
+V0 RAGAS: 100/100 (checkpoint)
+V1: checkpoint exists, loading
+V1: running RAGAS on 100 questions
+V1 RAGAS: 5/100 (checkpoint)
+V1 RAGAS: 10/100 (checkpoint)
+V1 RAGAS: 15/100 (checkpoint)
+V1 RAGAS: 20/100 (checkpoint)
+V1 RAGAS: 25/100 (checkpoint)
+V1 RAGAS: 30/100 (checkpoint)
+V1 RAGAS: 35/100 (checkpoint)
+V1 RAGAS: 40/100 (checkpoint)
+V1 RAGAS: 45/100 (checkpoint)
+V1 RAGAS: 50/100 (checkpoint)
+V1 RAGAS: 55/100 (checkpoint)
+V1 RAGAS: 60/100 (checkpoint)
+V1 RAGAS: 65/100 (checkpoint)
+V1 RAGAS: 70/100 (checkpoint)
+V1 RAGAS: 75/100 (checkpoint)
+V1 RAGAS: 80/100 (checkpoint)
+V1 RAGAS: 85/100 (checkpoint)
+V1 RAGAS: 90/100 (checkpoint)
+V1 RAGAS: 95/100 (checkpoint)
+V1 RAGAS: 100/100 (checkpoint)
+V2: checkpoint exists, loading
+V2: running RAGAS on 100 questions
+V2 RAGAS: 5/100 (checkpoint)
+V2 RAGAS: 10/100 (checkpoint)
+V2 RAGAS: 15/100 (checkpoint)
+V2 RAGAS: 20/100 (checkpoint)
+V2 RAGAS: 25/100 (checkpoint)
+V2 RAGAS: 30/100 (checkpoint)
+V2 RAGAS: 35/100 (checkpoint)
+V2 RAGAS: 40/100 (checkpoint)
+V2 RAGAS: 45/100 (checkpoint)
+V2 RAGAS: 50/100 (checkpoint)
+V2 RAGAS: 55/100 (checkpoint)
+V2 RAGAS: 60/100 (checkpoint)
+V2 RAGAS: 65/100 (checkpoint)
+V2 RAGAS: 70/100 (checkpoint)
+V2 RAGAS: 75/100 (checkpoint)
+V2 RAGAS: 80/100 (checkpoint)
+V2 RAGAS: 85/100 (checkpoint)
+V2 RAGAS: 90/100 (checkpoint)
+V2 RAGAS: 95/100 (checkpoint)
+V2 RAGAS: 100/100 (checkpoint)
+V3: checkpoint exists, loading
+V3: running RAGAS on 100 questions
+V3 RAGAS: 5/100 (checkpoint)
+V3 RAGAS: 10/100 (checkpoint)
+V3 RAGAS: 15/100 (checkpoint)
+V3 RAGAS: 20/100 (checkpoint)
+V3 RAGAS: 25/100 (checkpoint)
+V3 RAGAS: 30/100 (checkpoint)
+V3 RAGAS: 35/100 (checkpoint)
+V3 RAGAS: 40/100 (checkpoint)
+V3 RAGAS: 45/100 (checkpoint)
+V3 RAGAS: 50/100 (checkpoint)
+V3 RAGAS: 55/100 (checkpoint)
+V3 RAGAS: 60/100 (checkpoint)
+V3 RAGAS: 65/100 (checkpoint)
+V3 RAGAS: 70/100 (checkpoint)
+V3 RAGAS: 75/100 (checkpoint)
+V3 RAGAS: 80/100 (checkpoint)
+V3 RAGAS: 85/100 (checkpoint)
+V3 RAGAS: 90/100 (checkpoint)
+V3 RAGAS: 95/100 (checkpoint)
+V3 RAGAS: 100/100 (checkpoint)
+V4: 10/100
+V4: 20/100
+V4: 30/100
+V4: 40/100
+V4: 50/100
+V4: 60/100
+V4: 70/100
+V4: 80/100
+V4: 90/100
+V4: 100/100
+V4: running RAGAS on 100 questions
+V4 RAGAS: 1-5/100
+V4 RAGAS: 6-10/100
+V4 RAGAS: 11-15/100
+V4 RAGAS: 16-20/100
+V4 RAGAS: 21-25/100
+V4 RAGAS: 26-30/100
+V4 RAGAS: 31-35/100
+V4 RAGAS: 36-40/100
+V4 RAGAS: 41-45/100
+V4 RAGAS: 46-50/100
+V4 RAGAS: 51-55/100
+V4 RAGAS: 56-60/100
+V4 RAGAS: 61-65/100
+V4 RAGAS: 66-70/100
+V4 RAGAS: 71-75/100
+V4 RAGAS: 76-80/100
+V4 RAGAS: 81-85/100
+V4 RAGAS: 86-90/100
+V4 RAGAS: 91-95/100
+V4 RAGAS: 96-100/100
+Final evaluation written to D:\Agentproject1\storage\runs\final_eval

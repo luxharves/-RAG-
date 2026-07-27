@@ -1,0 +1,12 @@
+name: v3_rerank
+version: V3
+features:
+  multimodal: true
+  hybrid_retrieval: true
+  reranker: true
+  verify_node: false
+retrieval:
+  dense_top_k: 10
+  bm25_top_k: 10
+  rerank_top_k: 5
+  fusion: rrf

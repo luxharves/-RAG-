@@ -1,0 +1,8 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "answer": "根据说明书，若设备无法开机，请尝试以下方法：\n1. **电池电量不足**：请将机器人靠上基座充电后再使用。\n2. **电池温度异常**：请确保环境温度在0-40℃之间，电池温度过低或过高都会导致无法开机。\n\n[来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第24页]",
+    "final_status": "answered",
+    "retry_count": 0
+  }
+]

@@ -1,0 +1,12 @@
+name: v2_hybrid
+version: V2
+features:
+  multimodal: true
+  hybrid_retrieval: true
+  reranker: false
+  verify_node: false
+retrieval:
+  dense_top_k: 10
+  bm25_top_k: 10
+  final_top_k: 5
+  fusion: rrf

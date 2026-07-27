@@ -1,0 +1,2143 @@
+{
+  "experiment": "v2_hybrid",
+  "version": "V2",
+  "v1_collection": "v1_multimodal_kw_20260718_204259",
+  "bm25_index": "D:\\Agentproject1\\storage\\bm25",
+  "summary": {
+    "dense": {
+      "hit_rate": 0.95,
+      "hits": 19,
+      "total": 20,
+      "recall_at_5": 0.875,
+      "mrr": 0.6683,
+      "q18": {
+        "hit": true,
+        "pages": [
+          6,
+          11,
+          3,
+          15,
+          12
+        ],
+        "types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      },
+      "q19": {
+        "hit": false,
+        "pages": [
+          12,
+          15,
+          11,
+          14,
+          13
+        ],
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      }
+    },
+    "bm25": {
+      "hit_rate": 0.7,
+      "hits": 14,
+      "total": 20,
+      "recall_at_5": 0.625,
+      "mrr": 0.3933,
+      "q18": {
+        "hit": false,
+        "pages": [
+          24,
+          13,
+          24,
+          3,
+          13
+        ],
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      },
+      "q19": {
+        "hit": false,
+        "pages": [
+          12,
+          11,
+          26,
+          14,
+          12
+        ],
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      }
+    },
+    "hybrid": {
+      "hit_rate": 0.95,
+      "hits": 19,
+      "total": 20,
+      "recall_at_5": 0.85,
+      "mrr": 0.7683,
+      "q18": {
+        "hit": true,
+        "pages": [
+          6,
+          11,
+          24,
+          3,
+          3
+        ],
+        "types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      },
+      "q19": {
+        "hit": true,
+        "pages": [
+          11,
+          12,
+          14,
+          12,
+          24
+        ],
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ]
+      }
+    }
+  },
+  "per_question": {
+    "dense": [
+      {
+        "question": "设备无法开机怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          24,
+          12,
+          12,
+          9,
+          11
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何清洁机器人的传感器？",
+        "modality": "text",
+        "gold_pages": [
+          15,
+          18
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          12,
+          17,
+          14,
+          15,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 0.5,
+        "mrr": 0.25,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "扫地机器人支持哪些清洁模式？",
+        "modality": "text",
+        "gold_pages": [
+          13,
+          14
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          14,
+          13,
+          14,
+          12,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何连接手机APP？",
+        "modality": "text",
+        "gold_pages": [
+          12
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          11,
+          10,
+          2,
+          10,
+          12
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.2,
+        "hit": true,
+        "top_result": {
+          "page": 11,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "污水箱满了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          19
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          19,
+          12,
+          8,
+          21,
+          20
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 19,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人工作时噪音大是什么原因？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          24,
+          13,
+          5,
+          15,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "image",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "充电座应该放在什么位置？",
+        "modality": "text",
+        "gold_pages": [
+          10,
+          11
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          3,
+          11,
+          11,
+          10,
+          10
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 3,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何更换拖布？",
+        "modality": "text",
+        "gold_pages": [
+          18
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          18,
+          13,
+          24,
+          20,
+          9
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 18,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人能清扫地毯吗？",
+        "modality": "text",
+        "gold_pages": [
+          6,
+          13
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          13,
+          13,
+          14,
+          9,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 13,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何设置虚拟墙？",
+        "modality": "text",
+        "gold_pages": [
+          9
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          10,
+          10,
+          9,
+          3,
+          12
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 10,
+          "type": "image",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "主刷被缠绕了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          16
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          15,
+          16,
+          17,
+          24,
+          26
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 15,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "清水箱需要加什么水？",
+        "modality": "text",
+        "gold_pages": [
+          3,
+          19
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          12,
+          19,
+          8,
+          7,
+          7
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "dense",
+        "recall_at_5": 0.5,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "指示灯的几种颜色分别代表什么？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          8
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          11,
+          11,
+          5,
+          8,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "image",
+          "image",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 11,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何恢复出厂设置？",
+        "modality": "text",
+        "gold_pages": [
+          14
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          14,
+          23,
+          12,
+          24,
+          26
+        ],
+        "content_types": [
+          "text",
+          "image",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人为什么一直回充？",
+        "modality": "text",
+        "gold_pages": [
+          14,
+          24
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          24,
+          14,
+          24,
+          5,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "可以遥控机器人吗？",
+        "modality": "text",
+        "gold_pages": [
+          2
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          5,
+          13,
+          3,
+          2,
+          5
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "hit": true,
+        "top_result": {
+          "page": 5,
+          "type": "image",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何清洁集尘盒？",
+        "modality": "text",
+        "gold_pages": [
+          17
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          20,
+          17,
+          24,
+          26,
+          19
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 20,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人会不会从楼梯摔下去？",
+        "modality": "image",
+        "gold_pages": [
+          6
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          6,
+          11,
+          3,
+          15,
+          12
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 6,
+          "type": "image",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "开机后机器人不动怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          24
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          12,
+          15,
+          11,
+          14,
+          13
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "设备的保修期是多久？",
+        "modality": "text",
+        "gold_pages": [
+          25
+        ],
+        "mode": "dense",
+        "retrieved_pages": [
+          25,
+          25,
+          15,
+          26,
+          3
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "dense",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 25,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": null,
+          "rrf_score": null
+        }
+      }
+    ],
+    "bm25": [
+      {
+        "question": "设备无法开机怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          11,
+          26,
+          12,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.2,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何清洁机器人的传感器？",
+        "modality": "text",
+        "gold_pages": [
+          15,
+          18
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          6,
+          3,
+          24,
+          3,
+          5
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 6,
+          "type": "image",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "扫地机器人支持哪些清洁模式？",
+        "modality": "text",
+        "gold_pages": [
+          13,
+          14
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          14,
+          14,
+          5,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.5,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何连接手机APP？",
+        "modality": "text",
+        "gold_pages": [
+          12
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          11,
+          10,
+          24,
+          13
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "污水箱满了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          19
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          24,
+          24,
+          9,
+          19,
+          2
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人工作时噪音大是什么原因？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          3,
+          12,
+          26,
+          13,
+          3
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 3,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "充电座应该放在什么位置？",
+        "modality": "text",
+        "gold_pages": [
+          10,
+          11
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          3,
+          5,
+          13,
+          22,
+          25
+        ],
+        "content_types": [
+          "text",
+          "image",
+          "text",
+          "table",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 3,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何更换拖布？",
+        "modality": "text",
+        "gold_pages": [
+          18
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          15,
+          26,
+          26,
+          20,
+          8
+        ],
+        "content_types": [
+          "text",
+          "table",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 15,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人能清扫地毯吗？",
+        "modality": "text",
+        "gold_pages": [
+          6,
+          13
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          13,
+          3,
+          14,
+          6,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 13,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何设置虚拟墙？",
+        "modality": "text",
+        "gold_pages": [
+          9
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          14,
+          9,
+          24,
+          13,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "主刷被缠绕了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          16
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          9,
+          24,
+          16,
+          24,
+          25
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 9,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "清水箱需要加什么水？",
+        "modality": "text",
+        "gold_pages": [
+          3,
+          19
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          19,
+          11,
+          8,
+          8
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.5,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "指示灯的几种颜色分别代表什么？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          8
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          22,
+          16,
+          10,
+          5,
+          8
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "image",
+          "image",
+          "image"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "hit": true,
+        "top_result": {
+          "page": 22,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何恢复出厂设置？",
+        "modality": "text",
+        "gold_pages": [
+          14
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          14,
+          13,
+          11,
+          9,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人为什么一直回充？",
+        "modality": "text",
+        "gold_pages": [
+          14,
+          24
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          24,
+          24,
+          24,
+          5,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "可以遥控机器人吗？",
+        "modality": "text",
+        "gold_pages": [
+          2
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          14,
+          2,
+          12,
+          13,
+          25
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "如何清洁集尘盒？",
+        "modality": "text",
+        "gold_pages": [
+          17
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          7,
+          17,
+          8,
+          24,
+          25
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 7,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "机器人会不会从楼梯摔下去？",
+        "modality": "image",
+        "gold_pages": [
+          6
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          24,
+          13,
+          24,
+          3,
+          13
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "开机后机器人不动怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          24
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          11,
+          26,
+          14,
+          12
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      },
+      {
+        "question": "设备的保修期是多久？",
+        "modality": "text",
+        "gold_pages": [
+          25
+        ],
+        "mode": "bm25",
+        "retrieved_pages": [
+          12,
+          7,
+          25,
+          10,
+          8
+        ],
+        "content_types": [
+          "text",
+          "image",
+          "text",
+          "image",
+          "image"
+        ],
+        "channel": "bm25",
+        "recall_at_5": 1.0,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": null,
+          "bm25_rank": 1,
+          "rrf_score": null
+        }
+      }
+    ],
+    "hybrid": [
+      {
+        "question": "设备无法开机怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          12,
+          24,
+          12,
+          11,
+          26
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": 3,
+          "bm25_rank": 1,
+          "rrf_score": 0.032266
+        }
+      },
+      {
+        "question": "如何清洁机器人的传感器？",
+        "modality": "text",
+        "gold_pages": [
+          15,
+          18
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          6,
+          3,
+          15,
+          5,
+          5
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 0.5,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 6,
+          "type": "image",
+          "dense_rank": 7,
+          "bm25_rank": 1,
+          "rrf_score": 0.031319
+        }
+      },
+      {
+        "question": "扫地机器人支持哪些清洁模式？",
+        "modality": "text",
+        "gold_pages": [
+          13,
+          14
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          14,
+          14,
+          13,
+          5,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 3,
+          "rrf_score": 0.032266
+        }
+      },
+      {
+        "question": "如何连接手机APP？",
+        "modality": "text",
+        "gold_pages": [
+          12
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          11,
+          10,
+          12,
+          2,
+          10
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 0.3333,
+        "hit": true,
+        "top_result": {
+          "page": 11,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 2,
+          "rrf_score": 0.032522
+        }
+      },
+      {
+        "question": "污水箱满了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          19
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          19,
+          24,
+          24,
+          8,
+          9
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 19,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 4,
+          "rrf_score": 0.032018
+        }
+      },
+      {
+        "question": "机器人工作时噪音大是什么原因？",
+        "modality": "text",
+        "gold_pages": [
+          24
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          13,
+          24,
+          3,
+          5,
+          3
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 13,
+          "type": "text",
+          "dense_rank": 2,
+          "bm25_rank": 4,
+          "rrf_score": 0.031754
+        }
+      },
+      {
+        "question": "充电座应该放在什么位置？",
+        "modality": "text",
+        "gold_pages": [
+          10,
+          11
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          3,
+          3,
+          26,
+          8,
+          8
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hit": false,
+        "top_result": {
+          "page": 3,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 9,
+          "rrf_score": 0.030886
+        }
+      },
+      {
+        "question": "如何更换拖布？",
+        "modality": "text",
+        "gold_pages": [
+          18
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          18,
+          20,
+          13,
+          26,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 18,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 7,
+          "rrf_score": 0.031319
+        }
+      },
+      {
+        "question": "机器人能清扫地毯吗？",
+        "modality": "text",
+        "gold_pages": [
+          6,
+          13
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          13,
+          14,
+          13,
+          3,
+          9
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 0.5,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 13,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 1,
+          "rrf_score": 0.032787
+        }
+      },
+      {
+        "question": "如何设置虚拟墙？",
+        "modality": "text",
+        "gold_pages": [
+          9
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          9,
+          3,
+          10,
+          24,
+          2
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 9,
+          "type": "text",
+          "dense_rank": 3,
+          "bm25_rank": 2,
+          "rrf_score": 0.032002
+        }
+      },
+      {
+        "question": "主刷被缠绕了怎么处理？",
+        "modality": "text",
+        "gold_pages": [
+          16
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          16,
+          15,
+          24,
+          24,
+          9
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 16,
+          "type": "text",
+          "dense_rank": 2,
+          "bm25_rank": 3,
+          "rrf_score": 0.032002
+        }
+      },
+      {
+        "question": "清水箱需要加什么水？",
+        "modality": "text",
+        "gold_pages": [
+          3,
+          19
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          12,
+          19,
+          8,
+          8,
+          11
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 0.5,
+        "mrr": 0.5,
+        "hit": true,
+        "top_result": {
+          "page": 12,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 1,
+          "rrf_score": 0.032787
+        }
+      },
+      {
+        "question": "指示灯的几种颜色分别代表什么？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          8
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          5,
+          8,
+          11,
+          22,
+          6
+        ],
+        "content_types": [
+          "image",
+          "image",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 5,
+          "type": "image",
+          "dense_rank": 3,
+          "bm25_rank": 4,
+          "rrf_score": 0.031498
+        }
+      },
+      {
+        "question": "如何恢复出厂设置？",
+        "modality": "text",
+        "gold_pages": [
+          14
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          14,
+          24,
+          13,
+          9,
+          6
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 14,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 1,
+          "rrf_score": 0.032787
+        }
+      },
+      {
+        "question": "机器人为什么一直回充？",
+        "modality": "text",
+        "gold_pages": [
+          14,
+          24
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          24,
+          24,
+          5,
+          14,
+          5
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "image",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 24,
+          "type": "text",
+          "dense_rank": 1,
+          "bm25_rank": 1,
+          "rrf_score": 0.032787
+        }
+      },
+      {
+        "question": "可以遥控机器人吗？",
+        "modality": "text",
+        "gold_pages": [
+          2
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          2,
+          13,
+          14,
+          6,
+          3
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "image",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 2,
+          "type": "text",
+          "dense_rank": 4,
+          "bm25_rank": 2,
+          "rrf_score": 0.031754
+        }
+      },
+      {
+        "question": "如何清洁集尘盒？",
+        "modality": "text",
+        "gold_pages": [
+          17
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          17,
+          24,
+          8,
+          7,
+          20
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 17,
+          "type": "text",
+          "dense_rank": 2,
+          "bm25_rank": 2,
+          "rrf_score": 0.032258
+        }
+      },
+      {
+        "question": "机器人会不会从楼梯摔下去？",
+        "modality": "image",
+        "gold_pages": [
+          6
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          6,
+          11,
+          24,
+          3,
+          3
+        ],
+        "content_types": [
+          "image",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 6,
+          "type": "image",
+          "dense_rank": 1,
+          "bm25_rank": 6,
+          "rrf_score": 0.031545
+        }
+      },
+      {
+        "question": "开机后机器人不动怎么办？",
+        "modality": "text",
+        "gold_pages": [
+          5,
+          24
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          11,
+          12,
+          14,
+          12,
+          24
+        ],
+        "content_types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 0.5,
+        "mrr": 0.2,
+        "hit": true,
+        "top_result": {
+          "page": 11,
+          "type": "text",
+          "dense_rank": 3,
+          "bm25_rank": 2,
+          "rrf_score": 0.032002
+        }
+      },
+      {
+        "question": "设备的保修期是多久？",
+        "modality": "text",
+        "gold_pages": [
+          25
+        ],
+        "mode": "hybrid",
+        "retrieved_pages": [
+          25,
+          8,
+          3,
+          22,
+          7
+        ],
+        "content_types": [
+          "text",
+          "image",
+          "text",
+          "text",
+          "image"
+        ],
+        "channel": "hybrid",
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "hit": true,
+        "top_result": {
+          "page": 25,
+          "type": "text",
+          "dense_rank": 2,
+          "bm25_rank": 3,
+          "rrf_score": 0.032002
+        }
+      }
+    ]
+  }
+}

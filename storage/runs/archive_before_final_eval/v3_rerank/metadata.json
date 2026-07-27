@@ -1,0 +1,11 @@
+{
+  "experiment": "v3_rerank",
+  "version": "V3",
+  "reranker_model": "BAAI/bge-reranker-v2-m3",
+  "candidate_top_k": 20,
+  "final_top_k": 5,
+  "v1_collection": "v1_multimodal_kw_20260718_204259",
+  "bm25_index": "D:\\Agentproject1\\storage\\bm25",
+  "ranked_questions": 20,
+  "total_time_s": 81.0
+}

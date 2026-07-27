@@ -1,0 +1,15 @@
+{
+  "run_id": "final_eval_20260720_045738",
+  "timestamp": "2026-07-20T04:57:38",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_100.json",
+  "dataset_sha256": "728a1180a2449b25d13b308107e78f743ad719019d47f3475cecf69196abaf9a",
+  "source_document": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+  "source_document_sha256": "c9cfb1a97aaf55699441c81b1faa17707495d45f545987ae03732cdc029970f1",
+  "total_questions": 100,
+  "modality_counts": {
+    "text": 99,
+    "image": 1
+  },
+  "ragas_version": "0.4.3",
+  "versions": {}
+}

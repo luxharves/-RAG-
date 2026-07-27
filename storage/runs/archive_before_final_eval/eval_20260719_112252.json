@@ -1,0 +1,62 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "answer": "根据说明书，设备无法开机的解决方法如下：\n- 电池电量不足，请先靠上基座充电后再使用；\n- 电池温度过低或过高，请在0-40℃环境下使用。\n\n[来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第24页]",
+    "final_status": "answered",
+    "retry_count": 0
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "answer": "根据说明书，清洁传感器时建议使用柔软干布擦拭。具体针对沿墙传感器、悬崖传感器或地毯识别传感器，若发现脏污导致漏扫，可使用柔软干布擦拭干净。[来源: 4, 第24页]",
+    "final_status": "answered",
+    "retry_count": 0
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "retry_count": 1
+  },
+  {
+    "question": "如何连接手机APP？",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "retry_count": 1
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "answer": "根据说明书，污水箱满了时，需要打开污水箱上盖倾倒污水，然后接入自来水清洗水箱：关闭上盖并扣紧卡扣，摇晃水箱后倒出污水，最后再次关紧上盖并装回使用。[来源: D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第19页]",
+    "final_status": "answered",
+    "retry_count": 1
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "retry_count": 1
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "answer": "充电座应放置在硬质水平地面（如地板、地砖）上，靠墙放置，且基座两侧需有 **0.5 米**、前方有 **1.5 米**、上方有 **1 米** 以上的空间。同时要远离明火、热源、积水、狭窄或可能导致机器人悬空的区域，并确保所在位置 WiFi 信号良好。[来源: 第10页, 第3页, 第11页]",
+    "final_status": "answered",
+    "retry_count": 0
+  },
+  {
+    "question": "如何更换拖布？",
+    "answer": "更换拖布的步骤如下：\n1. 从拖布支架上移除旧拖布。\n2. 清洗新拖布并晾晒。\n3. 沿着拖布支架的插槽处将拖布插入到底，并粘贴牢固。\n注意：震动拖布支架不可拆卸，拖布通过插槽和粘贴区域固定。[来源: 第18页, 第7页]",
+    "final_status": "answered",
+    "retry_count": 0
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "retry_count": 1
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "retry_count": 0
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-19T00:04:03",
+  "input_dir": "D:\\Agentproject1\\data\\raw_docs",
+  "collection": "v1_multimodal_kw_20260718_204259",
+  "bm25_dir": "D:\\Agentproject1\\storage\\bm25",
+  "manifests_dir": "D:\\Agentproject1\\storage\\manifests",
+  "counts": {
+    "added_count": 0,
+    "unchanged_count": 1,
+    "modified_count": 0,
+    "deleted_count": 0,
+    "reprocessed_pages": 0,
+    "reused_chunks": 39,
+    "embedded_chunks": 0,
+    "removed_chunks": 0
+  },
+  "embed_calls": 0,
+  "bm25_docs": 48,
+  "elapsed_seconds": 19.03
+}

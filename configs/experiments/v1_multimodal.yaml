@@ -1,0 +1,7 @@
+name: v1_multimodal
+version: V1
+features:
+  multimodal: true
+  hybrid_retrieval: false
+  reranker: false
+  verify_node: false

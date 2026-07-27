@@ -1,0 +1,618 @@
+[
+  {
+    "chunk_id": "deb86e24a16be16b",
+    "page_number": 1,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "使用说明书\n石头自清洁扫拖机器人G10S"
+  },
+  {
+    "chunk_id": "1e62ac5ee26aca72",
+    "page_number": 2,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "02\n您可以扫描二维码或在应用商店中下载“Roborock”APP，连接机器人，\n解锁更多功能。\n感谢您选择石头。\n本说明书将引导您全面了解和快速安装扫拖机器人（下文简称“机器人”），并详细提供了有关"
+  },
+  {
+    "chunk_id": "f045cc8c6f61b95e",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "03\n安全信息\n使用限制\n • 本产品仅限中国大陆地区销售和使用，在港澳台及海外使用将无法体验 APP 及\n智能音箱远程控制功能。\n • 仅用于家居环境的地面清洁，请勿用于室外（如开放式阳台）、非地面"
+  },
+  {
+    "chunk_id": "799e1cb0c013880d",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "\n • 请勿用于清扫任何燃烧中的物体（如未熄灭的烟头、火柴、灰烬等）。\n • 请勿在高于 40℃、低于 0℃ 或地面有任何液体及粘稠物的环境下存放及使用。\n • 请勿在机器人工作时，让人或宠物的肢体等"
+  },
+  {
+    "chunk_id": "5b513ff8c46c75f5",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "提手等部件作为提手搬运机器。\n电池及充电\n • 本产品只能使用 EWFD00HRR 充电座充电。\n • 请务必确认并使用有可靠接地的合格电源，否则可能发生触电等危险。\n • 若没有可靠接地的电源，请务"
+  },
+  {
+    "chunk_id": "0ebe4de41fa1ad5c",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "折断等）情况，请立即停止使用，\n及时联系客服。\n • 如长时间不使用机器人，请充满电后关闭机器人并放置于阴凉干燥处，至少每 3 \n个月充电一次避免电池出现过放。\n激光安全信息\n • 本产品激光测距传感"
+  },
+  {
+    "chunk_id": "465d454af1004303",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "04\n配件清单\n电源线\n基座主体（内置一次性尘袋）\n产品介绍\n基座底板\n机器人主机\n一次性尘袋"
+  },
+  {
+    "chunk_id": "27080450d5c822c9",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "05\n机器人\n提示：在清洁或回充时按任意键暂停。\n充电触片\n沿墙传感器\nReactive AI 识别避障传感器\n回充传感器\n红外补光灯\n产品介绍\n清    扫/ 开关机\n • 短按启动清扫\n • 长按"
+  },
+  {
+    "chunk_id": "92c651c23e5a5156",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "06\n产品介绍\nWiFi 指示灯\n系统重置键\n碰撞缓冲传感器\n水箱\n水箱卡扣\n激光测距\n传感器\n排风口\n回洗通讯传感器\n激光头压力\n传感器\n升降震动模组\n回洗到位开关\n悬崖传感器\n万向轮\n地毯识别\n传"
+  },
+  {
+    "chunk_id": "542a623de93c5c03",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "07\n尘    盒\n产品介绍\n滤网上盖\n上置可水洗滤网\n滤网上盖卡扣\n升降震动擦地模组\n电控水箱\n震动拖布支架\n震动拖布\n粘贴区域\n水箱塞\n进水口滤网\n水箱卡扣\n震动模块\n水箱自动补水口\n拖布插槽\n提"
+  },
+  {
+    "chunk_id": "c6bc5158b127f9e0",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "08\n产品介绍\n污水箱\n基座信号\n发射区\n充电弹片\n水箱卡扣\n集尘桶\n清水箱\n水箱提手\n水箱上盖\n基座底板\n清洁刮条\n拖布清洁刷组件\n高速自清洁\n刷拆卸卡扣\n高速自清\n洁刷\n • 呼吸闪烁：集尘/ 清"
+  },
+  {
+    "chunk_id": "7e9039482f69219c",
+    "page_number": 9,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "09\n产品安装\n特别提示\n1. 请在启动前清理地面上散落的线材、硬物、尖锐物体（如铁钉、\n玻璃）等杂物，并移开易倒、易碎、贵重及可能造成危险的物品。\n避免被机器人缠绕、卡住、拖拽或碰倒造成人身或财产损"
+  },
+  {
+    "chunk_id": "f2a431ed88c711ed",
+    "page_number": 10,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "10\n产品安装\n组    装\n1. 将基座主体放置在硬质水平地面上，取出底部高速自清洁\n刷组件的运输固定泡沫。\n2. 将基座底板与基座主体按图示方式组装，并用力下压基座\n底板两侧，再下压中间连接处，在"
+  },
+  {
+    "chunk_id": "1999dabd3175d8b3",
+    "page_number": 11,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮提醒。\n • 务必在室内水平地面放置基座"
+  },
+  {
+    "chunk_id": "309346ac50caf1f8",
+    "page_number": 11,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "接靠上基座。\n电源指示灯颜\n色表示电量\n • 白色：电量≥20% \n • 红色：电量＜20%\n方式 2：在应用商店搜索“米家”或扫描下方二维码下载安\n装米家 APP。\n本产品支持石头 APP 和米家 "
+  },
+  {
+    "chunk_id": "ab16846fbf0824f2",
+    "page_number": 12,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "12\n • 熄灭：WiFi 功能未激活\n • 慢闪：等待连接\n • 快闪：正在连接\n • 长亮：WiFi 已连接\nWiFi 指示灯\na. 打开机器人上盖露出 WiFi 指示灯。\nb. 同时按住  键与"
+  },
+  {
+    "chunk_id": "61b643029529e492",
+    "page_number": 12,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "  键开机，电源指示灯点亮，机器人进入待命状态。\n长按  键关机，本次扫拖结束。\n提示：机器人在充电中无法关机。\n提示：\n • 请勿使用非石头官方清洁液，否则可能会腐蚀机器人及基座。\n • 请勿过量添"
+  },
+  {
+    "chunk_id": "868645e07a8d1dcb",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "13\n使用说明\n启动扫拖\n短按  键机器人将按扫描生成的地图动态规划扫拖路线，采\n用先沿墙后 Z 字形填充的方式逐一完成各分区的扫拖，有序\n高效覆盖。清洁过程中，机器人会自动判断需要回洗拖布及水\n箱补"
+  },
+  {
+    "chunk_id": "8b7c8092a77526af",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "在清扫\n局部清扫\n短按  键启动局部清扫。\n清扫范围：机器人为中心 1.5 米 ×1.5 米的方形区域。\n提示：清扫结束后机器人会自动返回起点位置，进入待命状态。\n暂    停\n机器人工作中，可按任意"
+  },
+  {
+    "chunk_id": "9c81d4bb97046afb",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回充。充电时，电源指示灯呼吸\n闪烁。\n提示"
+  },
+  {
+    "chunk_id": "085321f17740b555",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "｜拖地偏好｜洗布模式｜集\n尘模式\n机器人信息\n清洁记录｜机器人电量｜保养和维护\n更多特色功能\n音量调节｜个性化语音｜勿扰模式｜智能音箱语控 \n等更多功能\nAPP 功能介绍"
+  },
+  {
+    "chunk_id": "d062551c0c9193f5",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "15\n日常维护\n为使机器人保持最佳使用性能，建议参考下表进行日常维护：\n提示：更换频率可能因实际情况而定，如出现异常磨损，应更换零件。\n部    件\n维护频率\n更换频率\n万向轮 \n按需清理 \n/\n尘盒"
+  },
+  {
+    "chunk_id": "a22c07acab075254",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "月\n1. 翻转机器人，压下卡扣取下主刷罩。\n软胶主刷\n卡    扣\n软胶主刷盖\n软胶主刷轴承\n软胶主刷罩\n软胶主刷"
+  },
+  {
+    "chunk_id": "73ba0f2fac1f9bb8",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "16\n日常维护\n2. 取出软胶主刷，拔出软胶主刷轴承，按解锁标志方向旋转并\n取下软胶主刷盖，清除软胶主刷两端缠绕的毛发或脏物。\n提示：\n • 主刷脏污建议用湿布擦拭。如果浸水，务必晾干防止暴晒。\n •"
+  },
+  {
+    "chunk_id": "44f4946e7139679b",
+    "page_number": 17,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "17\n日常维护\n用柔软干布擦拭清理主轮。\n主    轮\n尘    盒\n1. 打开机器人上盖，取出尘盒。\n2. 打开尘盒盖并倾倒垃圾。\n3. 尘盒中注入清水后关闭尘盒盖 , 左右摇晃尘盒，倒出脏水。\n提"
+  },
+  {
+    "chunk_id": "352520c192ff2342",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "18\n日常维护\n震动拖布\n1. 从拖布支架上移除拖布。\n2. 清洗拖布并晾晒。\n3. 沿着拖布支架的插槽处将拖布插入到底，并粘贴牢固。\n提示：如震动拖布较脏，会影响拖地效果，请清洗后再使用。\n主机传感"
+  },
+  {
+    "chunk_id": "36eefb6f7bbb97a6",
+    "page_number": 19,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "19\n日常维护\n水    箱\n需要根据实际使用情况定期清洁污水箱。打开污水箱上盖倾\n倒污水后接入自来水，关闭水箱上盖，扣紧卡扣并摇晃水箱。\n清洗完成后倒出污水，再次关紧水箱上盖并装回使用。\n提示：\n "
+  },
+  {
+    "chunk_id": "9b8f6f7e19af923e",
+    "page_number": 20,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "20\n日常维护\n更换一次性尘袋\n1. 提起集尘桶。\n2. 沿箭头方向垂直取出一次性尘袋并丢弃。\n提示：请定期更换一次性尘袋。\n清洗槽滤网\n提起清洗槽滤网卡扣，取出清洗槽滤网并用水冲洗，再使用\n柔软干布"
+  },
+  {
+    "chunk_id": "c942df91d9c6ba82",
+    "page_number": 21,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "21\n日常维护\n2. 取出清洗槽滤网，并使用毛巾擦干水槽内水渍。\n清理清洗槽与风道\n如出现风道堵塞，请按照以下步骤进行清理。\n1. 取出净水箱、污水箱、集尘桶。\n4. 用干抹布清理及擦拭风道及风道盖板"
+  },
+  {
+    "chunk_id": "1763dfc324a82c3f",
+    "page_number": 22,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "22\n基本参数\n部件名称\n有害物质\n铅\n（Pb）\n汞\n（Hg）\n镉\n（Cd）\n六价铬\n(Cr(VI))\n多溴联苯\n（PBB）\n多溴二\n苯醚\n（PBDE）\n电路板\n金属件\n塑胶件\n电    池\n线   "
+  },
+  {
+    "chunk_id": "fca4495ce11c7cc5",
+    "page_number": 22,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "Hz\n额定输入电流（充电状态）\n0.5A\n功率（集尘状态）\n1000W\n额定输出\n20V\n1.8A\n产品型号：A46*0RR (* 代表 0-9)，各型号之间外观颜色不同。"
+  },
+  {
+    "chunk_id": "c31aad0a10055238",
+    "page_number": 23,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "23\n取下电池步骤\n下述信息仅在丢弃本机器人时适用，并非日常操作说明\n本产品内置的锂离子电池所含的化学物质可能会对环境造成\n污染，在报废之前请将其拆下，并交由专业的电池回收站进行\n集中处置。\n1. 让"
+  },
+  {
+    "chunk_id": "96a806c471988e31",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，请确认基座电源线两头是否都已插好；\n接触"
+  },
+  {
+    "chunk_id": "fce55fd0c5835a7b",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效应，充满即用无须等待十六小时。\n清扫中途"
+  },
+  {
+    "chunk_id": "9e4a7ee3ae2b3e34",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "左侧是否有异物卡住，请清理；\n停靠在右侧清洗槽滤网旁，可能滤网上有异物卡住或清洗槽滤网\n未“咔哒”按压到底卡住自清洁模组，请清理并按压到位后重试。\n拖布自清洁效果\n不佳\n拖布未粘贴平整，请重新粘贴平整"
+  },
+  {
+    "chunk_id": "f20e1499ecd37f1d",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "25\n类    型\n整    机\n保修内容\n保修期限\n机器人（包含内置锂离子\n电池）；基座；电源线\n2 年\n石头科技严格依据《中华人民共和国消费者权益保护法》、\n《中\n华人民共和国产品质量法》实行售后"
+  },
+  {
+    "chunk_id": "e6da4fffa8b63616",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "费享受维\n修服务，运费由石头科技承担。\n以下情况，石头科技将不能为您的机器提供免费保修服务，但\n可实行收费维修：\n未经石头科技授权的机构、人员对产品进行了维修、检验、\n拆机等操作；\n未按照本产品说明书"
+  },
+  {
+    "chunk_id": "e41eb965e94a415d",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "26\n三\n包\n卡\n可\n沿\n此\n剪\n下\n石头自清洁集尘充电座产品性能故障表\n名    称\n性能故障\n维修记录\n维修日期\n故障描述及更换配件\n维修中心\n维修工程师\n1\n2\n用户姓名：\n产品名称及型号：\n联"
+  },
+  {
+    "chunk_id": "53d54344940e96d3",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "官方网站：http://www.roborock.com\n服务电话：400-900-1755\n制造商：北京石头世纪科技股份有限公司\n地         址：北京市海淀区黑泉路8 号1 幢康健宝盛广场C"
+  },
+  {
+    "chunk_id": "66b1a5f2e3e1856d",
+    "page_number": 23,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：电池拆卸步骤图、报废处理、电池盖板螺丝、连接器插头、环保回收\n报废前拆电池步骤：1)不接触基座运行至低电量；2)关机；3)卸下电池盖板螺丝；4)取下盖板；5)按下卡扣拔出连接器插头取下电池。注"
+  },
+  {
+    "chunk_id": "a4ab3706fddd98b5",
+    "page_number": 5,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回洗拖布）、局部清扫/童锁键（短按局部清扫"
+  },
+  {
+    "chunk_id": "2a7752848297393b",
+    "page_number": 6,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，防止机器人跌落。地毯识别传感器自动识别地"
+  },
+  {
+    "chunk_id": "192e04de5e630adb",
+    "page_number": 7,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：尘盒结构图、滤网、电控水箱、震动拖布支架、拖布粘贴区域、升降震动擦地模组\n尘盒包含上置可水洗滤网和滤网上盖。电控水箱通过进水口滤网和自动补水口与基座连接。震动拖布支架不可拆卸，拖布通过插槽和粘"
+  },
+  {
+    "chunk_id": "a821fd8130c4be6e",
+    "page_number": 8,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一次性尘袋）、充电弹片、高速自清洁刷（可拆"
+  },
+  {
+    "chunk_id": "6f892c93f8720801",
+    "page_number": 10,
+    "content_type": "image",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装，下压听到咔哒声；3)电源线插紧，多余线"
+  },
+  {
+    "chunk_id": "d83bec59a20d5bf4",
+    "page_number": 22,
+    "content_type": "table",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "[表格 - 第22页]\n产品型号：A46*0RR\n机器人吸尘器\n电 池 | 14.4V/5200mAh 锂离子电池\n产品重量 | 约 4.7kg\n无线连接 | WiFi 智能快连\n额定电压 | 14."
+  },
+  {
+    "chunk_id": "a27a9dac7881ec05",
+    "page_number": 22,
+    "content_type": "table",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "[表格 - 第22页]\n部件名称 | 有害物质\n铅\n（Pb） | 汞\n（Hg） | 镉\n（Cd） | 六价铬\n(Cr(VI)) | 多溴联苯\n（PBB） | 多溴二\n苯醚\n（PBDE）\n电路板\n金属件"
+  },
+  {
+    "chunk_id": "bddfb5e3d4b51cad",
+    "page_number": 26,
+    "content_type": "table",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "content": "[表格 - 第26页]\n维修日期 | 故障描述及更换配件 | 维修中心 | 维修工程师\n1\n2"
+  },
+  {
+    "chunk_id": "eabe30bc7f3947bb",
+    "page_number": 1,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "使用说明书\n石头自清洁扫拖机器人G10S"
+  },
+  {
+    "chunk_id": "d3a4e2e5a9344757",
+    "page_number": 2,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "02\n您可以扫描二维码或在应用商店中下载“Roborock”APP，连接机器人，\n解锁更多功能。\n感谢您选择石头。\n本说明书将引导您全面了解和快速安装扫拖机器人（下文简称“机器人”），并详细提供了有关"
+  },
+  {
+    "chunk_id": "cef20bab6cf335c2",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "03\n安全信息\n使用限制\n • 本产品仅限中国大陆地区销售和使用，在港澳台及海外使用将无法体验 APP 及\n智能音箱远程控制功能。\n • 仅用于家居环境的地面清洁，请勿用于室外（如开放式阳台）、非地面"
+  },
+  {
+    "chunk_id": "dfbdc793f92296bd",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "\n • 请勿用于清扫任何燃烧中的物体（如未熄灭的烟头、火柴、灰烬等）。\n • 请勿在高于 40℃、低于 0℃ 或地面有任何液体及粘稠物的环境下存放及使用。\n • 请勿在机器人工作时，让人或宠物的肢体等"
+  },
+  {
+    "chunk_id": "94cf3ff92acb2c7c",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "提手等部件作为提手搬运机器。\n电池及充电\n • 本产品只能使用 EWFD00HRR 充电座充电。\n • 请务必确认并使用有可靠接地的合格电源，否则可能发生触电等危险。\n • 若没有可靠接地的电源，请务"
+  },
+  {
+    "chunk_id": "fd5ff7ad49d4a7b7",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "折断等）情况，请立即停止使用，\n及时联系客服。\n • 如长时间不使用机器人，请充满电后关闭机器人并放置于阴凉干燥处，至少每 3 \n个月充电一次避免电池出现过放。\n激光安全信息\n • 本产品激光测距传感"
+  },
+  {
+    "chunk_id": "100055b41f40b42b",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "04\n配件清单\n电源线\n基座主体（内置一次性尘袋）\n产品介绍\n基座底板\n机器人主机\n一次性尘袋"
+  },
+  {
+    "chunk_id": "b6120ba2deb61619",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "05\n机器人\n提示：在清洁或回充时按任意键暂停。\n充电触片\n沿墙传感器\nReactive AI 识别避障传感器\n回充传感器\n红外补光灯\n产品介绍\n清    扫/ 开关机\n • 短按启动清扫\n • 长按"
+  },
+  {
+    "chunk_id": "2f19a2c5bc256423",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "06\n产品介绍\nWiFi 指示灯\n系统重置键\n碰撞缓冲传感器\n水箱\n水箱卡扣\n激光测距\n传感器\n排风口\n回洗通讯传感器\n激光头压力\n传感器\n升降震动模组\n回洗到位开关\n悬崖传感器\n万向轮\n地毯识别\n传"
+  },
+  {
+    "chunk_id": "e175295ed7f47496",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "07\n尘    盒\n产品介绍\n滤网上盖\n上置可水洗滤网\n滤网上盖卡扣\n升降震动擦地模组\n电控水箱\n震动拖布支架\n震动拖布\n粘贴区域\n水箱塞\n进水口滤网\n水箱卡扣\n震动模块\n水箱自动补水口\n拖布插槽\n提"
+  },
+  {
+    "chunk_id": "fdeec209172c25b8",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "08\n产品介绍\n污水箱\n基座信号\n发射区\n充电弹片\n水箱卡扣\n集尘桶\n清水箱\n水箱提手\n水箱上盖\n基座底板\n清洁刮条\n拖布清洁刷组件\n高速自清洁\n刷拆卸卡扣\n高速自清\n洁刷\n • 呼吸闪烁：集尘/ 清"
+  },
+  {
+    "chunk_id": "84ed44e6dce6d5cf",
+    "page_number": 9,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "09\n产品安装\n特别提示\n1. 请在启动前清理地面上散落的线材、硬物、尖锐物体（如铁钉、\n玻璃）等杂物，并移开易倒、易碎、贵重及可能造成危险的物品。\n避免被机器人缠绕、卡住、拖拽或碰倒造成人身或财产损"
+  },
+  {
+    "chunk_id": "1e89e7fa4834d10d",
+    "page_number": 10,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "10\n产品安装\n组    装\n1. 将基座主体放置在硬质水平地面上，取出底部高速自清洁\n刷组件的运输固定泡沫。\n2. 将基座底板与基座主体按图示方式组装，并用力下压基座\n底板两侧，再下压中间连接处，在"
+  },
+  {
+    "chunk_id": "ea0dea9a5d0ef002",
+    "page_number": 11,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮提醒。\n • 务必在室内水平地面放置基座"
+  },
+  {
+    "chunk_id": "0dba3dc65b39a82a",
+    "page_number": 11,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "接靠上基座。\n电源指示灯颜\n色表示电量\n • 白色：电量≥20% \n • 红色：电量＜20%\n方式 2：在应用商店搜索“米家”或扫描下方二维码下载安\n装米家 APP。\n本产品支持石头 APP 和米家 "
+  },
+  {
+    "chunk_id": "c40ab4f6789016dc",
+    "page_number": 12,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "12\n • 熄灭：WiFi 功能未激活\n • 慢闪：等待连接\n • 快闪：正在连接\n • 长亮：WiFi 已连接\nWiFi 指示灯\na. 打开机器人上盖露出 WiFi 指示灯。\nb. 同时按住  键与"
+  },
+  {
+    "chunk_id": "e73aae1f0bf88fb3",
+    "page_number": 12,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "  键开机，电源指示灯点亮，机器人进入待命状态。\n长按  键关机，本次扫拖结束。\n提示：机器人在充电中无法关机。\n提示：\n • 请勿使用非石头官方清洁液，否则可能会腐蚀机器人及基座。\n • 请勿过量添"
+  },
+  {
+    "chunk_id": "bf540576a011b1d1",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "13\n使用说明\n启动扫拖\n短按  键机器人将按扫描生成的地图动态规划扫拖路线，采\n用先沿墙后 Z 字形填充的方式逐一完成各分区的扫拖，有序\n高效覆盖。清洁过程中，机器人会自动判断需要回洗拖布及水\n箱补"
+  },
+  {
+    "chunk_id": "28e9b72f3c473046",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "在清扫\n局部清扫\n短按  键启动局部清扫。\n清扫范围：机器人为中心 1.5 米 ×1.5 米的方形区域。\n提示：清扫结束后机器人会自动返回起点位置，进入待命状态。\n暂    停\n机器人工作中，可按任意"
+  },
+  {
+    "chunk_id": "b1b678413bd25916",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回充。充电时，电源指示灯呼吸\n闪烁。\n提示"
+  },
+  {
+    "chunk_id": "28288faecd082c95",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "｜拖地偏好｜洗布模式｜集\n尘模式\n机器人信息\n清洁记录｜机器人电量｜保养和维护\n更多特色功能\n音量调节｜个性化语音｜勿扰模式｜智能音箱语控 \n等更多功能\nAPP 功能介绍"
+  },
+  {
+    "chunk_id": "f3081c93b3d4ccd7",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "15\n日常维护\n为使机器人保持最佳使用性能，建议参考下表进行日常维护：\n提示：更换频率可能因实际情况而定，如出现异常磨损，应更换零件。\n部    件\n维护频率\n更换频率\n万向轮 \n按需清理 \n/\n尘盒"
+  },
+  {
+    "chunk_id": "3453db036430cfe3",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "月\n1. 翻转机器人，压下卡扣取下主刷罩。\n软胶主刷\n卡    扣\n软胶主刷盖\n软胶主刷轴承\n软胶主刷罩\n软胶主刷"
+  },
+  {
+    "chunk_id": "be9d6acf1c8567e8",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "16\n日常维护\n2. 取出软胶主刷，拔出软胶主刷轴承，按解锁标志方向旋转并\n取下软胶主刷盖，清除软胶主刷两端缠绕的毛发或脏物。\n提示：\n • 主刷脏污建议用湿布擦拭。如果浸水，务必晾干防止暴晒。\n •"
+  },
+  {
+    "chunk_id": "bd11395c4e825940",
+    "page_number": 17,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "17\n日常维护\n用柔软干布擦拭清理主轮。\n主    轮\n尘    盒\n1. 打开机器人上盖，取出尘盒。\n2. 打开尘盒盖并倾倒垃圾。\n3. 尘盒中注入清水后关闭尘盒盖 , 左右摇晃尘盒，倒出脏水。\n提"
+  },
+  {
+    "chunk_id": "7ed101a416528282",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "18\n日常维护\n震动拖布\n1. 从拖布支架上移除拖布。\n2. 清洗拖布并晾晒。\n3. 沿着拖布支架的插槽处将拖布插入到底，并粘贴牢固。\n提示：如震动拖布较脏，会影响拖地效果，请清洗后再使用。\n主机传感"
+  },
+  {
+    "chunk_id": "aff682f70d3f9371",
+    "page_number": 19,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "19\n日常维护\n水    箱\n需要根据实际使用情况定期清洁污水箱。打开污水箱上盖倾\n倒污水后接入自来水，关闭水箱上盖，扣紧卡扣并摇晃水箱。\n清洗完成后倒出污水，再次关紧水箱上盖并装回使用。\n提示：\n "
+  },
+  {
+    "chunk_id": "3a9784f7e05a3380",
+    "page_number": 20,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "20\n日常维护\n更换一次性尘袋\n1. 提起集尘桶。\n2. 沿箭头方向垂直取出一次性尘袋并丢弃。\n提示：请定期更换一次性尘袋。\n清洗槽滤网\n提起清洗槽滤网卡扣，取出清洗槽滤网并用水冲洗，再使用\n柔软干布"
+  },
+  {
+    "chunk_id": "32f126b95a1381a3",
+    "page_number": 21,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "21\n日常维护\n2. 取出清洗槽滤网，并使用毛巾擦干水槽内水渍。\n清理清洗槽与风道\n如出现风道堵塞，请按照以下步骤进行清理。\n1. 取出净水箱、污水箱、集尘桶。\n4. 用干抹布清理及擦拭风道及风道盖板"
+  },
+  {
+    "chunk_id": "fc5be1d0e4d58af3",
+    "page_number": 22,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "22\n基本参数\n部件名称\n有害物质\n铅\n（Pb）\n汞\n（Hg）\n镉\n（Cd）\n六价铬\n(Cr(VI))\n多溴联苯\n（PBB）\n多溴二\n苯醚\n（PBDE）\n电路板\n金属件\n塑胶件\n电    池\n线   "
+  },
+  {
+    "chunk_id": "6f35f43af0083b15",
+    "page_number": 22,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "Hz\n额定输入电流（充电状态）\n0.5A\n功率（集尘状态）\n1000W\n额定输出\n20V\n1.8A\n产品型号：A46*0RR (* 代表 0-9)，各型号之间外观颜色不同。"
+  },
+  {
+    "chunk_id": "a1f1d3d8e1c23825",
+    "page_number": 23,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "23\n取下电池步骤\n下述信息仅在丢弃本机器人时适用，并非日常操作说明\n本产品内置的锂离子电池所含的化学物质可能会对环境造成\n污染，在报废之前请将其拆下，并交由专业的电池回收站进行\n集中处置。\n1. 让"
+  },
+  {
+    "chunk_id": "35f5f7bfbb999840",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，请确认基座电源线两头是否都已插好；\n接触"
+  },
+  {
+    "chunk_id": "d025ee5bdedabbbe",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效应，充满即用无须等待十六小时。\n清扫中途"
+  },
+  {
+    "chunk_id": "243c72cffd0ba00e",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "左侧是否有异物卡住，请清理；\n停靠在右侧清洗槽滤网旁，可能滤网上有异物卡住或清洗槽滤网\n未“咔哒”按压到底卡住自清洁模组，请清理并按压到位后重试。\n拖布自清洁效果\n不佳\n拖布未粘贴平整，请重新粘贴平整"
+  },
+  {
+    "chunk_id": "3222131a4cf00ce6",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "25\n类    型\n整    机\n保修内容\n保修期限\n机器人（包含内置锂离子\n电池）；基座；电源线\n2 年\n石头科技严格依据《中华人民共和国消费者权益保护法》、\n《中\n华人民共和国产品质量法》实行售后"
+  },
+  {
+    "chunk_id": "f1d37ad180c6d1e3",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "费享受维\n修服务，运费由石头科技承担。\n以下情况，石头科技将不能为您的机器提供免费保修服务，但\n可实行收费维修：\n未经石头科技授权的机构、人员对产品进行了维修、检验、\n拆机等操作；\n未按照本产品说明书"
+  },
+  {
+    "chunk_id": "0ff0b6799ceb29a1",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "26\n三\n包\n卡\n可\n沿\n此\n剪\n下\n石头自清洁集尘充电座产品性能故障表\n名    称\n性能故障\n维修记录\n维修日期\n故障描述及更换配件\n维修中心\n维修工程师\n1\n2\n用户姓名：\n产品名称及型号：\n联"
+  },
+  {
+    "chunk_id": "3b74a8abcd801995",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "content": "官方网站：http://www.roborock.com\n服务电话：400-900-1755\n制造商：北京石头世纪科技股份有限公司\n地         址：北京市海淀区黑泉路8 号1 幢康健宝盛广场C"
+  },
+  {
+    "chunk_id": "7fd19ab0d5f1a06b",
+    "page_number": 1,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\test.pdf",
+    "content": "fake pdf content"
+  }
+]

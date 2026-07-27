@@ -1,0 +1,35 @@
+{
+  "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf": {
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+    "document_id": "6591f9bc7311",
+    "file_hash": "c9cfb1a97aaf55699441c81b1faa17707495d45f545987ae03732cdc029970f1",
+    "file_size": 4465990,
+    "total_pages": 27,
+    "text_pages": 27,
+    "num_chunks": 39,
+    "version": "c9cfb1a97aaf5569",
+    "last_updated": "2026-07-18T23:28:05"
+  },
+  "D:\\Agentproject1\\data\\raw_docs\\manual.pdf": {
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\manual.pdf",
+    "document_id": "5bdd101d85bc",
+    "file_hash": "c9cfb1a97aaf55699441c81b1faa17707495d45f545987ae03732cdc029970f1",
+    "file_size": 4465990,
+    "total_pages": 27,
+    "text_pages": 27,
+    "num_chunks": 39,
+    "version": "c9cfb1a97aaf5569",
+    "last_updated": "2026-07-19T18:49:57"
+  },
+  "D:\\Agentproject1\\data\\raw_docs\\test.pdf": {
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\test.pdf",
+    "document_id": "fc4805b3fbeb",
+    "file_hash": "65f0a35a19c356b113ec994fd2895ccb903e4a55dacd9e8f9bbe6d945531c7ce",
+    "file_size": 16,
+    "total_pages": 1,
+    "text_pages": 1,
+    "num_chunks": 1,
+    "version": "65f0a35a19c356b1",
+    "last_updated": "2026-07-19T18:56:46"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "v1_multimodal",
+  "version": "V1",
+  "timestamp": "2026-07-18T20:23:40",
+  "pdf": "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+  "total_pages": 27,
+  "text_chunks": 39,
+  "image_chunks": 6,
+  "table_chunks": 3,
+  "total_chunks": 48,
+  "vlm_model": "qwen3-vl-32b-thinking",
+  "embedding_model": "D:/Agentproject1/models/models/BAAI--bge-m3/snapshots/master",
+  "collection": "v1_multimodal_kw_20260718_204259",
+  "diagram_pages_rendered": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    23
+  ],
+  "duration_seconds": 351.9,
+  "keyword_enhanced": true,
+  "enhanced_image_chunks": 6
+}

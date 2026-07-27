@@ -1,0 +1,9 @@
+{
+  "experiment": "v0_naive",
+  "version": "V0",
+  "timestamp": "2026-07-18T02:45:24",
+  "total_questions": 20,
+  "total_time_seconds": 78.2,
+  "avg_time_per_question": 3.9,
+  "results_file": "D:\\Agentproject1\\storage\\runs\\v0_baseline\\v0_results_20260718_024524.json"
+}

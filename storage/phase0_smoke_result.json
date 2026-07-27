@@ -1,0 +1,125 @@
+{
+  "phase": 0,
+  "timestamp": "2026-07-18T02:01:35",
+  "results": [
+    {
+      "component": "Config",
+      "status": "PASS",
+      "detail": "Loaded settings from .env; device=auto",
+      "metrics": {
+        "checks": {
+          "embedding_model": "D:/Agentproject1/models/models/BAAI--bge-m3/snapshots/master",
+          "reranker_model": "D:/Agentproject1/models/models/BAAI--bge-reranker-v2-m3/snapshots/master",
+          "model_device": "auto",
+          "milvus_uri": "milvus.db",
+          "project_root_exists": true
+        },
+        "duration": "0.45s"
+      }
+    },
+    {
+      "component": "BGE-M3",
+      "status": "PASS",
+      "detail": "Encoded text to 1024-dim vector on cuda",
+      "metrics": {
+        "model": "D:/Agentproject1/models/models/BAAI--bge-m3/snapshots/master",
+        "device": "cuda",
+        "dim": 1024,
+        "vector_preview": [
+          -0.004606255795806646,
+          0.038818515837192535,
+          -0.06232444941997528,
+          -0.020450526848435402,
+          -0.027818458154797554
+        ],
+        "duration": "27.12s"
+      }
+    },
+    {
+      "component": "BGE-Reranker",
+      "status": "PASS",
+      "detail": "Scored 3 documents; best match at index 0 (score=0.3757)",
+      "metrics": {
+        "model": "D:/Agentproject1/models/models/BAAI--bge-reranker-v2-m3/snapshots/master",
+        "device": "cuda",
+        "scores": [
+          0.3757,
+          0.0432,
+          0.0024
+        ],
+        "top_index": 0,
+        "duration": "7.80s"
+      }
+    },
+    {
+      "component": "Milvus",
+      "status": "PASS",
+      "detail": "Created collection, inserted 1 vector, search returned 1 hit(s)",
+      "metrics": {
+        "uri": "milvus.db",
+        "collection": "smoke_test_phase0",
+        "dim": 128,
+        "hit_distance": 1.0,
+        "hit_text": "smoke test entry",
+        "duration": "3.26s"
+      }
+    },
+    {
+      "component": "LLM",
+      "status": "PASS",
+      "detail": "LLM responded: 向量检索的核心原理是将数据映射为高维向量，通过计算向量间的距离或相似度（如余弦相似度、欧氏距离）来快速查找最接近的匹配项。...",
+      "metrics": {
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "completion_tokens": 80,
+          "prompt_tokens": 15,
+          "total_tokens": 95,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 40,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 15
+        },
+        "response_preview": "向量检索的核心原理是将数据映射为高维向量，通过计算向量间的距离或相似度（如余弦相似度、欧氏距离）来快速查找最接近的匹配项。",
+        "duration": "5.63s"
+      }
+    },
+    {
+      "component": "Qwen3-VL-32B",
+      "status": "PASS",
+      "detail": "VLM described image: 这是一张黑色背景的耳机操作按键说明图，展示了耳机主体及充电、开关机、蓝牙、音量等四个功能的按键操作示意图。...",
+      "metrics": {
+        "model": "qwen3-vl-32b-thinking",
+        "usage": {
+          "completion_tokens": 331,
+          "prompt_tokens": 97,
+          "total_tokens": 428,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 167,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 164
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "image_tokens": 79,
+            "text_tokens": 18
+          }
+        },
+        "image": "D:\\Agentproject1\\data\\下载.jpg",
+        "response_preview": "这是一张黑色背景的耳机操作按键说明图，展示了耳机主体及充电、开关机、蓝牙、音量等四个功能的按键操作示意图。",
+        "duration": "7.47s"
+      }
+    }
+  ],
+  "overall": "PASS"
+}

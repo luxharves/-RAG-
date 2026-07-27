@@ -1,0 +1,815 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      24
+    ],
+    "answer": "根据说明书，如果设备无法开机，可能是以下原因：\n- 电池电量不足，请先靠上基座充电后再使用。\n- 电池温度过低或过高，请在0-40℃环境下使用。\n\n[来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第24页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "96a806c4"
+      ],
+      "reason": "ANSWER中的两个无法开机原因均直接来自CONTEXT[1]的第24页，表述一致，无额外信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      24,
+      10,
+      8,
+      23,
+      9
+    ],
+    "retrieval_hit": true,
+    "time_s": 41.68
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      15,
+      18
+    ],
+    "answer": "根据说明书，清洁传感器时建议使用**柔软干布擦拭干净**。沿墙传感器、悬崖传感器、地毯识别传感器等应每1个月清理一次 [来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第24页, 第15页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "fce55fd0",
+        "d062551c"
+      ],
+      "reason": "ANSWER中的清洁传感器使用柔软干布擦拭干净直接来源于CONTEXT page 24 (id=fce55fd0)，而沿墙传感器、悬崖传感器、地毯识别传感器每1个月清理一次来源于CONTEXT page 15 (id=d062551c)中的维护频率表格。所有声明均有CONTEXT支持。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      6,
+      15,
+      5,
+      24,
+      13
+    ],
+    "retrieval_hit": true,
+    "time_s": 35.28
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "verification_result": {
+      "supported": false,
+      "confidence": 0.3,
+      "unsupported_claims": [
+        "扫拖方式",
+        "清扫吸力",
+        "擦地强度"
+      ],
+      "evidence_chunk_ids": [
+        "9c81d4bb",
+        "085321f1"
+      ],
+      "reason": "ANSWER声称的清洁模式中包含'扫拖方式'、'清扫吸力'、'擦地强度'，这些术语在提供的CONTEXT（第14页）中并未出现。CONTEXT仅提及'拖地偏好'、'洗布模式'、'集尘模式'，因此部分声称无依据。"
+    },
+    "retry_count": 1,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide",
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      14,
+      14,
+      13,
+      6,
+      5
+    ],
+    "retrieval_hit": true,
+    "time_s": 68.96
+  },
+  {
+    "question": "如何连接手机APP？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      12
+    ],
+    "answer": "要连接手机APP，请按以下步骤操作：\n\n1. **下载APP**：在应用商店搜索“Roborock”或扫描二维码下载石头APP；或搜索“米家”下载米家APP。 [来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第11页]\n\n2. **重置WiFi**：打开机器人上盖露出WiFi指示灯，同时按住📱键与🗺️键（具体按键请参考说明书图示）直到语音提示“重置WiFi，进入配网模式”，等待WiFi指示灯开始慢闪。 [来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第12页]\n\n3. **添加设备**：打开手机APP首页，点击页面中的“+”或根据页面提示添加您的设备。注意：WiFi仅支持2.4GHz频段；若机器人等待连接超过1小时，WiFi将自动关闭，需重新重置WiFi后再联网。 [来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第12页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 0.95,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "309346ac",
+        "ab16846f"
+      ],
+      "reason": "ANSWER中的每一步（下载APP、重置WiFi、添加设备）都直接对应CONTEXT中的第11页和第12页内容，按键描述虽未直接出现图标但引用了说明书图示，整体基于CONTEXT。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      10,
+      11,
+      10,
+      12,
+      2
+    ],
+    "retrieval_hit": true,
+    "time_s": 27.81
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      19
+    ],
+    "answer": "根据说明书，如果污水箱已满，请按照以下步骤处理：打开污水箱上盖，倾倒污水，然后用自来水冲洗，关闭上盖并扣紧卡扣，摇晃水箱后再次倒出污水，最后关紧上盖并装回使用 [来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第19页]。同时请注意，污水箱水满会导致基座LED红灯长亮或机器人无法正常洗拖布，应及时清理 [来源: 同上, 第24页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "36eefb6f",
+        "9e4a7ee3"
+      ],
+      "reason": "ANSWER中的内容完全来自CONTEXT中的第19页和第24页，包括污水箱清洁步骤和污水箱水满导致的后果，没有添加或歪曲信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      19,
+      24,
+      24,
+      21,
+      17
+    ],
+    "retrieval_hit": true,
+    "time_s": 24.69
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      24
+    ],
+    "answer": "根据说明书中的常见问题部分，机器人工作时出现异响（噪音大）通常由以下原因引起：\n\n- **主刷、边刷或主轮缠绕异物**，请停机后清理 [来源: 第24页]。\n- **万向轮进灰或被缠绕**，建议使用螺丝刀撬出并冲洗干净 [来源: 第24页]。\n- **主刷或主刷罩未安装到位**，请重新安装并确保到位 [来源: 第24页]。\n- **滤网、风道、集尘口、集尘进风口、尘盒或尘袋堵塞**，请清理 [来源: 第24页]。\n\n请根据上述情况逐一排查。如果问题仍未解决，建议联系石头客服进一步检查。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "96a806c4",
+        "fce55fd0"
+      ],
+      "reason": "ANSWER中列出的四个异响原因均直接来源于CONTEXT中第24页的两个片段（id=96a806c4和id=fce55fd0），没有引入额外信息。"
+    },
+    "retry_count": 1,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide",
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      24,
+      6,
+      24,
+      5,
+      11
+    ],
+    "retrieval_hit": true,
+    "time_s": 71.07
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      10,
+      11
+    ],
+    "answer": "根据说明书内容，充电座（基座）应放置在 **硬质水平地面（如地板、地砖等）** 上，**靠墙**放置，并满足以下空间要求：  \n- 两侧各有 **0.5 米** 以上空间  \n- 前方有 **1.5 米** 以上空间  \n- 上方有 **1 米** 以上空间  \n同时需确保所在位置 **WiFi 信号覆盖良好**，并远离 **明火、热源、有水、狭窄或可能使机器人悬空的区域**，避免阳光直晒 [来源: 第10页] [来源: 第3页] [来源: 第11页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "f2a431ed",
+        "6f892c93",
+        "799e1cb0",
+        "1999dabd"
+      ],
+      "reason": "ANSWER中关于基座放置的所有要求（硬质水平地面、靠墙、空间尺寸、WiFi信号、远离明火热源等）均直接来源于CONTEXT中的第10页、第3页和第11页，没有添加额外信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      10,
+      3,
+      11,
+      8,
+      10
+    ],
+    "retrieval_hit": true,
+    "time_s": 33.47
+  },
+  {
+    "question": "如何更换拖布？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      18
+    ],
+    "answer": "根据现有说明书内容，更换拖布的步骤如下：\n\n1. 从拖布支架上移除旧拖布。\n2. 如果新拖布需要清洗，请先清洗并晾晒。\n3. 沿着拖布支架的插槽将新拖布插入到底，并粘贴牢固。\n\n注意：震动拖布支架不可拆卸，拖布通过插槽和粘贴区域固定。[来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第18页; 第7页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 0.95,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "352520c1",
+        "192e04de"
+      ],
+      "reason": "ANSWER中的更换拖布步骤完全基于CONTEXT：第18页提供了移除、清洗晾晒、插入粘贴的步骤；第7页补充了拖布支架不可拆卸及固定方式。未发现与CONTEXT矛盾或超出范围的内容。"
+    },
+    "retry_count": 1,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide",
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      18,
+      8,
+      24,
+      15,
+      7
+    ],
+    "retrieval_hit": true,
+    "time_s": 52.45
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      6,
+      13
+    ],
+    "answer": "根据说明书，机器人具备地毯识别传感器，可自动识别地毯并触发拖布支架升降 [来源: 第6页]。在扫拖模式下，机器人默认会收起拖布支架来清扫地毯，但用户也可以在手机APP中选择避开地毯 [来源: 第13页]。同时需注意，本产品**请勿用于清扫长毛地毯**，部分深色地毯也可能无法正常清扫 [来源: 第3页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "2a775284",
+        "868645e0",
+        "f045cc8c"
+      ],
+      "reason": "ANSWER中所有声明均直接来源于CONTEXT中的对应页面，无额外添加或推断。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      6,
+      13,
+      3,
+      14,
+      24
+    ],
+    "retrieval_hit": true,
+    "time_s": 32.96
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      9
+    ],
+    "answer": "根据现有说明书内容无法回答此问题。说明书中仅在“个性清洁方式”中提及“禁区虚拟墙”功能[来源: 第14页]，但未说明具体设置步骤。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "9c81d4bb"
+      ],
+      "reason": "ANSWER明确引用了CONTEXT中第14页关于“禁区虚拟墙”的提及，并指出未说明具体设置步骤，这完全基于CONTEXT的事实陈述，没有添加或偏离外部信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      14,
+      10,
+      6,
+      8,
+      10
+    ],
+    "retrieval_hit": false,
+    "time_s": 26.19
+  },
+  {
+    "question": "主刷被缠绕了怎么处理？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      16
+    ],
+    "answer": "根据说明书，主刷被缠绕时的处理步骤如下：\n\n1. **准备**：翻转机器人，压下卡扣取下主刷罩 [来源: Roborock G10S 用户手册, 第15页]。\n2. **取出主刷**：取出软胶主刷，拔出软胶主刷轴承，按解锁标志方向旋转并取下软胶主刷盖 [来源: 第16页]。\n3. **清理缠绕物**：清除软胶主刷两端缠绕的毛发或脏物。注意：主刷脏污建议用湿布擦拭，勿使用腐蚀性清洁液 [来源: 第16页]。\n4. **装回**：将软胶主刷装回机器人，再将软胶主刷罩装回，确保4齿插入对应卡槽并压紧固定卡扣 [来源: 第16页]。\n\n此外，常见问题中提示，若清扫时有异响应先停机清理主刷缠绕物 [来源: 第24页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "a22c07ac",
+        "73ba0f2f",
+        "96a806c4"
+      ],
+      "reason": "ANSWER中所有步骤和引用均直接来源于CONTEXT中的第15页、第16页和第24页，未添加任何外部信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      16,
+      24,
+      15,
+      8,
+      6
+    ],
+    "retrieval_hit": true,
+    "time_s": 26.74
+  },
+  {
+    "question": "清水箱需要加什么水？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      3,
+      19
+    ],
+    "answer": "根据说明书，清水箱需加入自来水，并可选择性加入石头官方清洁液（约15毫升）。[来源: Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第12页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "61b64302"
+      ],
+      "reason": "ANSWER中的描述与CONTEXT[1]中关于清水箱加水及添加清洁液的内容完全一致，没有其他来源的额外信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      12,
+      8,
+      6,
+      19,
+      10
+    ],
+    "retrieval_hit": true,
+    "time_s": 25.61
+  },
+  {
+    "question": "指示灯的几种颜色分别代表什么？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      5,
+      8
+    ],
+    "answer": "根据说明书内容，指示灯分为**机器人电源指示灯**和**基座状态指示灯**，它们的颜色含义不同：\n\n### 机器人电源指示灯（位于机器人顶部）\n- **白色**：电量≥20% [来源: 第5页，第11页]  \n- **红色**：电量＜20% [来源: 第5页，第11页]  \n- **呼吸闪烁**：充电或启动中 [来源: 第5页]  \n- **红色快闪**：异常状态 [来源: 第5页]\n\n### 基座状态指示灯（位于基座上）\n- **呼吸闪烁**（白色或其他颜色）：集尘或清洁拖布中 [来源: 第8页]  \n- **红色（长亮）**：基座状态异常 [来源: 第8页，第11页]  \n- **熄灭**：未通电或机器人充电中 [来源: 第8页，第11页]  \n- **通电时长亮**（通常白色），机器人充电时熄灭 [来源: 第11页]\n\n请根据具体指示灯所在位置判断对应含义。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "a4ab3706",
+        "27080450",
+        "c6bc5158",
+        "1999dabd"
+      ],
+      "reason": "ANSWER中关于机器人电源指示灯和基座状态指示灯的描述均可在CONTEXT中找到对应原文，引用准确无误。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      11,
+      8,
+      11,
+      5,
+      5
+    ],
+    "retrieval_hit": true,
+    "time_s": 37.18
+  },
+  {
+    "question": "如何恢复出厂设置？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      14
+    ],
+    "answer": "在开机状态下，长按 **键** 的同时按一次 **系统重置键**，直到语音提示“开始恢复初始设置，大约需要5分钟，请耐心等待”，机器人将恢复到出厂状态。[来源: D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第14页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "9c81d4bb"
+      ],
+      "reason": "ANSWER中的描述与CONTEXT[1]中关于恢复出厂设置的说明完全一致，包括开机状态、长按键的同时按系统重置键、语音提示内容及等待时间，未引入任何额外信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      14,
+      6,
+      12,
+      23,
+      13
+    ],
+    "retrieval_hit": true,
+    "time_s": 29.87
+  },
+  {
+    "question": "机器人为什么一直回充？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      14,
+      24
+    ],
+    "answer": "根据现有说明书内容无法回答此问题。[来源: 无相关信息]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [],
+      "reason": "ANSWER声明根据现有说明书内容无法回答此问题，而CONTEXT中确实没有提供任何具体问题及其答案，因此该声明完全基于CONTEXT的缺失信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      24,
+      24,
+      5,
+      14,
+      13
+    ],
+    "retrieval_hit": true,
+    "time_s": 38.18
+  },
+  {
+    "question": "可以遥控机器人吗？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      2
+    ],
+    "answer": "可以遥控机器人。根据说明书，在“个性清洁方式”中包含了“遥控模式”功能，用户可以通过Roborock APP实现遥控操作。[来源: 第1页, 第14页] 同时，说明书建议在APP中解锁更多功能，其中包括遥控模式。[来源: 第4页, 第2页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "9c81d4bb",
+        "1e62ac5e"
+      ],
+      "reason": "ANSWER中的遥控模式功能直接来自CONTEXT中第14页的'个性清洁方式'列表中的'遥控模式'，以及第2页关于APP下载的说明。所有信息均可在CONTEXT中找到，没有额外或矛盾的内容。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      14,
+      3,
+      6,
+      2,
+      5
+    ],
+    "retrieval_hit": true,
+    "time_s": 37.3
+  },
+  {
+    "question": "如何清洁集尘盒？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      17
+    ],
+    "answer": "根据说明书，清洁机器人上的尘盒（即集尘盒）步骤如下 [来源: 第17页]：\n\n1. 打开机器人上盖，取出尘盒。\n2. 打开尘盒盖并倾倒垃圾。\n3. 在尘盒中注入清水后关闭尘盒盖，左右摇晃尘盒，倒出脏水。**注意**：请用清水清洗，不要添加任何洗涤剂，否则可能造成滤网堵塞。\n4. 晾干尘盒及可水洗滤网。\n\n另外，滤网也需要单独清洁：打开滤网上盖，取出滤网，反复冲洗并将污垢轻敲出来，直至干净为止。禁止用手、刷子或者尖锐物触碰滤网表面，以免损伤滤网。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "44f4946e"
+      ],
+      "reason": "ANSWER中的清洁尘盒和滤网步骤完全来自CONTEXT第17页，没有添加或篡改信息。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      17,
+      20,
+      21,
+      24,
+      8
+    ],
+    "retrieval_hit": true,
+    "time_s": 30.54
+  },
+  {
+    "question": "机器人会不会从楼梯摔下去？",
+    "label": "fixed",
+    "modality": "image",
+    "gold_pages": [
+      6
+    ],
+    "answer": "根据说明书，机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，防止机器人跌落 [来源: 第6页]。但请注意，如果在楼梯口摆放地垫、鞋子等低矮物体，可能干扰悬崖传感器正常工作，导致跌落风险 [来源: 第3页]。因此，正常使用情况下机器人不会摔下楼梯，但需确保传感器不被遮挡或干扰。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "2a775284",
+        "799e1cb0"
+      ],
+      "reason": "ANSWER中关于悬崖传感器防止跌落以及可能被低矮物体干扰的信息均来自CONTEXT中的第6页和第3页，没有超出CONTEXT的内容。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      6,
+      3,
+      8,
+      9,
+      11
+    ],
+    "retrieval_hit": true,
+    "time_s": 36.62
+  },
+  {
+    "question": "开机后机器人不动怎么办？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      5,
+      24
+    ],
+    "answer": "根据现有说明书内容无法回答此问题。说明书中未提及开机后机器人不动的解决方法。建议检查机器人是否处于待命状态（电源指示灯是否亮起），或尝试按说明书第14页的“重置系统”操作（短按系统重置键）[来源: D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf, 第14页]。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 0.9,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "96a806c4",
+        "9c81d4bb",
+        "61b64302",
+        "1999dabd"
+      ],
+      "reason": "ANSWER中‘无法回答此问题’基于CONTEXT未提及该问题；‘检查待命状态’可引申自CONTEXT中电源指示灯和开机状态说明；‘重置系统’操作明确来自第14页。所有陈述均可在CONTEXT中找到依据或合理推断，无外部信息引入。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      24,
+      14,
+      12,
+      11,
+      12
+    ],
+    "retrieval_hit": true,
+    "time_s": 48.29
+  },
+  {
+    "question": "设备的保修期是多久？",
+    "label": "fixed",
+    "modality": "text",
+    "gold_pages": [
+      25
+    ],
+    "answer": "根据说明书，设备（机器人、基座、电源线）的整机保修期限为 **2 年**。[来源: 第25页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "f20e1499"
+      ],
+      "reason": "ANSWER中的保修期限为2年，与CONTEXT第25页中明确描述的整机保修期限完全一致，且列举的设备范围（机器人、基座、电源线）也与上下文相同。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      25,
+      25,
+      10,
+      3,
+      8
+    ],
+    "retrieval_hit": true,
+    "time_s": 25.42
+  },
+  {
+    "question": "这个设备能在火星上使用吗？",
+    "label": "out_of_scope",
+    "modality": "text",
+    "gold_pages": [],
+    "answer": "根据现有说明书内容无法回答此问题。说明书仅提到本产品“仅用于家居环境的地面清洁”并“仅限于中国大陆地区销售和使用”，未涉及任何关于火星环境的使用说明。[来源: 安全信息, 第3页]",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "f045cc8c"
+      ],
+      "reason": "ANSWER引用了CONTEXT中关于产品使用限制的描述，说明说明书未涉及火星环境，完全基于CONTEXT。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      8,
+      10,
+      3,
+      3,
+      9
+    ],
+    "retrieval_hit": null,
+    "time_s": 29.37
+  },
+  {
+    "question": "如何更换核聚变反应堆？",
+    "label": "nonsense",
+    "modality": "text",
+    "gold_pages": [],
+    "answer": "根据现有说明书内容无法回答此问题。说明书内容仅涉及扫地机器人及其基座的日常维护、部件更换（如尘袋、滤网、刷子等），未提及任何关于核聚变反应堆的信息。",
+    "final_status": "verified",
+    "verification_result": {
+      "supported": true,
+      "confidence": 1.0,
+      "unsupported_claims": [],
+      "evidence_chunk_ids": [
+        "a821fd81",
+        "2a775284",
+        "66b1a5f2",
+        "9b8f6f7e",
+        "d062551c"
+      ],
+      "reason": "ANSWER指出说明书未提及核聚变反应堆，与CONTEXT中仅包含扫地机器人及其基座维护、部件更换等内容完全一致，因此ANSWER完全基于CONTEXT。"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "generate",
+      "verify",
+      "decide"
+    ],
+    "retrieved_pages": [
+      8,
+      6,
+      23,
+      20,
+      15
+    ],
+    "retrieval_hit": null,
+    "time_s": 28.92
+  }
+]

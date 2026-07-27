@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "question_id": 56,
+      "faithfulness": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": 57,
+      "faithfulness": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": 58,
+      "faithfulness": 0.75,
+      "context_precision": 0.8056,
+      "context_recall": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": 59,
+      "faithfulness": null,
+      "context_precision": 0.5,
+      "context_recall": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "question_id": 60,
+      "faithfulness": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "answer_relevancy": 1.0
+    }
+  ]
+}

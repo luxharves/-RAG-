@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Exclude scripts from test collection — smoke_test.py has API-calling
+# test_* functions meant for direct invocation only.
+norecursedirs = ["scripts"]

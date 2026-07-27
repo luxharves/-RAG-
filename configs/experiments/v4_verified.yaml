@@ -1,0 +1,9 @@
+name: v4_verified
+version: V4
+features:
+  multimodal: true
+  hybrid_retrieval: true
+  reranker: true
+  verify_node: true
+workflow:
+  max_retries: 1

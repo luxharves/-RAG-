@@ -1,0 +1,52 @@
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_precision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_precision
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_recall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_recall
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import faithfulness
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_precision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_precision
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_recall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_recall
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import faithfulness
+  from ragas.metrics import context_precision, context_recall, faithfulness
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 391/391 [00:00<00:00, 26638.07it/s]
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\Lenovo\AppData\Local\Temp\jieba.cache
+Loading model cost 0.595 seconds.
+Prefix dict has been built successfully.
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 393/393 [00:00<00:00, 6209.64it/s]
+I0719 21:12:11.021695   40160 chttp2_transport.cc:1391] ipv4:127.0.0.1:62306: Got goaway [11] err=UNAVAILABLE:GOAWAY received; Error code: 11; Debug Text: too_many_pings {http2_error:11}
+E0719 21:12:11.023432   40160 chttp2_transport.cc:1423] ipv4:127.0.0.1:62306: Received a GOAWAY with error code ENHANCE_YOUR_CALM and debug data equal to "too_many_pings". Current keepalive time (before throttling): 10000ms
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_precision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_precision
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing context_recall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_recall
+  from ragas.metrics import context_precision, context_recall, faithfulness
+D:\Agentproject1\scripts\final_evaluation.py:263: DeprecationWarning: Importing faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import faithfulness
+  from ragas.metrics import context_precision, context_recall, faithfulness
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[3]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+I0719 21:28:02.857787   43800 chttp2_transport.cc:1391] ipv4:127.0.0.1:62306: Got goaway [11] err=UNAVAILABLE:GOAWAY received; Error code: 11; Debug Text: too_many_pings {http2_error:11}
+E0719 21:28:02.862668   43800 chttp2_transport.cc:1423] ipv4:127.0.0.1:62306: Received a GOAWAY with error code ENHANCE_YOUR_CALM and debug data equal to "too_many_pings". Current keepalive time (before throttling): 10000ms
+Exception raised in Job[12]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[12]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[3]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[9]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[12]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[14]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[3]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[0]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[9]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[9]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[9]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[12]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)
+Exception raised in Job[6]: IncompleteOutputException(The output is incomplete due to a max_tokens length limit.)

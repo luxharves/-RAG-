@@ -1,0 +1,270 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "reference_answer": "检查电源线是否连接正确，确保电源开关已打开。",
+    "question_type": "troubleshooting",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      24
+    ],
+    "reference_context": "无法开机 — 电池电量不足，请先靠上基座充电后再使用；电池温度过低或过高，请在0-40℃ 环境下使用。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "reference_answer": "使用柔软的干布轻轻擦拭传感器表面。",
+    "question_type": "maintenance",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      15,
+      18
+    ],
+    "reference_context": "用柔软干布擦拭清理主机各传感器，包括：回充传感器、避障传感器、沿墙传感器、地毯识别传感器、悬崖传感器。维护频率：每1个月清理。",
+    "modality_required": "text"
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "reference_answer": "支持清扫、拖地、扫拖一体等模式。",
+    "question_type": "feature",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "reference_context": "扫拖方式、清扫吸力、擦地强度、拖地偏好、洗布模式、集尘模式均可在APP中调节。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何连接手机APP？",
+    "reference_answer": "下载对应APP后按照提示添加设备即可。",
+    "question_type": "setup",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      12
+    ],
+    "reference_context": "重置WiFi：打开机器人上盖，同时按住两个键直到语音提示'重置WiFi，进入配网模式'。打开手机APP首页，点击'+'添加设备。",
+    "modality_required": "text"
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "reference_answer": "取出污水箱，倒掉污水并用清水冲洗干净后重新安装。",
+    "question_type": "maintenance",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      19
+    ],
+    "reference_context": "打开污水箱上盖倾倒污水后接入自来水，关闭水箱上盖扣紧卡扣并摇晃水箱。清洗完成后倒出污水，再次关紧水箱上盖并装回使用。",
+    "modality_required": "text"
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "reference_answer": "可能处于强力模式，或滚刷需要清理。",
+    "question_type": "troubleshooting",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      24
+    ],
+    "reference_context": "清扫时有异响 — 主刷、边刷或主轮可能缠绕异物，请停机后清理；万向轮清扫中进灰或被缠绕。",
+    "modality_required": "text"
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "reference_answer": "靠墙放置，左右各留0.5米空间，前方留1.5米空间。",
+    "question_type": "setup",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      10,
+      11
+    ],
+    "reference_context": "在硬质水平地面靠墙放置基座，且两侧有0.5米、前方有1.5米、上方有1米以上空间，确保WiFi信号覆盖良好。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何更换拖布？",
+    "reference_answer": "将旧拖布从魔术贴上取下，粘贴新拖布即可。",
+    "question_type": "maintenance",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      18
+    ],
+    "reference_context": "从拖布支架上移除拖布，清洗拖布并晾晒，沿着拖布支架的插槽处将拖布插入到底并粘贴牢固。",
+    "modality_required": "text"
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "reference_answer": "可以自动识别地毯并提升拖布。",
+    "question_type": "feature",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "human_reviewed",
+    "gold_pages": [
+      6,
+      13
+    ],
+    "reference_context": "机器人将默认收起拖布支架清扫地毯，可以在手机 APP 中选择避开地毯。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "reference_answer": "在APP地图中设置禁区和虚拟墙。",
+    "question_type": "setup",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      9
+    ],
+    "reference_context": "如果某些区域不需要清扫或可能卡住主机，可在手机APP中设置软件禁区，阻挡主机进入上述区域。",
+    "modality_required": "text"
+  },
+  {
+    "question": "主刷被缠绕了怎么处理？",
+    "reference_answer": "关闭电源后使用工具清理缠绕物。",
+    "question_type": "troubleshooting",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      16
+    ],
+    "reference_context": "取出软胶主刷，拔出软胶主刷轴承，按解锁标志方向旋转并取下软胶主刷盖，清除软胶主刷两端缠绕的毛发或脏物。",
+    "modality_required": "text"
+  },
+  {
+    "question": "清水箱需要加什么水？",
+    "reference_answer": "建议使用清水，必要时可加入专用清洁液。",
+    "question_type": "maintenance",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      3,
+      19
+    ],
+    "reference_context": "请勿在水箱中添加任何非官方清洁液/消毒剂；建议使用清水，必要时可加入官方清洁液。",
+    "modality_required": "text"
+  },
+  {
+    "question": "指示灯的几种颜色分别代表什么？",
+    "reference_answer": "白色常亮为正常工作，红色为故障，橙色为充电中。",
+    "question_type": "feature",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      5,
+      8
+    ],
+    "reference_context": "电源指示灯：白色电量≥20%、红色电量＜20%、呼吸闪烁充电或启动中、红色快闪异常状态。状态指示灯：呼吸闪烁集尘/清洁拖布中、红色基座异常、熄灭未通电或充电中。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何恢复出厂设置？",
+    "reference_answer": "长按复位键3秒以上直到听到提示音。",
+    "question_type": "setup",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      14
+    ],
+    "reference_context": "在开机状态下长按回充键的同时按一次系统重置键，直到语音提示'开始恢复初始设置，大约需要5分钟，请耐心等待'。",
+    "modality_required": "text"
+  },
+  {
+    "question": "机器人为什么一直回充？",
+    "reference_answer": "电量低于设定阈值时会自动回充，属正常现象。",
+    "question_type": "troubleshooting",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      14,
+      24
+    ],
+    "reference_context": "清洁结束后机器人自动返回基座充电。无法回充：基座附近障碍物太多，请将基座放到开阔区域；机器人距离基座太远。",
+    "modality_required": "text"
+  },
+  {
+    "question": "可以遥控机器人吗？",
+    "reference_answer": "可通过APP的遥控功能手动控制机器人方向。",
+    "question_type": "feature",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      2
+    ],
+    "reference_context": "您可以扫描二维码或在应用商店中下载Roborock APP，连接机器人，解锁更多功能。可通过APP的遥控功能手动控制机器人方向。",
+    "modality_required": "text"
+  },
+  {
+    "question": "如何清洁集尘盒？",
+    "reference_answer": "打开上盖取出集尘盒，倒掉灰尘后可用水冲洗滤网。",
+    "question_type": "maintenance",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      17
+    ],
+    "reference_context": "打开机器人上盖取出尘盒，打开尘盒盖并倾倒垃圾。尘盒中注入清水后关闭尘盒盖，左右摇晃尘盒倒出脏水。晾干尘盒及可水洗滤网。",
+    "modality_required": "text"
+  },
+  {
+    "question": "机器人会不会从楼梯摔下去？",
+    "reference_answer": "底部装有悬崖传感器，可检测高差并自动避让。",
+    "question_type": "feature",
+    "source_document": "Roborock G10S",
+    "difficulty": "easy",
+    "review_status": "human_reviewed",
+    "gold_pages": [
+      6
+    ],
+    "reference_context": "机器人底部装有悬崖传感器，可检测台阶等高差并自动避让，防止从高处跌落。",
+    "modality_required": "image"
+  },
+  {
+    "question": "开机后机器人不动怎么办？",
+    "reference_answer": "检查是否处于暂停状态，或电池是否已耗尽需充电。",
+    "question_type": "troubleshooting",
+    "source_document": "Roborock G10S",
+    "difficulty": "medium",
+    "review_status": "human_reviewed",
+    "gold_pages": [
+      5,
+      24
+    ],
+    "reference_context": "短按清扫/开关机键启动清扫。无法开机：电池电量不足，请先靠上基座充电后再使用；电池温度过低或过高请在0-40℃环境下使用。",
+    "modality_required": "text"
+  },
+  {
+    "question": "设备的保修期是多久？",
+    "reference_answer": "整机保修一年，主要部件保修三年，具体以购买凭证为准。",
+    "question_type": "warranty",
+    "source_document": "Roborock G10S",
+    "difficulty": "hard",
+    "review_status": "ai_annotated",
+    "gold_pages": [
+      25
+    ],
+    "reference_context": "整机（机器人包含内置锂离子电池；基座；电源线）保修期限：2年。",
+    "modality_required": "text"
+  }
+]

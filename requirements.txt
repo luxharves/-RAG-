@@ -1,0 +1,30 @@
+# ── Core dependencies ──
+
+# Configuration
+pydantic-settings>=2.0
+python-dotenv>=0.21
+
+# Deep learning
+torch>=2.0
+sentence-transformers>=2.7
+
+# Vector database (Milvus Lite for dev)
+pymilvus>=2.4
+milvus-lite>=3.0
+
+# OpenAI-compatible API client
+openai>=1.0
+
+# PDF parsing
+pymupdf>=1.28
+
+# YAML config
+pyyaml>=6.0
+
+# RAG evaluation (Phase 2)
+ragas==0.4.3
+langchain-openai>=0.3
+datasets>=2.0
+
+# Testing
+pytest>=7.0

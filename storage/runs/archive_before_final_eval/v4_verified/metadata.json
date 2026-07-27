@@ -1,0 +1,16 @@
+{
+  "experiment": "v4_verified",
+  "version": "V4",
+  "total_cases": 22,
+  "verified": 21,
+  "refused": 1,
+  "retried": 3,
+  "fixed_questions": 20,
+  "edge_cases": 2,
+  "edge_cases_results": {
+    "out_of_scope": "refused",
+    "nonsense": "refused"
+  },
+  "edge_cases_verified": 0,
+  "edge_cases_refused": 2
+}
