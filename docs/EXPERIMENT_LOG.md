@@ -165,3 +165,28 @@
 - V0 低是因为 v0_naive_rag 是单文档 collection,对 Ecovacs 15 题无法检索(doc_filter 返回空)→ 拖低整体。V1+ 用多模态 collection + doc 过滤后大幅提升。
 - 评测命令(后台长任务会被环境杀,V3/V4 用 `scripts/run_retrieval_batch.py` 分批 ~7 次跑完):
   `python scripts/final_evaluation.py --dataset golden_extended.json --run-dir storage/runs/final_eval_extended_full --retrieval-only`
+
+## V9 语义缓存
+
+`/query` 两级缓存(精确 SHA256 + 语义 BGE-M3 余弦 >0.9),命中直接返回,SQLite 持久化。
+
+### 评测结果(预热 12 题 + 重跑 + 12 释义变体)
+
+| 指标 | 值 |
+|---|---|
+| 精确重跑命中 | **12/12 (100%)** |
+| 命中延迟 | **31ms** |
+| 未命中(全管线) | ~20s 基线(评测时 DeepSeek 慢达 113s) |
+| 释义变体命中(0.9 阈值) | 4/12 (33%) |
+| 整体命中率(重跑+释义) | 67% |
+| LLM 调用节省 | 12 次(精确重跑) |
+
+### 关键发现:阈值标定是双峰分布
+
+- 释义变体对原句的余弦 **双峰**:4 条近似重复(0.93-0.99,命中);8 条松散改写(0.63-0.75,**任何合理阈值都抓不住**)。
+- 结论:**语义缓存抓"近似重复",不抓"完全改写"** —— 与生产实践一致(Redis 推荐阈值 0.85-0.95);threshold 0.9 正确(近重复命中、松散改写不误命中)。
+- 精确命中 31ms vs 全管线 ~20s ≈ **600x 加速**;LLM 调用按命中数线性节省。
+
+### 评测命令
+
+`python scripts/eval_cache.py --warm 12` → `storage/runs/v9_cache/cache_eval.json`

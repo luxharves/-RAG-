@@ -2,10 +2,10 @@
 
 ## 当前状态
 
-- 当前阶段：Phase 12 (V8 数据强化)
+- 当前阶段：Phase 13 (V9 语义缓存)
 - 阶段状态：PASS
-- 当前版本：V8 多文档 + 多模态 + FastAPI + React 全栈
-- 最近完成：golden_extended.json(123 题,图片题 1→9);Ecovacs 第二本说明书摄入;检索链 doc 级过滤贯通;check_doc_filter 隔离验证通过
+- 当前版本：V9 语义缓存 + 多文档多模态 + FastAPI + React 全栈
+- 最近完成：/query 两级缓存(精确 SHA256 + 语义余弦);缓存命中 ~31ms(全管线 ~20s+),精确重跑 100% 命中;前端缓存命中徽标
 - 已知限制：Milvus Lite 单进程；交叉编码器对"主题相关编造"仍有边界（弗兰肯斯坦局限）；熔断状态仅进程内（uvicorn 重启重置，无 Redis）；Ecovacs 手册三语全量摄入（FR/ES 为噪音）
 
 ## Phase 7 — 增量更新

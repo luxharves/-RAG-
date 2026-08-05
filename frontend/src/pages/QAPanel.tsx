@@ -131,7 +131,14 @@ export function QAPanel() {
             <span className={`badge ${statusCfg?.cls || "badge-neutral"}`}>
               {statusCfg?.label || result.final_status}
             </span>
-            <span className="muted" style={{ fontSize: "var(--text-sm)" }}>耗时 {result.timing_s}s</span>
+            <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+              {result.cache_hit && (
+                <span className="badge badge-success">⚡ 缓存命中 {result.cache_source === "semantic" ? "(语义)" : ""}</span>
+              )}
+              <span className="muted" style={{ fontSize: "var(--text-sm)" }}>
+                耗时 {result.timing_s}s{result.cache_hit ? "（缓存，~50ms 级）" : ""}
+              </span>
+            </div>
           </div>
 
           {/* Answer */}

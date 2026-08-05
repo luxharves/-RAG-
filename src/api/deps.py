@@ -145,6 +145,18 @@ def get_vqa():
 
 
 @lru_cache
+def get_semantic_cache():
+    from src.infra.semantic_cache import SemanticCache
+    s = get_settings()
+    return SemanticCache(
+        embedder=get_embedder(),
+        db_path=PROJECT_ROOT / s.cache_db_path,
+        threshold=s.cache_threshold,
+        ttl_days=s.cache_ttl_days,
+    )
+
+
+@lru_cache
 def get_incremental_indexer():
     from src.ingestion.manifest import ManifestStore
     from src.ingestion.incremental import IncrementalIndexer

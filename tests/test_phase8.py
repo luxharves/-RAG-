@@ -20,9 +20,12 @@ def client():
          patch("src.api.deps.get_retriever") as mock_ret, \
          patch("src.api.deps.get_vqa") as mock_vqa, \
          patch("src.api.deps.get_bm25") as mock_bm, \
-         patch("src.api.deps.get_latest_v1_collection") as mock_col:
+         patch("src.api.deps.get_latest_v1_collection") as mock_col, \
+         patch("src.api.routes.get_semantic_cache") as mock_cache:
 
         mock_col.return_value = "test_collection"
+        mock_cache.return_value = MagicMock()
+        mock_cache.return_value.get.return_value = None  # always a cache miss in tests
         mock_mc.return_value = MagicMock()
         mock_bm.return_value = MagicMock()
         mock_bm.return_value.num_docs = 48

@@ -61,6 +61,8 @@ export interface QueryResponse {
     }> | null;
   };
   timing_s: number;
+  cache_hit?: boolean;
+  cache_source?: "exact" | "semantic" | null;
 }
 
 export async function fetchQuery(req: QueryRequest): Promise<QueryResponse> {

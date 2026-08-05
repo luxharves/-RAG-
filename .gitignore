@@ -38,3 +38,6 @@ resume_text.txt
 
 # Local Claude settings
 .claude/settings.local.json
+
+# Semantic cache runtime db (recreated on demand)
+storage/semantic_cache.db

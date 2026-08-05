@@ -14,7 +14,7 @@ from pydantic import BaseModel
 from src.api.deps import (
     get_settings, get_retriever, get_vqa, get_embedder,
     get_milvus_client, get_latest_v1_collection, get_bm25,
-    get_incremental_indexer, PROJECT_ROOT,
+    get_incremental_indexer, get_semantic_cache, PROJECT_ROOT,
 )
 
 router = APIRouter()
@@ -36,6 +36,8 @@ class QueryResponse(BaseModel):
     evidence_chunk_ids: list[str]
     verification: dict
     timing_s: float
+    cache_hit: bool = False
+    cache_source: str | None = None  # "exact" | "semantic" | None
 
 
 class IngestResponse(BaseModel):
@@ -177,8 +179,22 @@ async def list_documents():
 
 @router.post("/query", response_model=QueryResponse)
 async def query(req: QueryRequest):
-    """Answer using V4 (LangGraph) pipeline."""
+    """Answer using V4 (LangGraph) pipeline, with a V9 semantic cache fast-path."""
     t0 = time.perf_counter()
+    settings = get_settings()
+
+    # ── V9 semantic cache: exact (SHA256) then semantic (BGE-M3 cosine) ──
+    cache = None
+    if settings.cache_enabled:
+        cache = get_semantic_cache()
+        cached = cache.get(req.question)
+        if cached is not None:
+            resp, source = cached
+            resp["cache_hit"] = True
+            resp["cache_source"] = source
+            resp["timing_s"] = round(time.perf_counter() - t0, 2)
+            return QueryResponse(**resp)
+
     vqa = get_vqa()
     state = vqa.run(req.question)
 
@@ -193,7 +209,7 @@ async def query(req: QueryRequest):
         })
 
     vr = state.get("verification_result", {})
-    return QueryResponse(
+    resp = QueryResponse(
         question=req.question,
         answer=state.get("answer", ""),
         final_status=state.get("final_status", "refused"),
@@ -210,6 +226,9 @@ async def query(req: QueryRequest):
         },
         timing_s=round(time.perf_counter() - t0, 2),
     )
+    if cache is not None:
+        cache.put(req.question, resp.model_dump())
+    return resp
 
 
 @router.post("/evaluate")

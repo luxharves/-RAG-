@@ -66,6 +66,12 @@ class Settings(BaseSettings):
     llm_api_key_3: str = ""
     llm_model_3: str = ""
 
+    # ── V9 semantic cache ──
+    cache_enabled: bool = True
+    cache_threshold: float = 0.9        # cosine for a semantic (paraphrase) hit
+    cache_ttl_days: int | None = None   # None = never expires (fixed KB)
+    cache_db_path: str = "storage/semantic_cache.db"
+
     @property
     def project_root(self) -> Path:
         """Absolute path to the project root directory."""
