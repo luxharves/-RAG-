@@ -1,0 +1,2731 @@
+[
+  {
+    "question_id": 0,
+    "question": "设备无法开机怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      10,
+      8,
+      23,
+      9
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 1,
+    "question": "如何清洁机器人的传感器？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15,
+      18
+    ],
+    "retrieved_pages": [
+      6,
+      15,
+      5,
+      24,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "扫地机器人支持哪些清洁模式？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      14,
+      13,
+      6,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "如何连接手机APP？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      10,
+      11,
+      10,
+      12,
+      2
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "污水箱满了怎么处理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      19
+    ],
+    "retrieved_pages": [
+      19,
+      24,
+      24,
+      21,
+      17
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "机器人工作时噪音大是什么原因？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      6,
+      24,
+      5,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "充电座应该放在什么位置？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      10,
+      11
+    ],
+    "retrieved_pages": [
+      10,
+      3,
+      11,
+      8,
+      10
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "如何更换拖布？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      18
+    ],
+    "retrieved_pages": [
+      18,
+      8,
+      24,
+      15,
+      7
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "机器人能清扫地毯吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      6,
+      13
+    ],
+    "retrieved_pages": [
+      6,
+      13,
+      3,
+      14,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "如何设置虚拟墙？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      9
+    ],
+    "retrieved_pages": [
+      14,
+      10,
+      6,
+      8,
+      10
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "主刷被缠绕了怎么处理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      16
+    ],
+    "retrieved_pages": [
+      16,
+      24,
+      15,
+      8,
+      6
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "清水箱需要加什么水？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3,
+      19
+    ],
+    "retrieved_pages": [
+      12,
+      8,
+      6,
+      19,
+      10
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "指示灯的几种颜色分别代表什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5,
+      8
+    ],
+    "retrieved_pages": [
+      11,
+      8,
+      11,
+      5,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "如何恢复出厂设置？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      6,
+      12,
+      23,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "机器人为什么一直回充？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14,
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      24,
+      5,
+      14,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "可以遥控机器人吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      2
+    ],
+    "retrieved_pages": [
+      14,
+      3,
+      6,
+      2,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 16,
+    "question": "如何清洁集尘盒？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      17
+    ],
+    "retrieved_pages": [
+      17,
+      20,
+      21,
+      24,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 17,
+    "question": "机器人会不会从楼梯摔下去？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      6
+    ],
+    "retrieved_pages": [
+      6,
+      3,
+      9,
+      11,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 18,
+    "question": "开机后机器人不动怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5,
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      14,
+      12,
+      11,
+      12
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 19,
+    "question": "设备的保修期是多久？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      25
+    ],
+    "retrieved_pages": [
+      25,
+      25,
+      10,
+      3,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 20,
+    "question": "APP的个性清洁方式包括哪些？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      14,
+      24,
+      3,
+      9
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 21,
+    "question": "风道堵塞时如何清理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      21
+    ],
+    "retrieved_pages": [
+      21,
+      24,
+      17,
+      24,
+      20
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 22,
+    "question": "基座LED红色常亮是什么原因？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      23,
+      24,
+      23,
+      8,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 23,
+    "question": "错误42是什么原因？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      6,
+      23,
+      5,
+      7
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 24,
+    "question": "哪些情况不能享受免费保修？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      25
+    ],
+    "retrieved_pages": [
+      25,
+      25,
+      8,
+      23,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 25,
+    "question": "报废前如何取出电池？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      23
+    ],
+    "retrieved_pages": [
+      23,
+      23,
+      3,
+      8,
+      10
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 26,
+    "question": "如何判断机器人是电量不足还是电池温度异常？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24,
+      5
+    ],
+    "retrieved_pages": [
+      23,
+      24,
+      11,
+      23,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 27,
+    "question": "从开箱到完成首次自动清扫的完整流程是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "retrieved_pages": [
+      9,
+      8,
+      13,
+      5,
+      12
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 28,
+    "question": "哪些行为会导致保修立即失效？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3,
+      25
+    ],
+    "retrieved_pages": [
+      3,
+      25,
+      8,
+      23,
+      25
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 29,
+    "question": "为什么机器人有时停在基座旁边但无法对接充电？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24,
+      11
+    ],
+    "retrieved_pages": [
+      24,
+      11,
+      24,
+      23,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 30,
+    "question": "集尘效果差可能是什么原因？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      24,
+      25,
+      26,
+      25
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 31,
+    "question": "说明书中提到的执行标准有哪些？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      6,
+      5,
+      10,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 32,
+    "question": "机器人工作时有哪些安全注意事项？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      3,
+      3,
+      11,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 33,
+    "question": "长时间不使用机器人应如何存放？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      3,
+      3,
+      23,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 34,
+    "question": "电源指示灯的颜色分别代表什么含义？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5,
+      8,
+      11
+    ],
+    "retrieved_pages": [
+      11,
+      11,
+      5,
+      5,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 35,
+    "question": "童锁功能如何开启和关闭？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5,
+      13
+    ],
+    "retrieved_pages": [
+      5,
+      13,
+      5,
+      6,
+      2
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 36,
+    "question": "首次清扫时应该注意什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      9,
+      13
+    ],
+    "retrieved_pages": [
+      9,
+      13,
+      3,
+      3,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 37,
+    "question": "局部清扫的范围是多大？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      13,
+      5,
+      8,
+      7
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 38,
+    "question": "机器人休眠多久后自动关机？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      23,
+      23,
+      12,
+      14
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 39,
+    "question": "清洁模式可以调节哪些参数？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      6,
+      14,
+      13,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 40,
+    "question": "重置系统后哪些设置会丢失？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      6,
+      23,
+      8,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 41,
+    "question": "银离子抑菌模块需要多久更换？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      12,
+      8,
+      7,
+      25
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 42,
+    "question": "万向轮如何拆卸清理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      16
+    ],
+    "retrieved_pages": [
+      16,
+      6,
+      17,
+      24,
+      15
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 43,
+    "question": "哪些传感器需要每1个月清理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      6,
+      18,
+      5,
+      6
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 44,
+    "question": "如何搬动基座？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      18
+    ],
+    "retrieved_pages": [
+      10,
+      18,
+      10,
+      3,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 45,
+    "question": "更换一次性尘袋时应注意什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      20
+    ],
+    "retrieved_pages": [
+      20,
+      8,
+      15,
+      17,
+      7
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 46,
+    "question": "拖布自清洁效果不佳怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      8,
+      13,
+      7,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 47,
+    "question": "为什么没有自动集尘？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      8,
+      14,
+      20,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 48,
+    "question": "为什么没有洗拖布？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      8,
+      14,
+      7,
+      18
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 49,
+    "question": "机器人突然漏扫是什么原因？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      24,
+      6,
+      24,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 50,
+    "question": "清扫中途电量不足回充但未续扫怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      13,
+      13,
+      5,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 51,
+    "question": "机器人的电池规格是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      23,
+      5,
+      22,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 52,
+    "question": "基座的额定输入电压范围是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      10,
+      8,
+      22,
+      22,
+      22
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 53,
+    "question": "集尘状态的功率是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      22,
+      22,
+      8,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 54,
+    "question": "七天无理由退货的条件是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      25
+    ],
+    "retrieved_pages": [
+      25,
+      10,
+      6,
+      7,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 55,
+    "question": "十五天换货的条件是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      25
+    ],
+    "retrieved_pages": [
+      25,
+      25,
+      8,
+      7,
+      23
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 56,
+    "question": "哪些耗材无保修期？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      25
+    ],
+    "retrieved_pages": [
+      25,
+      6,
+      10,
+      8,
+      23
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 57,
+    "question": "扫拖过程中断后能自动续扫吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      13,
+      12,
+      12,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 58,
+    "question": "清水箱每次加水可以加多少清洁液？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      12,
+      8,
+      19,
+      13,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 59,
+    "question": "机器人WiFi等待连接超时后会怎样？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      12,
+      6,
+      24,
+      14,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 60,
+    "question": "如何在APP中设置软件禁区？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      9,
+      14
+    ],
+    "retrieved_pages": [
+      9,
+      14,
+      10,
+      10,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 61,
+    "question": "扫拖时间少于多少分钟会默认扫拖两次？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      14,
+      5,
+      12,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 62,
+    "question": "运输机器人时应该注意什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      3,
+      3,
+      26,
+      9
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 63,
+    "question": "暂停状态下将机器人靠上基座充电会怎样？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      11,
+      23,
+      23,
+      14
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 64,
+    "question": "智能音箱可以控制机器人吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      3,
+      14,
+      6,
+      13,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 65,
+    "question": "软胶主刷罩安装到位的标准是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      16
+    ],
+    "retrieved_pages": [
+      6,
+      16,
+      24,
+      6,
+      15
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 66,
+    "question": "勿扰模式下机器人有什么行为变化？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      24,
+      24,
+      14,
+      6
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 67,
+    "question": "如果电池有渗出物接触到皮肤怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      23
+    ],
+    "retrieved_pages": [
+      23,
+      23,
+      3,
+      3,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 68,
+    "question": "软胶主刷盖如何取下？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      16
+    ],
+    "retrieved_pages": [
+      16,
+      15,
+      15,
+      6,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 69,
+    "question": "机器人进水了怎么办？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      17,
+      12,
+      19,
+      6,
+      23
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 70,
+    "question": "中国港澳台地区可以使用APP全部功能吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3,
+      26
+    ],
+    "retrieved_pages": [
+      3,
+      10,
+      14,
+      26,
+      14
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 71,
+    "question": "机器人的清扫路线规划是什么顺序？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      6,
+      14,
+      13,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 72,
+    "question": "机器人的使用温度范围是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      24,
+      3,
+      3,
+      6,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 73,
+    "question": "机器人在什么地面环境下不能使用？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      3,
+      11,
+      9,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 74,
+    "question": "可以在水箱中添加洗涤剂吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      17,
+      7,
+      19,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 75,
+    "question": "机器人包装箱内包含哪些配件？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      4
+    ],
+    "retrieved_pages": [
+      4,
+      6,
+      25,
+      5,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 76,
+    "question": "机器人的激光传感器安全吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      3,
+      3,
+      6,
+      5,
+      6
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 77,
+    "question": "震动拖布支架可以拆卸吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      7
+    ],
+    "retrieved_pages": [
+      7,
+      7,
+      18,
+      13,
+      6
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 78,
+    "question": "安装基座前需要移除什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      10
+    ],
+    "retrieved_pages": [
+      10,
+      10,
+      18,
+      8,
+      9
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 79,
+    "question": "基座底板的安装到位标志是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      10
+    ],
+    "retrieved_pages": [
+      10,
+      10,
+      8,
+      24,
+      16
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 80,
+    "question": "是否支持 5GHz WiFi？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      12,
+      6,
+      10,
+      7,
+      22
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 81,
+    "question": "机器人支持哪两款APP？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      11
+    ],
+    "retrieved_pages": [
+      11,
+      2,
+      14,
+      24,
+      12
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 82,
+    "question": "机器人充电时可以关机吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      12,
+      13,
+      5,
+      12,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 83,
+    "question": "勿扰模式的默认时间段是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      24,
+      6,
+      24,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 84,
+    "question": "软胶主刷的建议更换频率是多久？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      6,
+      25,
+      16,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 85,
+    "question": "边刷需要多久清理一次？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      6,
+      16,
+      25,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 86,
+    "question": "一次性尘袋需要多久更换？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      20,
+      15,
+      8,
+      7,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 87,
+    "question": "滤网可以用刷子清理吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      17
+    ],
+    "retrieved_pages": [
+      17,
+      21,
+      24,
+      8,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 88,
+    "question": "清洁尘盒时可以用洗涤剂吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      17
+    ],
+    "retrieved_pages": [
+      17,
+      7,
+      7,
+      24,
+      20
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 89,
+    "question": "高速自清洁刷卡扣如何操作？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      19
+    ],
+    "retrieved_pages": [
+      19,
+      15,
+      8,
+      8,
+      15
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 90,
+    "question": "清洗槽滤网安装到位的标志是什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      20
+    ],
+    "retrieved_pages": [
+      24,
+      24,
+      8,
+      20,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 91,
+    "question": "前三次使用需要充电十六小时吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      24
+    ],
+    "retrieved_pages": [
+      24,
+      22,
+      14,
+      25,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 92,
+    "question": "机器人的额定功率是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      22,
+      6,
+      5,
+      22
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 93,
+    "question": "充电时间需要多久？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      22,
+      24,
+      23,
+      13
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 94,
+    "question": "机器人的重量是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      6,
+      22,
+      5,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 95,
+    "question": "产品的售后服务电话是多少？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      23,
+      27
+    ],
+    "retrieved_pages": [
+      2,
+      23,
+      27,
+      23,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 96,
+    "question": "异常状态下机器人会怎样？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      23
+    ],
+    "retrieved_pages": [
+      23,
+      23,
+      5,
+      11,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 97,
+    "question": "机器人在工作过程中可以移动基座吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      11,
+      13,
+      24,
+      8,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 98,
+    "question": "机器人能同时扫地和拖地吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "retrieved_pages": [
+      13,
+      6,
+      14,
+      5,
+      9
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 99,
+    "question": "清洁结束后机器人会自动做什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      14
+    ],
+    "retrieved_pages": [
+      14,
+      13,
+      13,
+      6,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 100,
+    "question": "机器人的回充键长按有什么功能？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5
+    ],
+    "retrieved_pages": [
+      5,
+      14,
+      5,
+      13,
+      11
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 101,
+    "question": "机器人电源指示灯红色快闪代表什么？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      5
+    ],
+    "retrieved_pages": [
+      5,
+      23,
+      23,
+      11,
+      5
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 102,
+    "question": "机器人的碰撞缓冲传感器安装在哪个部位？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      6
+    ],
+    "retrieved_pages": [
+      6,
+      3,
+      6,
+      5,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 103,
+    "question": "机器人底部安装了哪些部件？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      6
+    ],
+    "retrieved_pages": [
+      6,
+      8,
+      5,
+      4,
+      24
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 104,
+    "question": "尘盒的滤网安装在上方还是下方？可以水洗吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      7
+    ],
+    "retrieved_pages": [
+      7,
+      7,
+      17,
+      20,
+      8
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 105,
+    "question": "基座的高速自清洁刷可以拆卸吗？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      8
+    ],
+    "retrieved_pages": [
+      8,
+      8,
+      10,
+      10,
+      19
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 106,
+    "question": "基座电源线插紧后，多余线材应该怎么处理？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      10
+    ],
+    "retrieved_pages": [
+      10,
+      10,
+      8,
+      13,
+      4
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 107,
+    "question": "取下电池时需要注意哪些事项？",
+    "source_document": "Roborock G10S",
+    "gold_pages": [
+      23
+    ],
+    "retrieved_pages": [
+      23,
+      23,
+      3,
+      3,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Roborock G10S Auto-Empty Wet and Dry Robot Vacuum User Manual_v1.0.pdf"
+    ]
+  },
+  {
+    "question_id": 108,
+    "question": "这款扫地机器人允许儿童当作玩具使用吗？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      3
+    ],
+    "retrieved_pages": [
+      61,
+      3,
+      31,
+      61,
+      3
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 109,
+    "question": "机器人可以在湿滑地面或有积水的表面上使用吗？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      47,
+      18,
+      27,
+      87
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 110,
+    "question": "部件安装到位的标志是什么声音？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      15
+    ],
+    "retrieved_pages": [
+      15,
+      55,
+      85,
+      74,
+      26
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 111,
+    "question": "机器人连接 App 需要什么网络条件？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      16,
+      26
+    ],
+    "retrieved_pages": [
+      16,
+      16,
+      75,
+      26,
+      45
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 112,
+    "question": "包装箱内含哪些组件？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      9
+    ],
+    "retrieved_pages": [
+      9,
+      68,
+      5,
+      69,
+      28
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 113,
+    "question": "机器人指示灯白色呼吸闪烁代表什么状态？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      12
+    ],
+    "retrieved_pages": [
+      12,
+      41,
+      71,
+      19,
+      70
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 114,
+    "question": "导航模块的激光测距检测范围是多少？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      13
+    ],
+    "retrieved_pages": [
+      13,
+      42,
+      72,
+      13,
+      72
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 115,
+    "question": "主刷建议多久清理一次？多久更换？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      20
+    ],
+    "retrieved_pages": [
+      20,
+      27,
+      56,
+      49,
+      79
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 116,
+    "question": "边刷建议多久更换？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      20
+    ],
+    "retrieved_pages": [
+      20,
+      25,
+      79,
+      67,
+      49
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 117,
+    "question": "滤网可以用手指或刷子清理吗？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      21
+    ],
+    "retrieved_pages": [
+      21,
+      50,
+      80,
+      31,
+      50
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 118,
+    "question": "如何清理主刷？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      22
+    ],
+    "retrieved_pages": [
+      22,
+      51,
+      17,
+      3,
+      21
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 119,
+    "question": "机器人无法连接 App 的常见原因有哪些？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      26
+    ],
+    "retrieved_pages": [
+      26,
+      85,
+      55,
+      56,
+      85
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 120,
+    "question": "机器人回站后不自动集尘的原因有哪些？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      28
+    ],
+    "retrieved_pages": [
+      28,
+      28,
+      87,
+      57,
+      87
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 121,
+    "question": "驱动轮卡住如何处理？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      29
+    ],
+    "retrieved_pages": [
+      29,
+      27,
+      88,
+      59,
+      59
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  },
+  {
+    "question_id": 122,
+    "question": "机器人的充电时间大约多久？",
+    "source_document": "Ecovacs DEEBOT T30C",
+    "gold_pages": [
+      30
+    ],
+    "retrieved_pages": [
+      48,
+      54,
+      25,
+      28,
+      84
+    ],
+    "retrieved_sources": [
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+      "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf"
+    ]
+  }
+]

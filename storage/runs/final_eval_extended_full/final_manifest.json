@@ -1,0 +1,17 @@
+{
+  "run_id": "final_eval_20260805_144201",
+  "timestamp": "2026-08-05T14:42:01",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_extended.json",
+  "dataset_sha256": "92830da0f2ed1a23f27d48dc5ad6077694dd59dd318353e50fe45844a9134a7e",
+  "source_documents": [
+    "Ecovacs DEEBOT T30C",
+    "Roborock G10S"
+  ],
+  "total_questions": 123,
+  "modality_counts": {
+    "text": 114,
+    "image": 9
+  },
+  "ragas_version": "0.4.3",
+  "versions": {}
+}

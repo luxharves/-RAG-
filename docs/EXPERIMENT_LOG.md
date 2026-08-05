@@ -151,8 +151,17 @@
 - **Ecovacs 题中文题面 + 英文 reference_contexts** —— 直接测 BGE-M3 跨语言检索;见 DECISIONS D-008。
 - Ecovacs 手册全量摄入含 FR/ES chunk,中文 query 靠英文 chunk 命中(可选后续只留英文页)。
 
-### 评测
+### 评测 (123 题检索-only,完整 V0-V4)
 
-- `scripts/final_evaluation.py` 泛化:`--dataset` / `--run-dir` / `--retrieval-only` / `--max-questions`;去掉硬编码 100。
-- 检索-only 冒烟(12 题)通过:V0-V4 在扩展集上正常跑,doc_filter 贯通无报错。
-- 完整 123 题检索-only 评测命令:`python scripts/final_evaluation.py --dataset golden_extended.json --run-dir storage/runs/final_eval_extended --retrieval-only`(V3/V4 rerank 较慢,~40-80 min)。
+| 版本 | Hit@5 | Recall@5 | MRR | Top-1 |
+|---|---|---|---|---|
+| V0 (Dense, 单文档) | 0.805 | 0.780 | 0.659 | 0.553 |
+| V1 (+多模态+doc过滤) | 0.911 | 0.882 | 0.771 | 0.675 |
+| V2 (+Hybrid) | 0.943 | 0.913 | 0.786 | 0.675 |
+| V3/V4 (+Reranker) | **0.976** | **0.959** | **0.892** | 0.829 |
+
+- 按文档拆分(V3/V4):Roborock 108 题 MRR=0.890;Ecovacs 15 题(中文题检索英文手册)**MRR=0.900** —— 跨语言检索成立。
+- **8 张新图片题:Hit@5 / Recall@5 / MRR 全 1.000** —— VLM 图片描述完全可检索,多模态扩题成功。
+- V0 低是因为 v0_naive_rag 是单文档 collection,对 Ecovacs 15 题无法检索(doc_filter 返回空)→ 拖低整体。V1+ 用多模态 collection + doc 过滤后大幅提升。
+- 评测命令(后台长任务会被环境杀,V3/V4 用 `scripts/run_retrieval_batch.py` 分批 ~7 次跑完):
+  `python scripts/final_evaluation.py --dataset golden_extended.json --run-dir storage/runs/final_eval_extended_full --retrieval-only`

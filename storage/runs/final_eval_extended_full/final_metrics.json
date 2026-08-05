@@ -1,0 +1,111 @@
+{
+  "run_id": "final_eval_20260805_144201",
+  "timestamp": "2026-08-05T14:42:01",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_extended.json",
+  "dataset_sha256": "92830da0f2ed1a23f27d48dc5ad6077694dd59dd318353e50fe45844a9134a7e",
+  "source_documents": [
+    "Ecovacs DEEBOT T30C",
+    "Roborock G10S"
+  ],
+  "total_questions": 123,
+  "modality_counts": {
+    "text": 114,
+    "image": 9
+  },
+  "ragas_version": "0.4.3",
+  "versions": {
+    "V0": {
+      "version": "V0",
+      "retrieval_metrics": {
+        "evaluated_question_count": 123,
+        "hit_at_5": 0.8049,
+        "recall_at_5": 0.7805,
+        "mrr": 0.6595,
+        "top1_hit_rate": 0.5528,
+        "avg_retrieval_latency_s": 0.0875,
+        "avg_generation_latency_s": 0.0875
+      },
+      "ragas_metrics": {}
+    },
+    "V1": {
+      "version": "V1",
+      "retrieval_metrics": {
+        "evaluated_question_count": 123,
+        "hit_at_5": 0.9106,
+        "recall_at_5": 0.8821,
+        "mrr": 0.7713,
+        "top1_hit_rate": 0.6748,
+        "avg_retrieval_latency_s": 0.225,
+        "avg_generation_latency_s": 0.225
+      },
+      "ragas_metrics": {}
+    },
+    "V2": {
+      "version": "V2",
+      "retrieval_metrics": {
+        "evaluated_question_count": 123,
+        "hit_at_5": 0.9431,
+        "recall_at_5": 0.9126,
+        "mrr": 0.786,
+        "top1_hit_rate": 0.6748,
+        "avg_retrieval_latency_s": 0.2224,
+        "avg_generation_latency_s": 0.2224
+      },
+      "ragas_metrics": {}
+    },
+    "V3": {
+      "version": "V3",
+      "retrieval_metrics": {
+        "evaluated_question_count": 123,
+        "hit_at_5": 0.9756,
+        "recall_at_5": 0.9593,
+        "mrr": 0.8916,
+        "top1_hit_rate": 0.8293
+      },
+      "ragas_metrics": {},
+      "split_by_document": {
+        "Roborock G10S": {
+          "evaluated_question_count": 108,
+          "hit_at_5": 0.9815,
+          "recall_at_5": 0.963,
+          "mrr": 0.8905,
+          "top1_hit_rate": 0.8241
+        },
+        "Ecovacs DEEBOT T30C": {
+          "evaluated_question_count": 15,
+          "hit_at_5": 0.9333,
+          "recall_at_5": 0.9333,
+          "mrr": 0.9001,
+          "top1_hit_rate": 0.8667
+        }
+      }
+    },
+    "V4": {
+      "version": "V4",
+      "retrieval_metrics": {
+        "evaluated_question_count": 123,
+        "hit_at_5": 0.9756,
+        "recall_at_5": 0.9593,
+        "mrr": 0.8916,
+        "top1_hit_rate": 0.8293
+      },
+      "ragas_metrics": {},
+      "split_by_document": {
+        "Roborock G10S": {
+          "evaluated_question_count": 108,
+          "hit_at_5": 0.9815,
+          "recall_at_5": 0.963,
+          "mrr": 0.8905,
+          "top1_hit_rate": 0.8241
+        },
+        "Ecovacs DEEBOT T30C": {
+          "evaluated_question_count": 15,
+          "hit_at_5": 0.9333,
+          "recall_at_5": 0.9333,
+          "mrr": 0.9001,
+          "top1_hit_rate": 0.8667
+        }
+      }
+    }
+  }
+}
