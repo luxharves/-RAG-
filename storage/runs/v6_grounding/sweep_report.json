@@ -1,0 +1,116 @@
+{
+  "combos": [
+    {
+      "scorer_floor": 0.05,
+      "min_support_ratio": 0.6,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.05,
+      "min_support_ratio": 0.7,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.05,
+      "min_support_ratio": 0.8,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.1,
+      "min_support_ratio": 0.6,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.1,
+      "min_support_ratio": 0.7,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.1,
+      "min_support_ratio": 0.8,
+      "answered_fixed": 93,
+      "refused_edge": 0,
+      "score": 93
+    },
+    {
+      "scorer_floor": 0.15,
+      "min_support_ratio": 0.6,
+      "answered_fixed": 92,
+      "refused_edge": 0,
+      "score": 92
+    },
+    {
+      "scorer_floor": 0.15,
+      "min_support_ratio": 0.7,
+      "answered_fixed": 92,
+      "refused_edge": 0,
+      "score": 92
+    },
+    {
+      "scorer_floor": 0.15,
+      "min_support_ratio": 0.8,
+      "answered_fixed": 92,
+      "refused_edge": 0,
+      "score": 92
+    },
+    {
+      "scorer_floor": 0.2,
+      "min_support_ratio": 0.6,
+      "answered_fixed": 90,
+      "refused_edge": 0,
+      "score": 90
+    },
+    {
+      "scorer_floor": 0.2,
+      "min_support_ratio": 0.7,
+      "answered_fixed": 90,
+      "refused_edge": 0,
+      "score": 90
+    },
+    {
+      "scorer_floor": 0.2,
+      "min_support_ratio": 0.8,
+      "answered_fixed": 90,
+      "refused_edge": 0,
+      "score": 90
+    },
+    {
+      "scorer_floor": 0.3,
+      "min_support_ratio": 0.6,
+      "answered_fixed": 89,
+      "refused_edge": 0,
+      "score": 89
+    },
+    {
+      "scorer_floor": 0.3,
+      "min_support_ratio": 0.7,
+      "answered_fixed": 88,
+      "refused_edge": 0,
+      "score": 88
+    },
+    {
+      "scorer_floor": 0.3,
+      "min_support_ratio": 0.8,
+      "answered_fixed": 88,
+      "refused_edge": 0,
+      "score": 88
+    }
+  ],
+  "recommended": {
+    "scorer": "reranker",
+    "scorer_floor": 0.1,
+    "min_support_ratio": 0.6,
+    "answered_fixed": 93,
+    "refused_edge": 0
+  }
+}

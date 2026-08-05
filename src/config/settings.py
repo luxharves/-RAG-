@@ -40,6 +40,32 @@ class Settings(BaseSettings):
     data_dir: str = "data"
     storage_dir: str = "storage"
 
+    # ── V6 grounding verifier ──
+    verifier_mode: str = "grounding"  # "grounding" (deterministic) | "llm" (V4 judge)
+    grounding_scorer: str = "reranker"  # "reranker" (cross-encoder) | "cosine" (BGE-M3)
+    grounding_scorer_floor: float = 0.1  # cross-encoder support floor
+    grounding_initial_threshold: float = 0.55
+    grounding_threshold_floor: float = 0.35
+    grounding_threshold_decay: float = 0.9
+    grounding_min_support_ratio: float = 0.7
+
+    # ── V7 LLM gateway (retry / circuit breaker / failover / timeout) ──
+    llm_timeout: float = 60.0            # per-attempt cap (s); SDK default was 600s
+    llm_max_retries: int = 2             # attempts per provider = max_retries + 1
+    llm_retry_base: float = 1.0
+    llm_retry_multiplier: float = 2.0
+    llm_retry_cap: float = 8.0
+    llm_circuit_threshold: int = 3       # consecutive failures to OPEN the breaker
+    llm_circuit_cooldown: float = 30.0   # s before HALF_OPEN probe
+    llm_fallback_answer: str = "模型服务暂时不可用，无法回答此问题，请稍后重试。"
+    # Backup providers (blank = not configured; fill all three to activate failover)
+    llm_base_url_2: str = ""
+    llm_api_key_2: str = ""
+    llm_model_2: str = ""
+    llm_base_url_3: str = ""
+    llm_api_key_3: str = ""
+    llm_model_3: str = ""
+
     @property
     def project_root(self) -> Path:
         """Absolute path to the project root directory."""

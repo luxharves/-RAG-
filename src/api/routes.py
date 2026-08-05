@@ -204,6 +204,9 @@ async def query(req: QueryRequest):
             "supported": vr.get("supported", False),
             "confidence": vr.get("confidence", 0.0),
             "reason": vr.get("reason", ""),
+            "unsupported_claims": vr.get("unsupported_claims", []),
+            "grounding_meta": vr.get("grounding_meta"),
+            "sentence_evidence": vr.get("sentence_evidence"),
         },
         timing_s=round(time.perf_counter() - t0, 2),
     )
@@ -266,6 +269,7 @@ async def list_experiments():
         {"id": "v3_rerank", "name": "V3 Reranker", "description": "+ BGE-Reranker-v2-m3 精排", "key_metric": "mrr"},
         {"id": "v4_verified", "name": "V4 LangGraph Verify", "description": "+ 验证节点 + 重试 + 拒答", "key_metric": "verified"},
         {"id": "v5_incremental", "name": "V5 Incremental Update", "description": "+ SHA256 Hash 增量更新", "key_metric": "reused_chunks"},
+        {"id": "v6_grounding", "name": "V6 Deterministic Grounding", "description": "+ 句级相似度接地验证(确定性,非 LLM 自查)", "key_metric": "support_ratio"},
     ]
     result = []
     for exp in exp_defs:

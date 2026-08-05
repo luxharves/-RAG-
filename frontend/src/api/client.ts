@@ -39,6 +39,26 @@ export interface QueryResponse {
     supported: boolean;
     confidence: number;
     reason: string;
+    unsupported_claims?: string[];
+    grounding_meta?: {
+      scorer?: string;
+      scorer_floor?: number;
+      support_ratio?: number;
+      n_sentences?: number;
+      n_supported?: number;
+      n_skipped_short?: number;
+      min_support_ratio?: number;
+      initial_threshold?: number;
+      threshold_floor?: number;
+      decay?: number;
+    } | null;
+    sentence_evidence?: Array<{
+      sentence: string;
+      supported: boolean;
+      best_similarity: number | null;
+      effective_threshold: number | null;
+      status: string;
+    }> | null;
   };
   timing_s: number;
 }

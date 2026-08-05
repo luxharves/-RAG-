@@ -13,10 +13,20 @@ class LLMClient:
         api_key: str | None = None,
         model: str | None = None,
     ):
+        self._override = (base_url, api_key, model)
         self.base_url = base_url or settings.llm_base_url
         self.api_key = api_key or settings.llm_api_key
         self.model = model or settings.llm_model
         self._client: OpenAI | None = None
+        self._single_gateway = None
+
+    def _single_gw(self):
+        """Private gateway for explicit-arg instances (isolated circuit state)."""
+        from src.infra.gateway import LLMGateway, Provider, ProviderConfig
+        if self._single_gateway is None:
+            cfg = ProviderConfig("custom", self.base_url, self.api_key, self.model)
+            self._single_gateway = LLMGateway(providers=[Provider(cfg)])
+        return self._single_gateway
 
     @property
     def is_configured(self) -> bool:
@@ -32,17 +42,16 @@ class LLMClient:
             self._client = OpenAI(base_url=self.base_url, api_key=self.api_key)
         return self._client
 
-    def chat(self, messages: list[dict]) -> tuple[str, dict]:
-        """Send a chat completion request.
+    def chat(self, messages: list[dict], temperature: float = 0.0) -> tuple[str, dict]:
+        """Send a chat completion request through the V7 LLM gateway.
+
+        No-arg instances route to the shared gateway (retry / circuit breaker /
+        provider failover / timeout). Explicit-arg instances use a private
+        single-provider gateway so their semantics are preserved.
 
         Returns (response_text, raw_response_dict).
         """
-        client = self._ensure_client()
-        response = client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            temperature=0.0,
-        )
-        content = response.choices[0].message.content or ""
-        raw = {"model": response.model, "usage": response.usage.model_dump() if response.usage else None}
-        return content, raw
+        if any(x is not None for x in self._override):
+            return self._single_gw().chat(messages, temperature=temperature)
+        from src.infra.gateway import get_gateway
+        return get_gateway().chat(messages, temperature=temperature)

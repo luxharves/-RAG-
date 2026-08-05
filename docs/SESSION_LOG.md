@@ -41,7 +41,9 @@
 - Phase 6: LangGraph Verified QA — relevance check + 重试/拒答 + 边缘案例 refused
 - Phase 7: 增量更新 — IncrementalIndexer + 同Collection增删改 + Milvus delete + BM25增量
 - 全量测试 95/95 passed
-- V0–V5 实验产物完整保存于 storage/runs/
+- V0–V6 实验产物完整保存于 storage/runs/
+- Phase 10 (V6): 句级接地验证(交叉编码器)替换 LLM 自查;投毒测试 82% 拦截;全量 100 题 95/100;158/158 测试
+- Phase 11 (V7): LLM 网关(超时/重试/熔断/兜底链);LLMClient 门面零改调用点;demo failover(死主→backup→熔断→探针)
 - ROADMAP.md Phase 0–6 PASS, Phase 7 CONDITIONAL_PASS
 - 已知限制：modified 全文档重处理（非页面/Chunk 级增量）；多模态 V1 图片/表格 Chunk 修改时未做局部保护
 - Phase 8: FastAPI 5 端点 + Swagger

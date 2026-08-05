@@ -1,0 +1,402 @@
+{
+  "experiment": "v0_naive",
+  "version": "V0",
+  "retrieval_channel": "dense",
+  "embedding_model": "BAAI/bge-m3",
+  "num_questions_total": 20,
+  "num_questions_text_only": 19,
+  "excluded_questions": [
+    18
+  ],
+  "exclusion_rule": "modality_required != 'text'",
+  "top_k": 5,
+  "metrics": {
+    "recall_at_5": 0.8148,
+    "top5_hit_count": 18,
+    "top5_hit_rate": 0.9474,
+    "total_gold_pages": 27,
+    "total_recalled_pages": 22
+  },
+  "per_question": [
+    {
+      "question_id": 1,
+      "question": "设备无法开机怎么办？",
+      "modality": "text",
+      "gold_pages": [
+        24
+      ],
+      "retrieved_pages": [
+        9,
+        11,
+        12,
+        24
+      ],
+      "found_pages": [
+        24
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 2,
+      "question": "如何清洁机器人的传感器？",
+      "modality": "text",
+      "gold_pages": [
+        15,
+        18
+      ],
+      "retrieved_pages": [
+        5,
+        12,
+        14,
+        15,
+        17
+      ],
+      "found_pages": [
+        15
+      ],
+      "hit": true,
+      "recall_at_5": 0.5
+    },
+    {
+      "question_id": 3,
+      "question": "扫地机器人支持哪些清洁模式？",
+      "modality": "text",
+      "gold_pages": [
+        13,
+        14
+      ],
+      "retrieved_pages": [
+        5,
+        12,
+        13,
+        14
+      ],
+      "found_pages": [
+        13,
+        14
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 4,
+      "question": "如何连接手机APP？",
+      "modality": "text",
+      "gold_pages": [
+        12
+      ],
+      "retrieved_pages": [
+        2,
+        10,
+        11,
+        12,
+        24
+      ],
+      "found_pages": [
+        12
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 5,
+      "question": "污水箱满了怎么处理？",
+      "modality": "text",
+      "gold_pages": [
+        19
+      ],
+      "retrieved_pages": [
+        8,
+        12,
+        19,
+        20,
+        21
+      ],
+      "found_pages": [
+        19
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "机器人工作时噪音大是什么原因？",
+      "modality": "text",
+      "gold_pages": [
+        24
+      ],
+      "retrieved_pages": [
+        5,
+        13,
+        15,
+        24
+      ],
+      "found_pages": [
+        24
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "充电座应该放在什么位置？",
+      "modality": "text",
+      "gold_pages": [
+        10,
+        11
+      ],
+      "retrieved_pages": [
+        3,
+        10,
+        11,
+        26
+      ],
+      "found_pages": [
+        10,
+        11
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 8,
+      "question": "如何更换拖布？",
+      "modality": "text",
+      "gold_pages": [
+        18
+      ],
+      "retrieved_pages": [
+        9,
+        13,
+        18,
+        20,
+        24
+      ],
+      "found_pages": [
+        18
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 9,
+      "question": "机器人能清扫地毯吗？",
+      "modality": "text",
+      "gold_pages": [
+        6,
+        13
+      ],
+      "retrieved_pages": [
+        9,
+        13,
+        14,
+        24
+      ],
+      "found_pages": [
+        13
+      ],
+      "hit": true,
+      "recall_at_5": 0.5
+    },
+    {
+      "question_id": 10,
+      "question": "如何设置虚拟墙？",
+      "modality": "text",
+      "gold_pages": [
+        9
+      ],
+      "retrieved_pages": [
+        3,
+        9,
+        10,
+        12,
+        19
+      ],
+      "found_pages": [
+        9
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 11,
+      "question": "主刷被缠绕了怎么处理？",
+      "modality": "text",
+      "gold_pages": [
+        16
+      ],
+      "retrieved_pages": [
+        15,
+        16,
+        17,
+        24,
+        26
+      ],
+      "found_pages": [
+        16
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 12,
+      "question": "清水箱需要加什么水？",
+      "modality": "text",
+      "gold_pages": [
+        3,
+        19
+      ],
+      "retrieved_pages": [
+        7,
+        8,
+        12,
+        17,
+        19
+      ],
+      "found_pages": [
+        19
+      ],
+      "hit": true,
+      "recall_at_5": 0.5
+    },
+    {
+      "question_id": 13,
+      "question": "指示灯的几种颜色分别代表什么？",
+      "modality": "text",
+      "gold_pages": [
+        5,
+        8
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        8,
+        11
+      ],
+      "found_pages": [
+        5,
+        8
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 14,
+      "question": "如何恢复出厂设置？",
+      "modality": "text",
+      "gold_pages": [
+        14
+      ],
+      "retrieved_pages": [
+        12,
+        14,
+        24,
+        26
+      ],
+      "found_pages": [
+        14
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 15,
+      "question": "机器人为什么一直回充？",
+      "modality": "text",
+      "gold_pages": [
+        14,
+        24
+      ],
+      "retrieved_pages": [
+        5,
+        11,
+        14,
+        24
+      ],
+      "found_pages": [
+        14,
+        24
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 16,
+      "question": "可以遥控机器人吗？",
+      "modality": "text",
+      "gold_pages": [
+        2
+      ],
+      "retrieved_pages": [
+        2,
+        3,
+        5,
+        13
+      ],
+      "found_pages": [
+        2
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 17,
+      "question": "如何清洁集尘盒？",
+      "modality": "text",
+      "gold_pages": [
+        17
+      ],
+      "retrieved_pages": [
+        17,
+        19,
+        20,
+        24,
+        26
+      ],
+      "found_pages": [
+        17
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    },
+    {
+      "question_id": 19,
+      "question": "开机后机器人不动怎么办？",
+      "modality": "text",
+      "gold_pages": [
+        5,
+        24
+      ],
+      "retrieved_pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "found_pages": [],
+      "hit": false,
+      "recall_at_5": 0.0
+    },
+    {
+      "question_id": 20,
+      "question": "设备的保修期是多久？",
+      "modality": "text",
+      "gold_pages": [
+        25
+      ],
+      "retrieved_pages": [
+        3,
+        15,
+        25,
+        26
+      ],
+      "found_pages": [
+        25
+      ],
+      "hit": true,
+      "recall_at_5": 1.0
+    }
+  ]
+}

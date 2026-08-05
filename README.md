@@ -29,7 +29,7 @@
 | 精排重排 | BGE-Reranker-v2-m3 逐对精读打分，把最相关的内容排到最前面 |
 | 可信验证 | LangGraph 验证节点检查答案是否基于原文，证据不足就拒答或重试 |
 | 增量更新 | SHA256 文件指纹检测变化，没变的文档跳过所有计算，零浪费 |
-| 实验可复现 | 100 条 Golden Dataset 固定不变，V0-V5 控制变量实验，每个模块的增益都有数据证明 |
+| 实验可复现 | 100 条 Golden Dataset 固定不变，V0-V6 控制变量实验，每个模块的增益都有数据证明 |
 
 ---
 
@@ -84,7 +84,7 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 
 ---
 
-## 五、技术演进：V0 → V5
+## 五、技术演进：V0 → V6
 
 每个版本解决朴素 RAG 的一个痛点，每个版本的效果提升都有数据支撑。
 
@@ -96,6 +96,7 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 | **V3** +Reranker | Hybrid 粗筛 20 条 → BGE-Reranker 逐对精读打分 → 取前 5 | 粗筛排序不够精确，最相关的内容可能排在第 3-5 名 | Recall@5 **0.88→0.91**，Context Precision **0.76→0.87** |
 | **V4** +Verify | LangGraph 验证节点：逐条核对答案是否基于原文 → 拒答/重试 | LLM 还是会编造细节，"买原装配件199元"原文根本没有 | 越界问题正确拒答，Context Recall 0.88 |
 | **V5** +增量 | SHA256 文件指纹 → 区分 added/unchanged/modified/deleted | 说明书换新版要全部重新处理，浪费算力 | 未变化文档 0 次 Embedding |
+| **V6** +确定性接地 | 答案拆句 + BGE-Reranker 交叉编码器逐句核对 → 无支撑句子拒答/重试 + 引用审计 | V4 的验证靠 LLM"自查"不可复现 | 引用由系统"计算"而非 LLM"声称"；投毒测试拦截 82% 编造句（余弦为 0%） |
 
 ---
 
@@ -114,12 +115,27 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 | **Answer Relevancy** | 0.91 | 0.84 | 0.90 | **0.92** | 0.91 |
 | **平均延迟** | 3.2s | 3.2s | 3.3s | 20.5s | 16.7s |
 
+### V6 确定性接地验证（句级）
+
+| 指标 | V6 |
+|---|---|
+| 全量 100 题 answered | **95/100** |
+| 边界题 refused（火星/核聚变） | **2/2** |
+| 句级支撑率 | **99.35%**（avg support_ratio） |
+| 交叉编码器分数 | median 0.95（真实句） |
+| 投毒测试拦截率 | **28/34（82%）**（BGE-M3 余弦为 0/34） |
+| 接地过度拒答 | 1/100（短否定释义"不可以用洗涤剂"未匹配） |
+
+机制：答案拆句 → 每句与检索 chunk 用 **BGE-Reranker 交叉编码器**逐对打分 → 无支撑句子标记/拒答 → 引用审计逐条核对 LLM 声称的 `[来源: 第X页]`。引用由**系统计算**而非 LLM 声称。
+**投毒测试（对抗验证）**：对真实答案追加编造句（"本产品由核聚变反应堆提供动力。" 等），交叉编码器标记 82% 无支撑、35% 答案翻转拒答；残余漏网为"主题相关编造"——交叉编码器是相关性打分器，拦不住所有主题相关幻觉（弗兰肯斯坦边界）。另有 1/100 过度拒答（正确但被否定释义的短句）。两个边界均已诚实记录。
+
 ### 关键发现
 
 - **V2 性价比最优**：MRR 提升 10.5%，仅增加 0.15s 延迟
 - **V3 质量最优**：全部指标达到顶峰，代价是 6x 延迟（Reranker 逐对精读）
 - **V4 最安全**：越界问题正确拒答，Context Recall 最高（重试机制补上了漏掉的 Chunk）
 - **V5 零浪费**：未变化文档 39 个 Chunk 全部复用，0 次无效 Embedding
+- **V6 可复现**：引用由 BGE-M3 余弦"计算"而非 LLM 声称，投毒测试证明能拦截编造句
 
 ### 指标解释
 
@@ -165,6 +181,7 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 │   │   └── reranked_retriever.py # 二阶段精排 (Hybrid → Reranker)
 │   ├── generation/generator.py # LLM 答案生成（含引用格式）
 │   ├── workflow/verified_qa.py # LangGraph 可信问答流程
+│   ├── workflow/grounding.py   # V6 确定性句级接地验证（BGE-M3 余弦）
 │   ├── eval/                   # 评测系统
 │   │   ├── metrics.py          #   LLM-as-Judge 指标
 │   │   └── ragas_patch.py      #   RAGAS 兼容补丁
@@ -192,7 +209,8 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 │   ├── query.py                #   命令行问答
 │   ├── compare_v3.py           #   V2 vs V3 对比
 │   ├── incremental_update.py   #   增量更新
-│   └── final_evaluation.py     #   最终评测
+│   ├── final_evaluation.py     #   最终评测
+│   └── run_v6_eval.py          #   V6 接地评测 + 阈值扫描 + V4 对比
 │
 ├── docs/                       # 项目文档
 │   ├── PROJECT_CHARTER.md      #   项目章程

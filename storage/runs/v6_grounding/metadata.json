@@ -1,0 +1,10 @@
+{
+  "total_cases": 100,
+  "fixed_questions": 100,
+  "fixed_answered": 95,
+  "edge_cases": 0,
+  "edge_all_refused": true,
+  "avg_support_ratio": 0.9935,
+  "retries_used": 5,
+  "run": "full"
+}

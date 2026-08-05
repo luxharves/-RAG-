@@ -1,0 +1,2330 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "modality": "text",
+    "gold_pages": [
+      24
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      24,
+      10,
+      8,
+      23,
+      9
+    ],
+    "types": [
+      "text",
+      "image",
+      "image",
+      "image",
+      "text"
+    ],
+    "rerank_scores": [
+      0.5239,
+      0.1431,
+      0.1286,
+      0.0823,
+      0.0809
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      2,
+      14,
+      15,
+      8,
+      13
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.031778,
+        "rrf_score": 0.031778,
+        "rerank_score": 0.5239,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 2,
+        "dense_rank": 1,
+        "bm25_rank": 5,
+        "content_preview": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.015152,
+        "rrf_score": 0.015152,
+        "rerank_score": 0.1431,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 14,
+        "dense_rank": null,
+        "bm25_rank": 6,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.014706,
+        "rrf_score": 0.014706,
+        "rerank_score": 0.1286,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 15,
+        "dense_rank": null,
+        "bm25_rank": 8,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "66b1a5f2e3e1856d",
+        "page_number": 23,
+        "content_type": "image",
+        "fusion_score": 0.028439,
+        "rrf_score": 0.028439,
+        "rerank_score": 0.0823,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 8,
+        "dense_rank": 7,
+        "bm25_rank": 14,
+        "content_preview": "关键词：电池拆卸步骤图、报废处理、电池盖板螺丝、连接器插头、环保回收\n报废前拆电池步骤：1)不接触基座运行至低电量；2)关机；3)卸下电池盖板螺丝；4)取下盖板"
+      },
+      {
+        "chunk_id": "7e9039482f69219c",
+        "page_number": 9,
+        "content_type": "text",
+        "fusion_score": 0.015625,
+        "rrf_score": 0.015625,
+        "rerank_score": 0.0809,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 13,
+        "dense_rank": 4,
+        "bm25_rank": null,
+        "content_preview": "09\n产品安装\n特别提示\n1. 请在启动前清理地面上散落的线材、硬物、尖锐物体（如铁钉、\n玻璃）等杂物，并移开易倒、易碎、贵重及可能造成危险的物品。\n避免被机器"
+      }
+    ]
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "modality": "text",
+    "gold_pages": [
+      15,
+      18
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      6,
+      15,
+      5,
+      24,
+      13
+    ],
+    "types": [
+      "image",
+      "text",
+      "text",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.6255,
+      0.6158,
+      0.5956,
+      0.5138,
+      0.3642
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      3,
+      4,
+      8,
+      17
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 0.5,
+    "mrr": 0.5,
+    "hit": true,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.031319,
+        "rrf_score": 0.031319,
+        "rerank_score": 0.6255,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 7,
+        "bm25_rank": 1,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "d062551c0c9193f5",
+        "page_number": 15,
+        "content_type": "text",
+        "fusion_score": 0.030118,
+        "rrf_score": 0.030118,
+        "rerank_score": 0.6158,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 3,
+        "dense_rank": 4,
+        "bm25_rank": 9,
+        "content_preview": "15\n日常维护\n为使机器人保持最佳使用性能，建议参考下表进行日常维护：\n提示：更换频率可能因实际情况而定，如出现异常磨损，应更换零件。\n部    件\n维护频率\n"
+      },
+      {
+        "chunk_id": "27080450d5c822c9",
+        "page_number": 5,
+        "content_type": "text",
+        "fusion_score": 0.03009,
+        "rrf_score": 0.03009,
+        "rerank_score": 0.5956,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 4,
+        "dense_rank": 5,
+        "bm25_rank": 8,
+        "content_preview": "05\n机器人\n提示：在清洁或回充时按任意键暂停。\n充电触片\n沿墙传感器\nReactive AI 识别避障传感器\n回充传感器\n红外补光灯\n产品介绍\n清    扫/"
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.028531,
+        "rrf_score": 0.028531,
+        "rerank_score": 0.5138,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 8,
+        "dense_rank": 19,
+        "bm25_rank": 3,
+        "content_preview": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效"
+      },
+      {
+        "chunk_id": "8b7c8092a77526af",
+        "page_number": 13,
+        "content_type": "text",
+        "fusion_score": 0.015152,
+        "rrf_score": 0.015152,
+        "rerank_score": 0.3642,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 17,
+        "dense_rank": 6,
+        "bm25_rank": null,
+        "content_preview": "在清扫\n局部清扫\n短按  键启动局部清扫。\n清扫范围：机器人为中心 1.5 米 ×1.5 米的方形区域。\n提示：清扫结束后机器人会自动返回起点位置，进入待命状态"
+      }
+    ]
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "modality": "text",
+    "gold_pages": [
+      13,
+      14
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      14,
+      14,
+      13,
+      6,
+      5
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "image",
+      "image"
+    ],
+    "rerank_scores": [
+      0.7778,
+      0.7116,
+      0.674,
+      0.425,
+      0.3493
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      2,
+      3,
+      11,
+      4
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.032266,
+        "rrf_score": 0.032266,
+        "rerank_score": 0.7778,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 3,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "085321f17740b555",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.7116,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 2,
+        "dense_rank": 3,
+        "bm25_rank": 2,
+        "content_preview": "｜拖地偏好｜洗布模式｜集\n尘模式\n机器人信息\n清洁记录｜机器人电量｜保养和维护\n更多特色功能\n音量调节｜个性化语音｜勿扰模式｜智能音箱语控 \n等更多功能\nAPP"
+      },
+      {
+        "chunk_id": "8b7c8092a77526af",
+        "page_number": 13,
+        "content_type": "text",
+        "fusion_score": 0.030835,
+        "rrf_score": 0.030835,
+        "rerank_score": 0.674,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 3,
+        "dense_rank": 2,
+        "bm25_rank": 8,
+        "content_preview": "在清扫\n局部清扫\n短按  键启动局部清扫。\n清扫范围：机器人为中心 1.5 米 ×1.5 米的方形区域。\n提示：清扫结束后机器人会自动返回起点位置，进入待命状态"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.027651,
+        "rrf_score": 0.027651,
+        "rerank_score": 0.425,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 11,
+        "dense_rank": 16,
+        "bm25_rank": 9,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "fusion_score": 0.03055,
+        "rrf_score": 0.03055,
+        "rerank_score": 0.3493,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 4,
+        "dense_rank": 7,
+        "bm25_rank": 4,
+        "content_preview": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回"
+      }
+    ]
+  },
+  {
+    "question": "如何连接手机APP？",
+    "modality": "text",
+    "gold_pages": [
+      12
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      10,
+      11,
+      10,
+      12,
+      2
+    ],
+    "types": [
+      "text",
+      "text",
+      "image",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.8312,
+      0.5865,
+      0.5556,
+      0.095,
+      0.0132
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      2,
+      1,
+      5,
+      3,
+      4
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 0.25,
+    "hit": true,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.8312,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 2,
+        "dense_rank": 2,
+        "bm25_rank": 3,
+        "content_preview": "10\n产品安装\n组    装\n1. 将基座主体放置在硬质水平地面上，取出底部高速自清洁\n刷组件的运输固定泡沫。\n2. 将基座底板与基座主体按图示方式组装，并用力"
+      },
+      {
+        "chunk_id": "309346ac50caf1f8",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.032522,
+        "rrf_score": 0.032522,
+        "rerank_score": 0.5865,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 2,
+        "content_preview": "接靠上基座。\n电源指示灯颜\n色表示电量\n • 白色：电量≥20% \n • 红色：电量＜20%\n方式 2：在应用商店搜索“米家”或扫描下方二维码下载安\n装米家 A"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.030777,
+        "rrf_score": 0.030777,
+        "rerank_score": 0.5556,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 5,
+        "dense_rank": 4,
+        "bm25_rank": 6,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "fusion_score": 0.031778,
+        "rrf_score": 0.031778,
+        "rerank_score": 0.095,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 3,
+        "dense_rank": 5,
+        "bm25_rank": 1,
+        "content_preview": "12\n • 熄灭：WiFi 功能未激活\n • 慢闪：等待连接\n • 快闪：正在连接\n • 长亮：WiFi 已连接\nWiFi 指示灯\na. 打开机器人上盖露出 W"
+      },
+      {
+        "chunk_id": "1e62ac5ee26aca72",
+        "page_number": 2,
+        "content_type": "text",
+        "fusion_score": 0.030798,
+        "rrf_score": 0.030798,
+        "rerank_score": 0.0132,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 4,
+        "dense_rank": 3,
+        "bm25_rank": 7,
+        "content_preview": "02\n您可以扫描二维码或在应用商店中下载“Roborock”APP，连接机器人，\n解锁更多功能。\n感谢您选择石头。\n本说明书将引导您全面了解和快速安装扫拖机器人"
+      }
+    ]
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "modality": "text",
+    "gold_pages": [
+      19
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      19,
+      24,
+      24,
+      21,
+      17
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.203,
+      0.1321,
+      0.1213,
+      0.0618,
+      0.0438
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      2,
+      3,
+      6,
+      15
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "36eefb6f7bbb97a6",
+        "page_number": 19,
+        "content_type": "text",
+        "fusion_score": 0.032018,
+        "rrf_score": 0.032018,
+        "rerank_score": 0.203,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 4,
+        "content_preview": "19\n日常维护\n水    箱\n需要根据实际使用情况定期清洁污水箱。打开污水箱上盖倾\n倒污水后接入自来水，关闭水箱上盖，扣紧卡扣并摇晃水箱。\n清洗完成后倒出污水，"
+      },
+      {
+        "chunk_id": "9e4a7ee3ae2b3e34",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.031054,
+        "rrf_score": 0.031054,
+        "rerank_score": 0.1321,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 2,
+        "dense_rank": 7,
+        "bm25_rank": 2,
+        "content_preview": "左侧是否有异物卡住，请清理；\n停靠在右侧清洗槽滤网旁，可能滤网上有异物卡住或清洗槽滤网\n未“咔哒”按压到底卡住自清洁模组，请清理并按压到位后重试。\n拖布自清洁效"
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.030679,
+        "rrf_score": 0.030679,
+        "rerank_score": 0.1213,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 3,
+        "dense_rank": 10,
+        "bm25_rank": 1,
+        "content_preview": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效"
+      },
+      {
+        "chunk_id": "c942df91d9c6ba82",
+        "page_number": 21,
+        "content_type": "text",
+        "fusion_score": 0.029911,
+        "rrf_score": 0.029911,
+        "rerank_score": 0.0618,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 6,
+        "dense_rank": 4,
+        "bm25_rank": 10,
+        "content_preview": "21\n日常维护\n2. 取出清洗槽滤网，并使用毛巾擦干水槽内水渍。\n清理清洗槽与风道\n如出现风道堵塞，请按照以下步骤进行清理。\n1. 取出净水箱、污水箱、集尘桶。"
+      },
+      {
+        "chunk_id": "44f4946e7139679b",
+        "page_number": 17,
+        "content_type": "text",
+        "fusion_score": 0.015152,
+        "rrf_score": 0.015152,
+        "rerank_score": 0.0438,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 15,
+        "dense_rank": 6,
+        "bm25_rank": null,
+        "content_preview": "17\n日常维护\n用柔软干布擦拭清理主轮。\n主    轮\n尘    盒\n1. 打开机器人上盖，取出尘盒。\n2. 打开尘盒盖并倾倒垃圾。\n3. 尘盒中注入清水后关闭"
+      }
+    ]
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "modality": "text",
+    "gold_pages": [
+      24
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      24,
+      6,
+      24,
+      5,
+      11
+    ],
+    "types": [
+      "text",
+      "image",
+      "text",
+      "image",
+      "text"
+    ],
+    "rerank_scores": [
+      0.1027,
+      0.0665,
+      0.0608,
+      0.0286,
+      0.0259
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      7,
+      9,
+      2,
+      4,
+      6
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.02885,
+        "rrf_score": 0.02885,
+        "rerank_score": 0.1027,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 7,
+        "dense_rank": 6,
+        "bm25_rank": 13,
+        "content_preview": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.028083,
+        "rrf_score": 0.028083,
+        "rerank_score": 0.0665,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 9,
+        "dense_rank": 7,
+        "bm25_rank": 16,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.031099,
+        "rrf_score": 0.031099,
+        "rerank_score": 0.0608,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 2,
+        "dense_rank": 1,
+        "bm25_rank": 8,
+        "content_preview": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效"
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "fusion_score": 0.029206,
+        "rrf_score": 0.029206,
+        "rerank_score": 0.0286,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 4,
+        "dense_rank": 3,
+        "bm25_rank": 15,
+        "content_preview": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回"
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.02901,
+        "rrf_score": 0.02901,
+        "rerank_score": 0.0259,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 6,
+        "dense_rank": 11,
+        "bm25_rank": 7,
+        "content_preview": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮"
+      }
+    ]
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "modality": "text",
+    "gold_pages": [
+      10,
+      11
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      10,
+      3,
+      11,
+      8,
+      10
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "image",
+      "image"
+    ],
+    "rerank_scores": [
+      0.3196,
+      0.2453,
+      0.2034,
+      0.0227,
+      0.0197
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      18,
+      2,
+      7,
+      5,
+      10
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "fusion_score": 0.015385,
+        "rrf_score": 0.015385,
+        "rerank_score": 0.3196,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 18,
+        "dense_rank": 5,
+        "bm25_rank": null,
+        "content_preview": "10\n产品安装\n组    装\n1. 将基座主体放置在硬质水平地面上，取出底部高速自清洁\n刷组件的运输固定泡沫。\n2. 将基座底板与基座主体按图示方式组装，并用力"
+      },
+      {
+        "chunk_id": "799e1cb0c013880d",
+        "page_number": 3,
+        "content_type": "text",
+        "fusion_score": 0.029907,
+        "rrf_score": 0.029907,
+        "rerank_score": 0.2453,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 2,
+        "dense_rank": 14,
+        "bm25_rank": 1,
+        "content_preview": "\n • 请勿用于清扫任何燃烧中的物体（如未熄灭的烟头、火柴、灰烬等）。\n • 请勿在高于 40℃、低于 0℃ 或地面有任何液体及粘稠物的环境下存放及使用。\n •"
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.028787,
+        "rrf_score": 0.028787,
+        "rerank_score": 0.2034,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 7,
+        "dense_rank": 2,
+        "bm25_rank": 19,
+        "content_preview": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.02901,
+        "rrf_score": 0.02901,
+        "rerank_score": 0.0227,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 5,
+        "dense_rank": 7,
+        "bm25_rank": 11,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.028446,
+        "rrf_score": 0.028446,
+        "rerank_score": 0.0197,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 10,
+        "dense_rank": 4,
+        "bm25_rank": 18,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      }
+    ]
+  },
+  {
+    "question": "如何更换拖布？",
+    "modality": "text",
+    "gold_pages": [
+      18
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      18,
+      8,
+      24,
+      15,
+      7
+    ],
+    "types": [
+      "text",
+      "image",
+      "text",
+      "text",
+      "image"
+    ],
+    "rerank_scores": [
+      0.6708,
+      0.0804,
+      0.0725,
+      0.0408,
+      0.0385
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      15,
+      5,
+      6,
+      8
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "352520c192ff2342",
+        "page_number": 18,
+        "content_type": "text",
+        "fusion_score": 0.031319,
+        "rrf_score": 0.031319,
+        "rerank_score": 0.6708,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 7,
+        "content_preview": "18\n日常维护\n震动拖布\n1. 从拖布支架上移除拖布。\n2. 清洗拖布并晾晒。\n3. 沿着拖布支架的插槽处将拖布插入到底，并粘贴牢固。\n提示：如震动拖布较脏，会"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.015385,
+        "rrf_score": 0.015385,
+        "rerank_score": 0.0804,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 15,
+        "dense_rank": null,
+        "bm25_rank": 5,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "9e4a7ee3ae2b3e34",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.030159,
+        "rrf_score": 0.030159,
+        "rerank_score": 0.0725,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 5,
+        "dense_rank": 3,
+        "bm25_rank": 10,
+        "content_preview": "左侧是否有异物卡住，请清理；\n停靠在右侧清洗槽滤网旁，可能滤网上有异物卡住或清洗槽滤网\n未“咔哒”按压到底卡住自清洁模组，请清理并按压到位后重试。\n拖布自清洁效"
+      },
+      {
+        "chunk_id": "d062551c0c9193f5",
+        "page_number": 15,
+        "content_type": "text",
+        "fusion_score": 0.02938,
+        "rrf_score": 0.02938,
+        "rerank_score": 0.0408,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 6,
+        "dense_rank": 17,
+        "bm25_rank": 1,
+        "content_preview": "15\n日常维护\n为使机器人保持最佳使用性能，建议参考下表进行日常维护：\n提示：更换频率可能因实际情况而定，如出现异常磨损，应更换零件。\n部    件\n维护频率\n"
+      },
+      {
+        "chunk_id": "192e04de5e630adb",
+        "page_number": 7,
+        "content_type": "image",
+        "fusion_score": 0.028405,
+        "rrf_score": 0.028405,
+        "rerank_score": 0.0385,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 8,
+        "dense_rank": 13,
+        "bm25_rank": 8,
+        "content_preview": "关键词：尘盒结构图、滤网、电控水箱、震动拖布支架、拖布粘贴区域、升降震动擦地模组\n尘盒包含上置可水洗滤网和滤网上盖。电控水箱通过进水口滤网和自动补水口与基座连接"
+      }
+    ]
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "modality": "text",
+    "gold_pages": [
+      6,
+      13
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      6,
+      13,
+      3,
+      14,
+      24
+    ],
+    "types": [
+      "image",
+      "text",
+      "text",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.9821,
+      0.9805,
+      0.9582,
+      0.9317,
+      0.898
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      6,
+      1,
+      4,
+      2,
+      7
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.029911,
+        "rrf_score": 0.029911,
+        "rerank_score": 0.9821,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 6,
+        "dense_rank": 10,
+        "bm25_rank": 4,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "868645e07a8d1dcb",
+        "page_number": 13,
+        "content_type": "text",
+        "fusion_score": 0.032787,
+        "rrf_score": 0.032787,
+        "rerank_score": 0.9805,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "content_preview": "13\n使用说明\n启动扫拖\n短按  键机器人将按扫描生成的地图动态规划扫拖路线，采\n用先沿墙后 Z 字形填充的方式逐一完成各分区的扫拖，有序\n高效覆盖。清洁过程中"
+      },
+      {
+        "chunk_id": "f045cc8c6f61b95e",
+        "page_number": 3,
+        "content_type": "text",
+        "fusion_score": 0.031281,
+        "rrf_score": 0.031281,
+        "rerank_score": 0.9582,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 4,
+        "dense_rank": 6,
+        "bm25_rank": 2,
+        "content_preview": "03\n安全信息\n使用限制\n • 本产品仅限中国大陆地区销售和使用，在港澳台及海外使用将无法体验 APP 及\n智能音箱远程控制功能。\n • 仅用于家居环境的地面清"
+      },
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.031746,
+        "rrf_score": 0.031746,
+        "rerank_score": 0.9317,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 2,
+        "dense_rank": 3,
+        "bm25_rank": 3,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.029469,
+        "rrf_score": 0.029469,
+        "rerank_score": 0.898,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 7,
+        "dense_rank": 11,
+        "bm25_rank": 5,
+        "content_preview": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效"
+      }
+    ]
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "modality": "text",
+    "gold_pages": [
+      9
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      14,
+      10,
+      6,
+      8,
+      10
+    ],
+    "types": [
+      "text",
+      "image",
+      "image",
+      "image",
+      "text"
+    ],
+    "rerank_scores": [
+      0.0492,
+      0.0078,
+      0.0073,
+      0.0059,
+      0.0046
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      11,
+      10,
+      17,
+      18,
+      3
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 0.0,
+    "mrr": 0.0,
+    "hit": false,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.016393,
+        "rrf_score": 0.016393,
+        "rerank_score": 0.0492,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 11,
+        "dense_rank": null,
+        "bm25_rank": 1,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.016393,
+        "rrf_score": 0.016393,
+        "rerank_score": 0.0078,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 10,
+        "dense_rank": 1,
+        "bm25_rank": null,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.014706,
+        "rrf_score": 0.014706,
+        "rerank_score": 0.0073,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 17,
+        "dense_rank": 8,
+        "bm25_rank": null,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.014493,
+        "rrf_score": 0.014493,
+        "rerank_score": 0.0059,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 18,
+        "dense_rank": 9,
+        "bm25_rank": null,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "f2a431ed88c711ed",
+        "page_number": 10,
+        "content_type": "text",
+        "fusion_score": 0.029116,
+        "rrf_score": 0.029116,
+        "rerank_score": 0.0046,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 3,
+        "dense_rank": 2,
+        "bm25_rank": 17,
+        "content_preview": "10\n产品安装\n组    装\n1. 将基座主体放置在硬质水平地面上，取出底部高速自清洁\n刷组件的运输固定泡沫。\n2. 将基座底板与基座主体按图示方式组装，并用力"
+      }
+    ]
+  },
+  {
+    "question": "主刷被缠绕了怎么处理？",
+    "modality": "text",
+    "gold_pages": [
+      16
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      16,
+      24,
+      15,
+      8,
+      6
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "image",
+      "image"
+    ],
+    "rerank_scores": [
+      0.8926,
+      0.2039,
+      0.2011,
+      0.1159,
+      0.0991
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      6,
+      2,
+      10,
+      11
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "73ba0f2fac1f9bb8",
+        "page_number": 16,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.8926,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 2,
+        "bm25_rank": 3,
+        "content_preview": "16\n日常维护\n2. 取出软胶主刷，拔出软胶主刷轴承，按解锁标志方向旋转并\n取下软胶主刷盖，清除软胶主刷两端缠绕的毛发或脏物。\n提示：\n • 主刷脏污建议用湿布"
+      },
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.030214,
+        "rrf_score": 0.030214,
+        "rerank_score": 0.2039,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 6,
+        "dense_rank": 11,
+        "bm25_rank": 2,
+        "content_preview": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，"
+      },
+      {
+        "chunk_id": "a22c07acab075254",
+        "page_number": 15,
+        "content_type": "text",
+        "fusion_score": 0.031545,
+        "rrf_score": 0.031545,
+        "rerank_score": 0.2011,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 2,
+        "dense_rank": 1,
+        "bm25_rank": 6,
+        "content_preview": "月\n1. 翻转机器人，压下卡扣取下主刷罩。\n软胶主刷\n卡    扣\n软胶主刷盖\n软胶主刷轴承\n软胶主刷罩\n软胶主刷"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.027106,
+        "rrf_score": 0.027106,
+        "rerank_score": 0.1159,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 10,
+        "dense_rank": 10,
+        "bm25_rank": 18,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.02632,
+        "rrf_score": 0.02632,
+        "rerank_score": 0.0991,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 11,
+        "dense_rank": 17,
+        "bm25_rank": 15,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      }
+    ]
+  },
+  {
+    "question": "清水箱需要加什么水？",
+    "modality": "text",
+    "gold_pages": [
+      3,
+      19
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      12,
+      8,
+      6,
+      19,
+      10
+    ],
+    "types": [
+      "text",
+      "image",
+      "image",
+      "text",
+      "image"
+    ],
+    "rerank_scores": [
+      0.5639,
+      0.1493,
+      0.0814,
+      0.0617,
+      0.0201
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      4,
+      13,
+      2,
+      18
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 0.5,
+    "mrr": 0.25,
+    "hit": true,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "61b643029529e492",
+        "page_number": 12,
+        "content_type": "text",
+        "fusion_score": 0.032787,
+        "rrf_score": 0.032787,
+        "rerank_score": 0.5639,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "content_preview": "  键开机，电源指示灯点亮，机器人进入待命状态。\n长按  键关机，本次扫拖结束。\n提示：机器人在充电中无法关机。\n提示：\n • 请勿使用非石头官方清洁液，否则可"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.030777,
+        "rrf_score": 0.030777,
+        "rerank_score": 0.1493,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 4,
+        "dense_rank": 6,
+        "bm25_rank": 4,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.025479,
+        "rrf_score": 0.025479,
+        "rerank_score": 0.0814,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 13,
+        "dense_rank": 19,
+        "bm25_rank": 18,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "36eefb6f7bbb97a6",
+        "page_number": 19,
+        "content_type": "text",
+        "fusion_score": 0.032258,
+        "rrf_score": 0.032258,
+        "rerank_score": 0.0617,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 2,
+        "dense_rank": 2,
+        "bm25_rank": 2,
+        "content_preview": "19\n日常维护\n水    箱\n需要根据实际使用情况定期清洁污水箱。打开污水箱上盖倾\n倒污水后接入自来水，关闭水箱上盖，扣紧卡扣并摇晃水箱。\n清洗完成后倒出污水，"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.013889,
+        "rrf_score": 0.013889,
+        "rerank_score": 0.0201,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 18,
+        "dense_rank": 12,
+        "bm25_rank": null,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      }
+    ]
+  },
+  {
+    "question": "指示灯的几种颜色分别代表什么？",
+    "modality": "text",
+    "gold_pages": [
+      5,
+      8
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      11,
+      8,
+      11,
+      5,
+      5
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "image",
+      "text"
+    ],
+    "rerank_scores": [
+      0.8463,
+      0.2387,
+      0.175,
+      0.0925,
+      0.0909
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      13,
+      16,
+      3,
+      1,
+      15
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 0.5,
+    "hit": true,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "309346ac50caf1f8",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.016393,
+        "rrf_score": 0.016393,
+        "rerank_score": 0.8463,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 13,
+        "dense_rank": 1,
+        "bm25_rank": null,
+        "content_preview": "接靠上基座。\n电源指示灯颜\n色表示电量\n • 白色：电量≥20% \n • 红色：电量＜20%\n方式 2：在应用商店搜索“米家”或扫描下方二维码下载安\n装米家 A"
+      },
+      {
+        "chunk_id": "c6bc5158b127f9e0",
+        "page_number": 8,
+        "content_type": "text",
+        "fusion_score": 0.015152,
+        "rrf_score": 0.015152,
+        "rerank_score": 0.2387,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 16,
+        "dense_rank": 6,
+        "bm25_rank": null,
+        "content_preview": "08\n产品介绍\n污水箱\n基座信号\n发射区\n充电弹片\n水箱卡扣\n集尘桶\n清水箱\n水箱提手\n水箱上盖\n基座底板\n清洁刮条\n拖布清洁刷组件\n高速自清洁\n刷拆卸卡扣\n高"
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.030835,
+        "rrf_score": 0.030835,
+        "rerank_score": 0.175,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 3,
+        "dense_rank": 2,
+        "bm25_rank": 8,
+        "content_preview": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮"
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "fusion_score": 0.031498,
+        "rrf_score": 0.031498,
+        "rerank_score": 0.0925,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 1,
+        "dense_rank": 3,
+        "bm25_rank": 4,
+        "content_preview": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回"
+      },
+      {
+        "chunk_id": "27080450d5c822c9",
+        "page_number": 5,
+        "content_type": "text",
+        "fusion_score": 0.015385,
+        "rrf_score": 0.015385,
+        "rerank_score": 0.0909,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 15,
+        "dense_rank": 5,
+        "bm25_rank": null,
+        "content_preview": "05\n机器人\n提示：在清洁或回充时按任意键暂停。\n充电触片\n沿墙传感器\nReactive AI 识别避障传感器\n回充传感器\n红外补光灯\n产品介绍\n清    扫/"
+      }
+    ]
+  },
+  {
+    "question": "如何恢复出厂设置？",
+    "modality": "text",
+    "gold_pages": [
+      14
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      14,
+      6,
+      12,
+      23,
+      13
+    ],
+    "types": [
+      "text",
+      "image",
+      "text",
+      "image",
+      "text"
+    ],
+    "rerank_scores": [
+      0.4113,
+      0.1216,
+      0.0778,
+      0.0505,
+      0.0372
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      15,
+      10,
+      9,
+      3
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.032787,
+        "rrf_score": 0.032787,
+        "rerank_score": 0.4113,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.014925,
+        "rrf_score": 0.014925,
+        "rerank_score": 0.1216,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 15,
+        "dense_rank": null,
+        "bm25_rank": 7,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "fusion_score": 0.015873,
+        "rrf_score": 0.015873,
+        "rerank_score": 0.0778,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 10,
+        "dense_rank": 3,
+        "bm25_rank": null,
+        "content_preview": "12\n • 熄灭：WiFi 功能未激活\n • 慢闪：等待连接\n • 快闪：正在连接\n • 长亮：WiFi 已连接\nWiFi 指示灯\na. 打开机器人上盖露出 W"
+      },
+      {
+        "chunk_id": "66b1a5f2e3e1856d",
+        "page_number": 23,
+        "content_type": "image",
+        "fusion_score": 0.016129,
+        "rrf_score": 0.016129,
+        "rerank_score": 0.0505,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 9,
+        "dense_rank": 2,
+        "bm25_rank": null,
+        "content_preview": "关键词：电池拆卸步骤图、报废处理、电池盖板螺丝、连接器插头、环保回收\n报废前拆电池步骤：1)不接触基座运行至低电量；2)关机；3)卸下电池盖板螺丝；4)取下盖板"
+      },
+      {
+        "chunk_id": "8b7c8092a77526af",
+        "page_number": 13,
+        "content_type": "text",
+        "fusion_score": 0.030622,
+        "rrf_score": 0.030622,
+        "rerank_score": 0.0372,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 3,
+        "dense_rank": 9,
+        "bm25_rank": 2,
+        "content_preview": "在清扫\n局部清扫\n短按  键启动局部清扫。\n清扫范围：机器人为中心 1.5 米 ×1.5 米的方形区域。\n提示：清扫结束后机器人会自动返回起点位置，进入待命状态"
+      }
+    ]
+  },
+  {
+    "question": "机器人为什么一直回充？",
+    "modality": "text",
+    "gold_pages": [
+      14,
+      24
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      24,
+      24,
+      5,
+      14,
+      13
+    ],
+    "types": [
+      "text",
+      "text",
+      "image",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.8343,
+      0.4893,
+      0.4826,
+      0.3716,
+      0.2682
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      2,
+      3,
+      4,
+      12
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "fce55fd0c5835a7b",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.032787,
+        "rrf_score": 0.032787,
+        "rerank_score": 0.8343,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "content_preview": "服帮助排查。\n一直在基座是否\n耗电\n机器人一直在基座时的耗电极低，\n有利于保持电池处于最佳性能。\n前三次使用是否\n需要充电十六小\n时\n锂离子电池随用随充无记忆效"
+      },
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.4893,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 2,
+        "dense_rank": 3,
+        "bm25_rank": 2,
+        "content_preview": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，"
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "fusion_score": 0.03125,
+        "rrf_score": 0.03125,
+        "rerank_score": 0.4826,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 3,
+        "dense_rank": 4,
+        "bm25_rank": 4,
+        "content_preview": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回"
+      },
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.031054,
+        "rrf_score": 0.031054,
+        "rerank_score": 0.3716,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 4,
+        "dense_rank": 2,
+        "bm25_rank": 7,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "868645e07a8d1dcb",
+        "page_number": 13,
+        "content_type": "text",
+        "fusion_score": 0.027072,
+        "rrf_score": 0.027072,
+        "rerank_score": 0.2682,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 12,
+        "dense_rank": 17,
+        "bm25_rank": 11,
+        "content_preview": "13\n使用说明\n启动扫拖\n短按  键机器人将按扫描生成的地图动态规划扫拖路线，采\n用先沿墙后 Z 字形填充的方式逐一完成各分区的扫拖，有序\n高效覆盖。清洁过程中"
+      }
+    ]
+  },
+  {
+    "question": "可以遥控机器人吗？",
+    "modality": "text",
+    "gold_pages": [
+      2
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      14,
+      3,
+      6,
+      2,
+      5
+    ],
+    "types": [
+      "text",
+      "text",
+      "image",
+      "text",
+      "image"
+    ],
+    "rerank_scores": [
+      0.4366,
+      0.2199,
+      0.0596,
+      0.0196,
+      0.0194
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      3,
+      5,
+      4,
+      1,
+      16
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 0.25,
+    "hit": true,
+    "top1_hit": false,
+    "final_results": [
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.030478,
+        "rrf_score": 0.030478,
+        "rerank_score": 0.4366,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 3,
+        "dense_rank": 11,
+        "bm25_rank": 1,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "f045cc8c6f61b95e",
+        "page_number": 3,
+        "content_type": "text",
+        "fusion_score": 0.029031,
+        "rrf_score": 0.029031,
+        "rerank_score": 0.2199,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 5,
+        "dense_rank": 3,
+        "bm25_rank": 16,
+        "content_preview": "03\n安全信息\n使用限制\n • 本产品仅限中国大陆地区销售和使用，在港澳台及海外使用将无法体验 APP 及\n智能音箱远程控制功能。\n • 仅用于家居环境的地面清"
+      },
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.029437,
+        "rrf_score": 0.029437,
+        "rerank_score": 0.0596,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 4,
+        "dense_rank": 6,
+        "bm25_rank": 10,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "1e62ac5ee26aca72",
+        "page_number": 2,
+        "content_type": "text",
+        "fusion_score": 0.031754,
+        "rrf_score": 0.031754,
+        "rerank_score": 0.0196,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 1,
+        "dense_rank": 4,
+        "bm25_rank": 2,
+        "content_preview": "02\n您可以扫描二维码或在应用商店中下载“Roborock”APP，连接机器人，\n解锁更多功能。\n感谢您选择石头。\n本说明书将引导您全面了解和快速安装扫拖机器人"
+      },
+      {
+        "chunk_id": "a4ab3706fddd98b5",
+        "page_number": 5,
+        "content_type": "image",
+        "fusion_score": 0.016393,
+        "rrf_score": 0.016393,
+        "rerank_score": 0.0194,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 16,
+        "dense_rank": 1,
+        "bm25_rank": null,
+        "content_preview": "关键词：机器人正面结构图、电源键、回充键、局部清扫键、童锁、指示灯、传感器位置\n机器人正面包含：清扫/开关机键（短按清扫、长按开关机）、回充键（短按回充、长按回"
+      }
+    ]
+  },
+  {
+    "question": "如何清洁集尘盒？",
+    "modality": "text",
+    "gold_pages": [
+      17
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      17,
+      20,
+      21,
+      24,
+      8
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "text",
+      "image"
+    ],
+    "rerank_scores": [
+      0.9404,
+      0.8816,
+      0.6416,
+      0.5086,
+      0.2081
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      5,
+      15,
+      2,
+      12
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "44f4946e7139679b",
+        "page_number": 17,
+        "content_type": "text",
+        "fusion_score": 0.032258,
+        "rrf_score": 0.032258,
+        "rerank_score": 0.9404,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 2,
+        "bm25_rank": 2,
+        "content_preview": "17\n日常维护\n用柔软干布擦拭清理主轮。\n主    轮\n尘    盒\n1. 打开机器人上盖，取出尘盒。\n2. 打开尘盒盖并倾倒垃圾。\n3. 尘盒中注入清水后关闭"
+      },
+      {
+        "chunk_id": "9b8f6f7e19af923e",
+        "page_number": 20,
+        "content_type": "text",
+        "fusion_score": 0.029727,
+        "rrf_score": 0.029727,
+        "rerank_score": 0.8816,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 5,
+        "dense_rank": 1,
+        "bm25_rank": 15,
+        "content_preview": "20\n日常维护\n更换一次性尘袋\n1. 提起集尘桶。\n2. 沿箭头方向垂直取出一次性尘袋并丢弃。\n提示：请定期更换一次性尘袋。\n清洗槽滤网\n提起清洗槽滤网卡扣，取"
+      },
+      {
+        "chunk_id": "c942df91d9c6ba82",
+        "page_number": 21,
+        "content_type": "text",
+        "fusion_score": 0.014925,
+        "rrf_score": 0.014925,
+        "rerank_score": 0.6416,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 15,
+        "dense_rank": 7,
+        "bm25_rank": null,
+        "content_preview": "21\n日常维护\n2. 取出清洗槽滤网，并使用毛巾擦干水槽内水渍。\n清理清洗槽与风道\n如出现风道堵塞，请按照以下步骤进行清理。\n1. 取出净水箱、污水箱、集尘桶。"
+      },
+      {
+        "chunk_id": "9e4a7ee3ae2b3e34",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.031498,
+        "rrf_score": 0.031498,
+        "rerank_score": 0.5086,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 2,
+        "dense_rank": 3,
+        "bm25_rank": 4,
+        "content_preview": "左侧是否有异物卡住，请清理；\n停靠在右侧清洗槽滤网旁，可能滤网上有异物卡住或清洗槽滤网\n未“咔哒”按压到底卡住自清洁模组，请清理并按压到位后重试。\n拖布自清洁效"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.026993,
+        "rrf_score": 0.026993,
+        "rerank_score": 0.2081,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 12,
+        "dense_rank": 20,
+        "bm25_rank": 9,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      }
+    ]
+  },
+  {
+    "question": "机器人会不会从楼梯摔下去？",
+    "modality": "image",
+    "gold_pages": [
+      6
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      6,
+      3,
+      8,
+      9,
+      11
+    ],
+    "types": [
+      "image",
+      "text",
+      "image",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.7125,
+      0.7076,
+      0.0453,
+      0.0388,
+      0.0344
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      1,
+      4,
+      19,
+      14,
+      2
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "2a7752848297393b",
+        "page_number": 6,
+        "content_type": "image",
+        "fusion_score": 0.031545,
+        "rrf_score": 0.031545,
+        "rerank_score": 0.7125,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 1,
+        "dense_rank": 1,
+        "bm25_rank": 6,
+        "content_preview": "关键词：机器人底部结构图、悬崖传感器防跌落、地毯识别传感器、万向轮、主轮、边刷、软胶主刷、碰撞缓冲传感器\n机器人底部装有悬崖传感器，可检测楼梯、台阶等高差环境，"
+      },
+      {
+        "chunk_id": "799e1cb0c013880d",
+        "page_number": 3,
+        "content_type": "text",
+        "fusion_score": 0.030159,
+        "rrf_score": 0.030159,
+        "rerank_score": 0.7076,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 4,
+        "dense_rank": 3,
+        "bm25_rank": 10,
+        "content_preview": "\n • 请勿用于清扫任何燃烧中的物体（如未熄灭的烟头、火柴、灰烬等）。\n • 请勿在高于 40℃、低于 0℃ 或地面有任何液体及粘稠物的环境下存放及使用。\n •"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.014085,
+        "rrf_score": 0.014085,
+        "rerank_score": 0.0453,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 19,
+        "dense_rank": null,
+        "bm25_rank": 11,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      },
+      {
+        "chunk_id": "7e9039482f69219c",
+        "page_number": 9,
+        "content_type": "text",
+        "fusion_score": 0.026857,
+        "rrf_score": 0.026857,
+        "rerank_score": 0.0388,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 14,
+        "dense_rank": 13,
+        "bm25_rank": 16,
+        "content_preview": "09\n产品安装\n特别提示\n1. 请在启动前清理地面上散落的线材、硬物、尖锐物体（如铁钉、\n玻璃）等杂物，并移开易倒、易碎、贵重及可能造成危险的物品。\n避免被机器"
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.030622,
+        "rrf_score": 0.030622,
+        "rerank_score": 0.0344,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 2,
+        "dense_rank": 2,
+        "bm25_rank": 9,
+        "content_preview": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮"
+      }
+    ]
+  },
+  {
+    "question": "开机后机器人不动怎么办？",
+    "modality": "text",
+    "gold_pages": [
+      5,
+      24
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      24,
+      14,
+      12,
+      11,
+      12
+    ],
+    "types": [
+      "text",
+      "text",
+      "text",
+      "text",
+      "text"
+    ],
+    "rerank_scores": [
+      0.4485,
+      0.4271,
+      0.3223,
+      0.2274,
+      0.1953
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      5,
+      3,
+      4,
+      1,
+      2
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 0.5,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "96a806c471988e31",
+        "page_number": 24,
+        "content_type": "text",
+        "fusion_score": 0.030303,
+        "rrf_score": 0.030303,
+        "rerank_score": 0.4485,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 5,
+        "dense_rank": 6,
+        "bm25_rank": 6,
+        "content_preview": "24\n常见问题\n问题类型\n解决方法\n无法开机\n电池电量不足，请先靠上基座充电后再使用；\n电池温度过低或过高，请在0-40℃ 环境下使用。\n无法充电\n基座未通电，"
+      },
+      {
+        "chunk_id": "9c81d4bb97046afb",
+        "page_number": 14,
+        "content_type": "text",
+        "fusion_score": 0.03125,
+        "rrf_score": 0.03125,
+        "rerank_score": 0.4271,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 3,
+        "dense_rank": 4,
+        "bm25_rank": 4,
+        "content_preview": "14\n使用说明\n充    电\n清洁结束后，机器人会自动返回基座充电，并根据历史清洁行\n为判断本次返回基座后是否需要洗拖布和集尘。\n暂停状态下，短按 \n 键启动回"
+      },
+      {
+        "chunk_id": "ab16846fbf0824f2",
+        "page_number": 12,
+        "content_type": "text",
+        "fusion_score": 0.030886,
+        "rrf_score": 0.030886,
+        "rerank_score": 0.3223,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 4,
+        "dense_rank": 9,
+        "bm25_rank": 1,
+        "content_preview": "12\n • 熄灭：WiFi 功能未激活\n • 慢闪：等待连接\n • 快闪：正在连接\n • 长亮：WiFi 已连接\nWiFi 指示灯\na. 打开机器人上盖露出 W"
+      },
+      {
+        "chunk_id": "1999dabd3175d8b3",
+        "page_number": 11,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.2274,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 1,
+        "dense_rank": 3,
+        "bm25_rank": 2,
+        "content_preview": "11\n提示：\n • 电源线垂于地面可能被机器人拖拽，引起基座移位或断电。\n • 基座指示灯通电时长亮，机器人充电时熄灭。\n • 基座出现异常后，指示灯将红灯长亮"
+      },
+      {
+        "chunk_id": "61b643029529e492",
+        "page_number": 12,
+        "content_type": "text",
+        "fusion_score": 0.031778,
+        "rrf_score": 0.031778,
+        "rerank_score": 0.1953,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 2,
+        "dense_rank": 1,
+        "bm25_rank": 5,
+        "content_preview": "  键开机，电源指示灯点亮，机器人进入待命状态。\n长按  键关机，本次扫拖结束。\n提示：机器人在充电中无法关机。\n提示：\n • 请勿使用非石头官方清洁液，否则可"
+      }
+    ]
+  },
+  {
+    "question": "设备的保修期是多久？",
+    "modality": "text",
+    "gold_pages": [
+      25
+    ],
+    "candidate_count": 20,
+    "final_count": 5,
+    "pages": [
+      25,
+      25,
+      10,
+      3,
+      8
+    ],
+    "types": [
+      "text",
+      "text",
+      "image",
+      "text",
+      "image"
+    ],
+    "rerank_scores": [
+      0.1301,
+      0.0967,
+      0.0162,
+      0.0128,
+      0.0126
+    ],
+    "rerank_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_hybrid_ranks": [
+      10,
+      1,
+      14,
+      3,
+      2
+    ],
+    "ranking_changed": true,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "hit": true,
+    "top1_hit": true,
+    "final_results": [
+      {
+        "chunk_id": "f20e1499ecd37f1d",
+        "page_number": 25,
+        "content_type": "text",
+        "fusion_score": 0.016393,
+        "rrf_score": 0.016393,
+        "rerank_score": 0.1301,
+        "rerank_rank": 1,
+        "original_hybrid_rank": 10,
+        "dense_rank": 1,
+        "bm25_rank": null,
+        "content_preview": "25\n类    型\n整    机\n保修内容\n保修期限\n机器人（包含内置锂离子\n电池）；基座；电源线\n2 年\n石头科技严格依据《中华人民共和国消费者权益保护法》、"
+      },
+      {
+        "chunk_id": "e6da4fffa8b63616",
+        "page_number": 25,
+        "content_type": "text",
+        "fusion_score": 0.032002,
+        "rrf_score": 0.032002,
+        "rerank_score": 0.0967,
+        "rerank_rank": 2,
+        "original_hybrid_rank": 1,
+        "dense_rank": 2,
+        "bm25_rank": 3,
+        "content_preview": "费享受维\n修服务，运费由石头科技承担。\n以下情况，石头科技将不能为您的机器提供免费保修服务，但\n可实行收费维修：\n未经石头科技授权的机构、人员对产品进行了维修、"
+      },
+      {
+        "chunk_id": "6f892c93f8720801",
+        "page_number": 10,
+        "content_type": "image",
+        "fusion_score": 0.015625,
+        "rrf_score": 0.015625,
+        "rerank_score": 0.0162,
+        "rerank_rank": 3,
+        "original_hybrid_rank": 14,
+        "dense_rank": null,
+        "bm25_rank": 4,
+        "content_preview": "关键词：基座安装步骤图、运输固定泡沫、基座底板组装、电源线连接、基座放置空间要求\n基座安装步骤：1)取出底部高速自清洁刷组件运输固定泡沫；2)基座底板与主体组装"
+      },
+      {
+        "chunk_id": "0ebe4de41fa1ad5c",
+        "page_number": 3,
+        "content_type": "text",
+        "fusion_score": 0.02967,
+        "rrf_score": 0.02967,
+        "rerank_score": 0.0128,
+        "rerank_rank": 4,
+        "original_hybrid_rank": 3,
+        "dense_rank": 5,
+        "bm25_rank": 10,
+        "content_preview": "折断等）情况，请立即停止使用，\n及时联系客服。\n • 如长时间不使用机器人，请充满电后关闭机器人并放置于阴凉干燥处，至少每 3 \n个月充电一次避免电池出现过放。"
+      },
+      {
+        "chunk_id": "a821fd8130c4be6e",
+        "page_number": 8,
+        "content_type": "image",
+        "fusion_score": 0.029877,
+        "rrf_score": 0.029877,
+        "rerank_score": 0.0126,
+        "rerank_rank": 5,
+        "original_hybrid_rank": 2,
+        "dense_rank": 9,
+        "bm25_rank": 5,
+        "content_preview": "关键词：基座结构图、污水箱、清水箱、集尘桶、充电弹片、高速自清洁刷、清洗槽滤网、状态指示灯\n基座包含：污水箱（上盖+卡扣）、清水箱（提手+上盖）、集尘桶（内置一"
+      }
+    ]
+  }
+]

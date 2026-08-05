@@ -1,0 +1,162 @@
+[
+  {
+    "question": "设备无法开机怎么办？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何清洁机器人的传感器？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "扫地机器人支持哪些清洁模式？",
+    "v4_status": "refused",
+    "v6_status": "answered",
+    "v4_supported": false,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何连接手机APP？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "污水箱满了怎么处理？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "机器人工作时噪音大是什么原因？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "充电座应该放在什么位置？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何更换拖布？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "机器人能清扫地毯吗？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何设置虚拟墙？",
+    "v4_status": "verified",
+    "v6_status": "refused",
+    "v4_supported": true,
+    "v6_supported": false,
+    "flipped": true
+  },
+  {
+    "question": "主刷被缠绕了怎么处理？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "清水箱需要加什么水？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "指示灯的几种颜色分别代表什么？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何恢复出厂设置？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "机器人为什么一直回充？",
+    "v4_status": "verified",
+    "v6_status": "refused",
+    "v4_supported": true,
+    "v6_supported": false,
+    "flipped": true
+  },
+  {
+    "question": "可以遥控机器人吗？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "如何清洁集尘盒？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "机器人会不会从楼梯摔下去？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  },
+  {
+    "question": "开机后机器人不动怎么办？",
+    "v4_status": "verified",
+    "v6_status": "refused",
+    "v4_supported": true,
+    "v6_supported": false,
+    "flipped": true
+  },
+  {
+    "question": "设备的保修期是多久？",
+    "v4_status": "verified",
+    "v6_status": "answered",
+    "v4_supported": true,
+    "v6_supported": true,
+    "flipped": true
+  }
+]

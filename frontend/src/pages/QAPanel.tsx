@@ -156,10 +156,31 @@ export function QAPanel() {
                 <span className="muted">confidence: </span>
                 <span style={{ fontWeight: 600 }}>{(result.verification.confidence * 100).toFixed(0)}%</span>
               </div>
+              {result.verification.grounding_meta && (
+                <div>
+                  <span className="muted">句级支撑: </span>
+                  <span style={{ fontWeight: 600 }}>
+                    {result.verification.grounding_meta.n_supported ?? 0}/{result.verification.grounding_meta.n_sentences ?? 0} 句
+                    <span className="muted ml-2" style={{ fontSize: "var(--text-xs)" }}>
+                      {result.verification.grounding_meta.scorer === "cross_encoder" ? "交叉编码器" : "余弦"}
+                    </span>
+                  </span>
+                </div>
+              )}
             </div>
             {result.verification.reason && (
               <div className="mt-3" style={{ color: "var(--color-text-secondary)", fontSize: "var(--text-sm)" }}>
                 {result.verification.reason}
+              </div>
+            )}
+            {result.verification.unsupported_claims && result.verification.unsupported_claims.length > 0 && (
+              <div className="mt-3">
+                <div className="muted" style={{ fontSize: "var(--text-sm)", marginBottom: 4 }}>
+                  无支撑句子（{result.verification.unsupported_claims.length}）：
+                </div>
+                {result.verification.unsupported_claims.map((c, i) => (
+                  <div key={i} style={{ color: "var(--color-error)", fontSize: "var(--text-sm)" }}>• {c}</div>
+                ))}
               </div>
             )}
           </div>

@@ -2,12 +2,11 @@
 
 ## 当前状态
 
-- 当前阶段：Phase 9D
+- 当前阶段：Phase 11 (V7 模型网关容错)
 - 阶段状态：PASS
-- 当前版本：V5 + FastAPI + React 全栈
-- 最近完成：实验评估页、指标对比/图表/演进/案例、GET /experiments、123/123 全量
-- 已知限制：Milvus Lite 单进程
-- 下一步：项目完成
+- 当前版本：V7 + FastAPI + React 全栈
+- 最近完成：V7 LLM 网关（超时 60s + 指数退避重试 + 熔断器 + 多 provider 兜底链 + 兜底应答）；demo 验证 failover
+- 已知限制：Milvus Lite 单进程；交叉编码器对"主题相关编造"仍有边界（弗兰肯斯坦局限）；熔断状态仅进程内（uvicorn 重启重置，无 Redis）
 
 ## Phase 7 — 增量更新
 
@@ -128,3 +127,5 @@ Golden Dataset（`data/eval_dataset/golden_100.json`）：
 | Phase 9B | PASS | QAPanel 接入 POST /query；答案/来源/验证展示；Q18 answered；109/109 测试 |
 | Phase 9C | PASS | KnowledgeBase PDF上传+增量统计+文档列表；GET /documents；二次上传 embedded=0；6/6 测试 |
 | Phase 9D | PASS | 实验评估页：V0-V5 指标对比+CSS图表+技术演进+案例+结论；GET /experiments；123/123 测试 |
+| Phase 10 (V6) | PASS | 句级接地验证；交叉编码器替换余弦；投毒测试 82% 拦截；20+2 评测 17/20+2/2；158/158 测试 |
+| Phase 11 (V7) | PASS | LLM 网关：60s 超时+重试+熔断+兜底链+兜底应答；LLMClient 门面零改调用点；19 网关测试；demo failover |

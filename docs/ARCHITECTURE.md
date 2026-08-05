@@ -32,6 +32,7 @@ Raw PDF
 - `workflow`：负责流程编排和风险路由。
 - `api`：负责请求校验和响应封装。
 - `eval`：负责离线评测，不改变线上回答逻辑。
+- `infra.gateway`：负责 LLM 调用的超时/重试/熔断/多 provider 兜底链（V7）。
 
 ## 5. 实验版本
 
@@ -42,5 +43,6 @@ V2 V1 + BM25/RRF Hybrid Retrieval
 V3 V2 + BGE-Reranker
 V4 V3 + LangGraph Verify
 V5 V4 + Incremental Update
+V6 V5 + Deterministic Grounding (Cross-Encoder)
 ```
 

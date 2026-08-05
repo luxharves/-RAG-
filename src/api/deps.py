@@ -66,18 +66,25 @@ def get_bm25():
 
 
 @lru_cache
+def get_reranker():
+    from src.infra.reranker import Reranker
+    r = Reranker()
+    r.load()
+    return r
+
+
+@lru_cache
 def get_retriever():
     from src.retrieval.reranked_retriever import RerankedRetriever
     return RerankedRetriever(
         collection_name=get_latest_v1_collection(),
         bm25_index_path=str(PROJECT_ROOT / "storage" / "bm25"),
+        reranker=get_reranker(),
     )
 
 
-@lru_cache
-def get_vqa():
-    from src.workflow.verified_qa import VerifiedQA
-    from src.generation.generator import generate_answer
+def _make_llm_verifier():
+    """V4 LLM-as-judge verifier — kept for VERIFIER_MODE=llm reproducibility."""
     from src.infra.llm_client import LLMClient
     import json
 
@@ -106,6 +113,34 @@ CONTEXT:\n{ctx}\nANSWER:\n{answer}\n只输出JSON:"""
                 "unsupported_claims": ["parse error"],
                 "evidence_chunk_ids": [], "reason": "verify parse failed"}
 
+    return verifier
+
+
+@lru_cache
+def get_vqa():
+    from src.workflow.verified_qa import VerifiedQA
+    from src.generation.generator import generate_answer
+    from src.workflow.grounding import GroundingVerifier, CrossEncoderScorer
+
+    s = get_settings()
+    if s.verifier_mode == "llm":
+        verifier = _make_llm_verifier()
+    elif s.grounding_scorer == "cosine":
+        # Bi-encoder BGE-M3 cosine path (V6 original; less discriminative)
+        verifier = GroundingVerifier(
+            embedder=get_embedder(),
+            initial_threshold=s.grounding_initial_threshold,
+            threshold_floor=s.grounding_threshold_floor,
+            decay=s.grounding_threshold_decay,
+            min_support_ratio=s.grounding_min_support_ratio,
+        )
+    else:
+        # V6 — cross-encoder grounding (default): joint (sentence, chunk) score
+        verifier = GroundingVerifier(
+            scorer=CrossEncoderScorer(get_reranker()),
+            scorer_floor=s.grounding_scorer_floor,
+            min_support_ratio=s.grounding_min_support_ratio,
+        )
     return VerifiedQA(get_retriever(), generate_answer, verifier)
 
 

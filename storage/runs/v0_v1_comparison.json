@@ -1,0 +1,651 @@
+{
+  "experiment": "v0_v1_comparison",
+  "v0_collection": "v0_naive_rag",
+  "v1_collection": "v1_multimodal_kw_20260718_204259",
+  "total_questions": 20,
+  "v0_hit_rate": 0.9474,
+  "v1_hit_rate": 0.95,
+  "image_questions": {
+    "q18_v0_hit": false,
+    "q18_v1_hit": true,
+    "q18_v1_content_types": [
+      [
+        "image",
+        "text",
+        "text",
+        "text",
+        "text"
+      ]
+    ]
+  },
+  "per_question": [
+    {
+      "question_id": 1,
+      "question": "设备无法开机怎么办？",
+      "modality": "text",
+      "gold_pages": [
+        24
+      ],
+      "v0_pages": [
+        24,
+        12,
+        12,
+        9,
+        11
+      ],
+      "v1_pages": [
+        24,
+        12,
+        12,
+        9,
+        11
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 2,
+      "question": "如何清洁机器人的传感器？",
+      "modality": "text",
+      "gold_pages": [
+        15,
+        18
+      ],
+      "v0_pages": [
+        12,
+        17,
+        14,
+        15,
+        5
+      ],
+      "v1_pages": [
+        12,
+        17,
+        14,
+        15,
+        5
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 3,
+      "question": "扫地机器人支持哪些清洁模式？",
+      "modality": "text",
+      "gold_pages": [
+        13,
+        14
+      ],
+      "v0_pages": [
+        14,
+        13,
+        14,
+        12,
+        5
+      ],
+      "v1_pages": [
+        14,
+        13,
+        14,
+        12,
+        5
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 4,
+      "question": "如何连接手机APP？",
+      "modality": "text",
+      "gold_pages": [
+        12
+      ],
+      "v0_pages": [
+        11,
+        10,
+        2,
+        12,
+        24
+      ],
+      "v1_pages": [
+        11,
+        10,
+        2,
+        10,
+        12
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "image",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 5,
+      "question": "污水箱满了怎么处理？",
+      "modality": "text",
+      "gold_pages": [
+        19
+      ],
+      "v0_pages": [
+        19,
+        12,
+        8,
+        21,
+        20
+      ],
+      "v1_pages": [
+        19,
+        12,
+        8,
+        21,
+        20
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 6,
+      "question": "机器人工作时噪音大是什么原因？",
+      "modality": "text",
+      "gold_pages": [
+        24
+      ],
+      "v0_pages": [
+        24,
+        13,
+        15,
+        5,
+        24
+      ],
+      "v1_pages": [
+        24,
+        13,
+        5,
+        15,
+        5
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "image",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 7,
+      "question": "充电座应该放在什么位置？",
+      "modality": "text",
+      "gold_pages": [
+        10,
+        11
+      ],
+      "v0_pages": [
+        3,
+        11,
+        11,
+        10,
+        26
+      ],
+      "v1_pages": [
+        3,
+        11,
+        11,
+        10,
+        10
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "image",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 8,
+      "question": "如何更换拖布？",
+      "modality": "text",
+      "gold_pages": [
+        18
+      ],
+      "v0_pages": [
+        18,
+        13,
+        24,
+        20,
+        9
+      ],
+      "v1_pages": [
+        18,
+        13,
+        24,
+        20,
+        9
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 9,
+      "question": "机器人能清扫地毯吗？",
+      "modality": "text",
+      "gold_pages": [
+        6,
+        13
+      ],
+      "v0_pages": [
+        13,
+        13,
+        14,
+        9,
+        24
+      ],
+      "v1_pages": [
+        13,
+        13,
+        14,
+        9,
+        24
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 10,
+      "question": "如何设置虚拟墙？",
+      "modality": "text",
+      "gold_pages": [
+        9
+      ],
+      "v0_pages": [
+        10,
+        9,
+        3,
+        12,
+        19
+      ],
+      "v1_pages": [
+        10,
+        10,
+        9,
+        3,
+        12
+      ],
+      "v1_content_types": [
+        "image",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 11,
+      "question": "主刷被缠绕了怎么处理？",
+      "modality": "text",
+      "gold_pages": [
+        16
+      ],
+      "v0_pages": [
+        15,
+        16,
+        17,
+        24,
+        26
+      ],
+      "v1_pages": [
+        15,
+        16,
+        17,
+        24,
+        26
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 12,
+      "question": "清水箱需要加什么水？",
+      "modality": "text",
+      "gold_pages": [
+        3,
+        19
+      ],
+      "v0_pages": [
+        12,
+        19,
+        8,
+        7,
+        17
+      ],
+      "v1_pages": [
+        12,
+        19,
+        8,
+        7,
+        7
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "image"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 13,
+      "question": "指示灯的几种颜色分别代表什么？",
+      "modality": "text",
+      "gold_pages": [
+        5,
+        8
+      ],
+      "v0_pages": [
+        11,
+        11,
+        5,
+        8,
+        6
+      ],
+      "v1_pages": [
+        11,
+        11,
+        5,
+        8,
+        5
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "image",
+        "image",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 14,
+      "question": "如何恢复出厂设置？",
+      "modality": "text",
+      "gold_pages": [
+        14
+      ],
+      "v0_pages": [
+        14,
+        12,
+        24,
+        26,
+        12
+      ],
+      "v1_pages": [
+        14,
+        23,
+        12,
+        24,
+        26
+      ],
+      "v1_content_types": [
+        "text",
+        "image",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 15,
+      "question": "机器人为什么一直回充？",
+      "modality": "text",
+      "gold_pages": [
+        14,
+        24
+      ],
+      "v0_pages": [
+        24,
+        14,
+        24,
+        5,
+        11
+      ],
+      "v1_pages": [
+        24,
+        14,
+        24,
+        5,
+        5
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "image",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 16,
+      "question": "可以遥控机器人吗？",
+      "modality": "text",
+      "gold_pages": [
+        2
+      ],
+      "v0_pages": [
+        13,
+        3,
+        2,
+        5,
+        3
+      ],
+      "v1_pages": [
+        5,
+        13,
+        3,
+        2,
+        5
+      ],
+      "v1_content_types": [
+        "image",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 17,
+      "question": "如何清洁集尘盒？",
+      "modality": "text",
+      "gold_pages": [
+        17
+      ],
+      "v0_pages": [
+        20,
+        17,
+        24,
+        26,
+        19
+      ],
+      "v1_pages": [
+        20,
+        17,
+        24,
+        26,
+        19
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    },
+    {
+      "question_id": 18,
+      "question": "机器人会不会从楼梯摔下去？",
+      "modality": "image",
+      "gold_pages": [
+        6
+      ],
+      "v0_pages": [
+        11,
+        3,
+        15,
+        12,
+        24
+      ],
+      "v1_pages": [
+        6,
+        11,
+        3,
+        15,
+        12
+      ],
+      "v1_content_types": [
+        "image",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": false,
+      "v1_hit": true
+    },
+    {
+      "question_id": 19,
+      "question": "开机后机器人不动怎么办？",
+      "modality": "text",
+      "gold_pages": [
+        5,
+        24
+      ],
+      "v0_pages": [
+        12,
+        15,
+        11,
+        14,
+        13
+      ],
+      "v1_pages": [
+        12,
+        15,
+        11,
+        14,
+        13
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": false,
+      "v1_hit": false
+    },
+    {
+      "question_id": 20,
+      "question": "设备的保修期是多久？",
+      "modality": "text",
+      "gold_pages": [
+        25
+      ],
+      "v0_pages": [
+        25,
+        25,
+        15,
+        26,
+        3
+      ],
+      "v1_pages": [
+        25,
+        25,
+        15,
+        26,
+        3
+      ],
+      "v1_content_types": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "v0_hit": true,
+      "v1_hit": true
+    }
+  ]
+}

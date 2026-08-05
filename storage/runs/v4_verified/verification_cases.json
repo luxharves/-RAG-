@@ -1,0 +1,44 @@
+[
+  {
+    "question": "这个设备能在火星上使用吗？",
+    "label": "out_of_scope",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "verification_result": {
+      "supported": false,
+      "confidence": 0.0,
+      "unsupported_claims": [
+        "问题与说明书内容无关"
+      ],
+      "evidence_chunk_ids": [],
+      "reason": "所有检索结果相关度低于阈值，问题超出说明书范围"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "check_relevance"
+    ],
+    "time_s": 10.33
+  },
+  {
+    "question": "如何更换核聚变反应堆？",
+    "label": "nonsense",
+    "answer": "根据现有说明书内容无法回答此问题。",
+    "final_status": "refused",
+    "verification_result": {
+      "supported": false,
+      "confidence": 0.0,
+      "unsupported_claims": [
+        "问题与说明书内容无关"
+      ],
+      "evidence_chunk_ids": [],
+      "reason": "所有检索结果相关度低于阈值，问题超出说明书范围"
+    },
+    "retry_count": 0,
+    "trace": [
+      "retrieve",
+      "check_relevance"
+    ],
+    "time_s": 21.8
+  }
+]

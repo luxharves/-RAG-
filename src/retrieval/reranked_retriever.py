@@ -22,19 +22,23 @@ class RerankedRetriever:
         bm25_index_path: str | None = None,
         candidate_top_k: int = 20,
         final_top_k: int = 5,
+        reranker: Reranker | None = None,
     ):
         self.collection_name = collection_name
         self._hybrid = HybridRetriever(
             collection_name=collection_name,
             bm25_index_path=bm25_index_path,
         )
-        self._reranker: Reranker | None = None
+        # Injectable shared instance (e.g. deps.get_reranker) so the grounding
+        # verifier can reuse the SAME cross-encoder instead of loading a 2nd.
+        self._reranker = reranker
         self.candidate_top_k = candidate_top_k
         self.final_top_k = final_top_k
 
     def _ensure_reranker(self) -> Reranker:
         if self._reranker is None:
             self._reranker = Reranker()
+        if not self._reranker.is_loaded:
             self._reranker.load()
         return self._reranker
 
