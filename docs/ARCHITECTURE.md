@@ -33,6 +33,7 @@ Raw PDF
 - `api`：负责请求校验和响应封装。
 - `eval`：负责离线评测，不改变线上回答逻辑。
 - `infra.gateway`：负责 LLM 调用的超时/重试/熔断/多 provider 兜底链（V7）。
+- `retrieval`：支持 doc 级 metadata filtering（`doc_filter` 按 source_file 限制检索到单本说明书），多文档场景下避免跨文档页号冲突（V8 数据强化）。
 
 ## 5. 实验版本
 

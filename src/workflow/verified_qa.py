@@ -31,6 +31,7 @@ class QAState(TypedDict):
     retry_count: int
     final_status: str  # answered | refused | fallback
     trace: list[str]
+    doc_filter: str | None  # source_file to restrict retrieval to one doc
 
 
 # Default thresholds
@@ -73,7 +74,8 @@ class VerifiedQA:
 
     def _retrieve(self, state: QAState) -> dict:
         new_trace = list(state.get("trace", [])) + ["retrieve"]
-        chunks = self.retriever.search(state["question"], top_k=5, mode="reranked")
+        chunks = self.retriever.search(state["question"], top_k=5, mode="reranked",
+                                       doc_filter=state.get("doc_filter"))
         return {
             "trace": new_trace,
             "retrieved_chunks": chunks,
@@ -194,7 +196,7 @@ class VerifiedQA:
         )
         return builder.compile()
 
-    def run(self, question: str) -> QAState:
+    def run(self, question: str, doc_filter: str | None = None) -> QAState:
         initial: QAState = {
             "question": question,
             "retrieved_chunks": [],
@@ -204,5 +206,6 @@ class VerifiedQA:
             "retry_count": 0,
             "final_status": "",
             "trace": [],
+            "doc_filter": doc_filter,
         }
         return self._graph.invoke(initial)

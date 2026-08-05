@@ -1,0 +1,15 @@
+{
+  "run_id": "final_eval_20260805_113151",
+  "timestamp": "2026-08-05T11:31:51",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_extended.json",
+  "dataset_sha256": "92830da0f2ed1a23f27d48dc5ad6077694dd59dd318353e50fe45844a9134a7e",
+  "source_documents": [
+    "Roborock G10S"
+  ],
+  "total_questions": 12,
+  "modality_counts": {
+    "text": 12
+  },
+  "ragas_version": "0.4.3",
+  "versions": {}
+}

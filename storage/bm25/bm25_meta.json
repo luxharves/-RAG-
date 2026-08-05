@@ -614,5 +614,2350 @@
     "content_type": "text",
     "source_file": "D:\\Agentproject1\\data\\raw_docs\\test.pdf",
     "content": "fake pdf content"
+  },
+  {
+    "chunk_id": "4027081755c75507",
+    "page_number": 2,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Instruction Manual\b................................................................................."
+  },
+  {
+    "chunk_id": "383f991b9c91b8cf",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "3\nEN\n1.\t Do not allow to be used as a toy. Close attention \nis necessary when used by or near childr"
+  },
+  {
+    "chunk_id": "7caf5af4cbb5b4db",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " it can detect the step without \nfalling over the edge. It may become necessary \nto place a physical"
+  },
+  {
+    "chunk_id": "58654a596dcef27c",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ncluding the following:\nWARNING: Read all safety warnings and instructions. \nFailure to follow the w"
+  },
+  {
+    "chunk_id": "6a075f410f394e20",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " are lit candles or fragile objects on the \nfloor to be cleaned.\n9.\t Do not use and store in extreme"
+  },
+  {
+    "chunk_id": "18b99c042daba2a5",
+    "page_number": 3,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "use ONLY. Do not use the \nAppliance in outdoor, commercial or industrial \nenvironments. Do not use A"
+  },
+  {
+    "chunk_id": "7278ee8e00e13d61",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "4\nEN\nmaterials such as gasoline, printer, or copier \ntoner, or use in areas where they may be \nprese"
+  },
+  {
+    "chunk_id": "72686875665b2e02",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "or carry the Appliance or Docking \nStation by the power cord, use the power cord \nas a handle, close"
+  },
+  {
+    "chunk_id": "fda364da77ff110c",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "agent in order to avoid a hazard.\n19.\tDo not use with a damaged power cord or plug. \nDo not use the "
+  },
+  {
+    "chunk_id": "5afb76e51a84a6a0",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "s turn off this \nappliance before connecting or disconnecting \nmotorized nozzle.\n21.\tRemove the Appl"
+  },
+  {
+    "chunk_id": "e6faf597355a3148",
+    "page_number": 4,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ot incinerate the Appliance even if it is \nseverely damaged. The batteries can explode in \na fire. \n"
+  },
+  {
+    "chunk_id": "daa6782bd33169a7",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "5\nEN\n27.\tPrevent unintentional starting. Ensure the switch \nis in the off position before connecting"
+  },
+  {
+    "chunk_id": "c25665c5c6d5319e",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "usive conditions, liquid may be ejected \nfrom the battery; avoid contact. If contact \naccidentally o"
+  },
+  {
+    "chunk_id": "1a6719a3ec66e30c",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "pose a battery pack or appliance to \nfire or excessive temperature. Exposure to fire or \ntemperature"
+  },
+  {
+    "chunk_id": "700d5e91a66926c0",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ry \nand increase the risk of fire.\n33.\tHave servicing performed by a qualified repair \nperson using "
+  },
+  {
+    "chunk_id": "1248a5f5dee8f052",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "m in a room that has \nlit candles on furniture that the vacuum may \naccidentally hit or bump into.\n3"
+  },
+  {
+    "chunk_id": "b80511ce97b675c3",
+    "page_number": 5,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " with specifically designated \nbattery packs. Use of any other battery packs \nmay create a risk of i"
+  },
+  {
+    "chunk_id": "c3bb28492aac1ff1",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "6\nEN\n41.\t The robot contains batteries that are only \nreplaceable by skilled persons. To replace the"
+  },
+  {
+    "chunk_id": "54875df2c5aff117",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " Unplug Before Servicing.\n45.\tRisk Of Injury. Brush May Start Unexpectedly. \nUnplug Before Cleaning "
+  },
+  {
+    "chunk_id": "157f351631b42d55",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "be removed from the receptacle \nbefore cleaning or maintaining the Docking Station.\n51.\tPower Switch"
+  },
+  {
+    "chunk_id": "042df15cc75e5e28",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "the FCC Rules. \nThese limits are designed to provide reasonable \nprotection against harmful interfer"
+  },
+  {
+    "chunk_id": "a6b03ac305935078",
+    "page_number": 6,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "does cause harmful interference to radio or television \nreception, which can be determined by turnin"
+  },
+  {
+    "chunk_id": "cdc27480eafff9a9",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "7\nEN\n Increase the separation between the equipment and \nreceiver. \n Connect the equipment into an o"
+  },
+  {
+    "chunk_id": "89e23a6fb5baf296",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "erence received, \nincluding interference that may cause undesired \noperation. \nCaution: Changes or m"
+  },
+  {
+    "chunk_id": "718385811aced6d5",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "o conditions: \n(1) This device may not cause interference. \n(2) This device must accept any interfer"
+  },
+  {
+    "chunk_id": "fe092467f2388fa9",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "talled to provide a \nseparation distance of at least 20 cm from all persons \nand must not be colloca"
+  },
+  {
+    "chunk_id": "54f868dc59b4fcc7",
+    "page_number": 7,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "s at closer than this \ndistance is not recommended.\nTo disable the Wi-Fi module on DEEBOT, follow th"
+  },
+  {
+    "chunk_id": "0e55faec8404d131",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "8\nEN\nGROUNDING INSTRUCTIONS\nThis appliance must be grounded. If it should malfunction \nor breakdown,"
+  },
+  {
+    "chunk_id": "f6cb343f49d9cb14",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "es.\nWARNING – Improper connection of the equipment-\ngrounding conductor can result in a risk of elec"
+  },
+  {
+    "chunk_id": "fa33700f0d63341c",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ing attachment plug that looks like the plug illustrated \nas the following photo. Make sure that the"
+  },
+  {
+    "chunk_id": "524fcd52371c0916",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "if a critical \nvulnerability is found and fixed. \nFor INDOOR household use ONLY.\nThis device contain"
+  },
+  {
+    "chunk_id": "e4e3c6f91c5061b1",
+    "page_number": 8,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "he \ndevice.   \nTo satisfy FCC&ICRF exposure requirements, a separation \ndistance of 20 cm or more sh"
+  },
+  {
+    "chunk_id": "c44610b21df516c5",
+    "page_number": 9,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "9\nEN\nPACKAGE COMPONENTS\n1 PACKAGE CONTENTS\n* Figures in this manual are for reference only and may d"
+  },
+  {
+    "chunk_id": "d679ef3a507efdb7",
+    "page_number": 10,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "10\nEN\n2 PRODUCT DIAGRAM\nRobot\nInside the Robot (Under the Top Cover)\nBumper\nTop Cover\nButtons on the"
+  },
+  {
+    "chunk_id": "2814dee98568b47a",
+    "page_number": 10,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rsal Wheel\nSide Brush\nRoller Brush\nCarpet Detection \nSensor\nAnti-drop Sensors\nBrush Release \nButton\n"
+  },
+  {
+    "chunk_id": "c96f57726a3d165a",
+    "page_number": 10,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ld for 5 s. After you hear the \nvoice pormpt, the startup music will play, and the robot will be res"
+  },
+  {
+    "chunk_id": "f5ec7b97a50bdd6f",
+    "page_number": 11,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "11 EN\nOMNI Station\nOMNI Station (Back)\nDust Bag\nDust Bag Handle\nDirty Water Tank\nDust Collection \nCa"
+  },
+  {
+    "chunk_id": "1ad5cfeae6900010",
+    "page_number": 12,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "12\nEN\n3 Indicator Light\nLight Effect \nState\nRobot\nBreathing White\nCharging\nSolid White\nFully Charged"
+  },
+  {
+    "chunk_id": "6ff4c2701979071d",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "13 EN\n4 Sensors Overview\nName\nFunctional Description\nNavigation Module\nLaser Ranging is applied to m"
+  },
+  {
+    "chunk_id": "366d2662e6cbb0c9",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "es. The sensor emits laser beams and receives the reflected light from \nobstacles ahead. When an obs"
+  },
+  {
+    "chunk_id": "ca3678c5ef6c7db8",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ght of the white surface is 55 mm or more, or the height of the black surface \nis 30 mm or more) and"
+  },
+  {
+    "chunk_id": "8990f7b3b89ac3b9",
+    "page_number": 13,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "able on the market are identified.\nAnti-collision Sensor\nWith the principle of the Optocoupler Switc"
+  },
+  {
+    "chunk_id": "c1f5f5095cd55393",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "14\nEN\nINITIAL SETUP AND USE\n1 Notes Before Cleaning\nTo improve cleaning efficiency, please remove ob"
+  },
+  {
+    "chunk_id": "f4efe5e087630c02",
+    "page_number": 14,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "doors to help the robot fully explore your house during \nthe first cleaning. \nBefore using the produ"
+  },
+  {
+    "chunk_id": "1b7f3dbe6a936235",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "15 EN\n2 Quick Start\nRemove all protective materials before using.\n1. Installation\nThe sound of “clic"
+  },
+  {
+    "chunk_id": "feebd9b6a3508c2f",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "should be covered.\n• Do not place the Station under direct sunlight.\n• Place the station in a locati"
+  },
+  {
+    "chunk_id": "85577ab53c4ef93c",
+    "page_number": 15,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ction.\n3 Download the ECOVACS HOME APP\n1. Scan the QR Code under the Top Cover to download the App.\n"
+  },
+  {
+    "chunk_id": "615eb989f41c846b",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "16\nEN\n• The robot series robotic vacuums are designed for domestic cleaning \nscenarios. A home Wi-Fi"
+  },
+  {
+    "chunk_id": "998a0f4d210c9d5d",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " by default, \nand it is activated when the robot is in the \nstation.\nWI-FI*\nFacilitates data transfe"
+  },
+  {
+    "chunk_id": "496a8cbfb7073dec",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "nd place the robot in front of the station that is \nconnected to power supply.\nWi-Fi Network Require"
+  },
+  {
+    "chunk_id": "f91607f52ab62185",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " 1-11 in North America and 1-13 outside North \nAmerica (refer to local regulatory agency).\n• If you "
+  },
+  {
+    "chunk_id": "f6866cb009f8cbc8",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "startup, voice \ninteraction, 2D/3D map display and control settings, and personalized \ncleaning (dep"
+  },
+  {
+    "chunk_id": "4893a7707340d8f0",
+    "page_number": 16,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "User Agreement, such features will be un­\navailable. However, you can still use the basic features o"
+  },
+  {
+    "chunk_id": "be90c78c5d7e8cf5",
+    "page_number": 17,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "17 EN\n \nUse the ECOVACS HOME App to recall the robot, or press \n on the robot to \nallow it to dock f"
+  },
+  {
+    "chunk_id": "573c8c6b64b8be66",
+    "page_number": 17,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "osi­\ntion.\n• Make sure to lock the top covers of both water tanks securely before use.\n• Any water m"
+  },
+  {
+    "chunk_id": "394c1e2ffadb7fd0",
+    "page_number": 17,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ake off the dust collection cabin cover, pull out the cleaning solution unit, and \nplace it on a lev"
+  },
+  {
+    "chunk_id": "a80b83a1d6430ea9",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "18\nEN\n2. Unlid the cleaning solution unit and fill it with ECOVACS cleaning solution (sold \nseparate"
+  },
+  {
+    "chunk_id": "acd37f4947df73ae",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "longer lifespan of the product, please use ECOVACS DEEBOT \ncleaning solution (sold separately).\n• Pl"
+  },
+  {
+    "chunk_id": "10c3850b15427dab",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "the robot to help resolve some \nminor issues.\nFor example, the robot may get stuck under furniture. "
+  },
+  {
+    "chunk_id": "486ac8a2efbfbe87",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " is able to lift mops \nautomatically when encountering carpets. Please do not use the robot on shagg"
+  },
+  {
+    "chunk_id": "39e5e90defd16c6d",
+    "page_number": 18,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ates with a rag or other objects.\n• Replace the mopping pads in time as prompted by the App. Explore"
+  },
+  {
+    "chunk_id": "8d964d34fd1dff0a",
+    "page_number": 19,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "19 EN\n3. Pause\nTap \n on the robot to pause it while it is working. You can also use the ECOVACS \nHOM"
+  },
+  {
+    "chunk_id": "6333031fd838e54b",
+    "page_number": 19,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ys outside the station for about 10 h to \nprotect the battery. Please switch OFF and ON to wake the "
+  },
+  {
+    "chunk_id": "9989364dea7310d2",
+    "page_number": 20,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "20\nEN\nREGULAR MAINTENANCE\nTo keep robot running at peak performance, perform maintenance and replace"
+  },
+  {
+    "chunk_id": "f9ab8f4b3b6edca1",
+    "page_number": 20,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "on robot\nCharging Contacts on OMNI Station\nNavigation Module\nObstacle Avoidance Module\nApprox. every"
+  },
+  {
+    "chunk_id": "e6b6227633198a85",
+    "page_number": 21,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "21 EN\n2 Maintain Dust Bin and Filter\n2. Open the filter net and remove the filter. \n1. Open the cove"
+  },
+  {
+    "chunk_id": "af2d91460f1e90be",
+    "page_number": 22,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "22\nEN\n3 Maintain Main Brush and Side Brush \nClean the Roller Brush\n1. Open the cover. \n2. Remove and"
+  },
+  {
+    "chunk_id": "2db53ac72aeee9d6",
+    "page_number": 23,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "23 EN\n4 Maintain Other Components \nClean the obstacle avoidance module\nClean the bumper\nClean the na"
+  },
+  {
+    "chunk_id": "a89a506cda224265",
+    "page_number": 24,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "24\nEN\n5 Maintain Dust Bin\nClean the Anti-drop sensor\nClean the universal wheel and driving wheels\nTa"
+  },
+  {
+    "chunk_id": "75b8d365e1c0d63c",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "25 EN\n2. Install the cleaned base and mop washing tray. \n6 Maintain Mop Washing Tray\n1. Take off the"
+  },
+  {
+    "chunk_id": "1f93092872bfbbb8",
+    "page_number": 25,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Please recharge it every 1.5 months to prevent the \nbattery from over-discharging. \n*\t When the robo"
+  },
+  {
+    "chunk_id": "3817d64380c2a2ab",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "26\nEN\nNo.\nMalfunction\nPossible Cause\nSolution\n1\nThe robot cannot connect \nwith the ECOVACS HOME \nApp"
+  },
+  {
+    "chunk_id": "5f1716364194b178",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "iguration state \nwhen you hear a voice prompt. If the network configuration fails, \nreconfigure the "
+  },
+  {
+    "chunk_id": "73cc6a5b3ce5786c",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rk.\nThe robot does not support 5 GHz networks. Please use a 2.4GHz or \n2.4/5 GHz mixed network.\n2\nMa"
+  },
+  {
+    "chunk_id": "7dcb98b27b8221f8",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ry not to move the robot.\nAuto cleaning is not complete.\nMake sure the robot automatically returns t"
+  },
+  {
+    "chunk_id": "336ade05684993d6",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ".\nFor proper installation, make sure you hear a \"click\" when installing the \nside brush.\n5\nNo signal"
+  },
+  {
+    "chunk_id": "813cb3a0ed4a818d",
+    "page_number": 26,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "m the station.\nIt is recommended that the robot start cleaning from the station.\nThe charging route "
+  },
+  {
+    "chunk_id": "bb5013dbcf1b02ed",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "27 EN\nNo.\nMalfunction\nPossible Cause\nSolution\n6\nThe robot returns to the \nstation before finishing \n"
+  },
+  {
+    "chunk_id": "7b519e4b98a67523",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "The robot cannot charge.\nCharging contacts on the robot are not connected to those on \nthe station.\n"
+  },
+  {
+    "chunk_id": "e9856d3b1e425a46",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "pply.\nThe base is not properly installed.\nPlease refer to the [Quick Start] section to install it pr"
+  },
+  {
+    "chunk_id": "0ae6c45e4f2b3c2b",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\nblocked.\nIt is recommended to clean the main brush, side brush, dust bin, \nfilter, etc. regularly.\n"
+  },
+  {
+    "chunk_id": "94edc03dfa2f1607",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "niture with an entrance of \nsimilar height.\nPlease set a physical barrier, or set a virtual boundary"
+  },
+  {
+    "chunk_id": "43a56606d4b04138",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e \narea, it automatically returns \nto make sure it is thoroughly \ncleaned.)\nObjects such as wires an"
+  },
+  {
+    "chunk_id": "3e5e8e3e968cf29e",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "its route).\nThe driving wheels may slip on the ground when the robot climbs \nsteps, thresholds, and "
+  },
+  {
+    "chunk_id": "6cfa296ac60a26cf",
+    "page_number": 27,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " friction between the driving wheels and the floor.\nPlease wait for the wax to dry before cleaning.\n"
+  },
+  {
+    "chunk_id": "c6e86f9e9426f683",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "28\nEN\nNo.\nMalfunction\nPossible Cause\nSolution\n11\nThe robot does not empty the dust \nbin after return"
+  },
+  {
+    "chunk_id": "cde039424b78049d",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " robot back to the station might \nnot trigger the auto-empty feature. \nIt is recommended to let the "
+  },
+  {
+    "chunk_id": "a8b32007743f6e19",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ".\nPlease contact customer care for help.\n12\nThe robot fails to empty the dust \nbin\nThe OMNI station "
+  },
+  {
+    "chunk_id": "c8f9a7585e1a31b1",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ". \n13\nThe inner side of the dust \ncollection cabin is dirty. \nFine particles are absorbed in the inn"
+  },
+  {
+    "chunk_id": "c6d943deab188128",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Mopping pad plates cannot rotate. \nThe Mopping Pad Plates are not correctly installed.\nInstall the m"
+  },
+  {
+    "chunk_id": "c972e674578bff35",
+    "page_number": 28,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "within the available distance, you can also use the \nECOVACS HOME App to control the robot.\nThe robo"
+  },
+  {
+    "chunk_id": "da58c7991465f68d",
+    "page_number": 29,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "29 EN\nNo.\nMalfunction\nPossible Cause\nSolution\n17\nThe driving wheels are \njammed. \nThe driving wheels"
+  },
+  {
+    "chunk_id": "e7a1e0dca63f6532",
+    "page_number": 29,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Gently press the dirty water tank down to ensure it is properly \ninstalled.\nThe sealing plugs in the"
+  },
+  {
+    "chunk_id": "f92e1025ec614501",
+    "page_number": 29,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " station drains water properly. If water is successfully drained, \nwipe the water overflow sensor of"
+  },
+  {
+    "chunk_id": "a24d556bd259d4ae",
+    "page_number": 29,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e scraper is dirty. \nTake out the detachable mop washing tray and the scraper and \nrinse them clean "
+  },
+  {
+    "chunk_id": "0b221978372f85aa",
+    "page_number": 29,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " Customer Care for help. \n19\nMopping pad plates cannot \nlift automatically. \nMopping pad plates are "
+  },
+  {
+    "chunk_id": "7eda4a51ff06cb68",
+    "page_number": 30,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "30\nEN\nPlease use the mobile camera to scan the QR code and obtain the user guide.\nTECHNICAL SPECIFIC"
+  },
+  {
+    "chunk_id": "4120cb03afef970a",
+    "page_number": 30,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "  \n20 V \n 2 A\nRated Input Current(Charging)  \n1 A\nPower(Emptying)  \n4.5 A\nPower(Hot Water Washing Mo"
+  },
+  {
+    "chunk_id": "396e057281309ddd",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "31\nFRCA\n1.\t Ne laissez pas l’appareil être utilisé comme jouet. \nUne attention particulière est néce"
+  },
+  {
+    "chunk_id": "96f0c9e398b1bc3f",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "zone de \nnettoyage en raison d’une marche ou d’un \nescalier, vous devez actionner l’appareil pour vo"
+  },
+  {
+    "chunk_id": "9a5ef6c6b4c65475",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ertissements \net instructions de sécurité. Le non-respect des \navertissements et des instructions pe"
+  },
+  {
+    "chunk_id": "5598c113f9d315da",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "tilisez uniquement les accessoires \nrecommandés ou vendus par le fabricant.\n5.\t Ne manipulez pas la "
+  },
+  {
+    "chunk_id": "207f76a5c0ade56e",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "nvironnements extrêmement chauds ou \nfroids (en dessous de -5˚C/23˚F ou au-dessus \nde 40˚C/104˚F). V"
+  },
+  {
+    "chunk_id": "ab2a28d29732935d",
+    "page_number": 31,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "IEUR UNIQUEMENT. \nN’utilisez pas l’appareil dans des environnements"
+  },
+  {
+    "chunk_id": "5c6bc0f25baf3bc5",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "32\nFRCA\nextérieurs, commerciaux ou industriels. N’utilisez \npas l’appareil sur des surfaces humides "
+  },
+  {
+    "chunk_id": "bb0eb2977fa456ae",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "r, ni \ndans des zones où elles peuvent être présentes.\n15.\t Ne ramassez rien qui brûle ou qui fume, "
+  },
+  {
+    "chunk_id": "991078d45aead4bd",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "pas endommager le cordon \nd’alimentation. Ne tirez pas et ne transportez \npas l’appareil ou la stati"
+  },
+  {
+    "chunk_id": "74a623c63ea7ebbf",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "es surfaces chaudes. \nNe débranchez pas en tirant sur le cordon. Pour \ndébrancher, saisissez la fich"
+  },
+  {
+    "chunk_id": "5fd62d002701c6ac",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e pas \ncorrectement, s'il est tombé, s’il est endommagé, \ns'il est laissé à l'extérieur ou s’il est "
+  },
+  {
+    "chunk_id": "075251826c819bc9",
+    "page_number": 32,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ".\n21.\t Retirez l’appareil de la station d’accueil et éteignez \nl’interrupteur d'alimentation de l'ap"
+  },
+  {
+    "chunk_id": "464038de196dc2f3",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "33\nFRCA\ngravement endommagé. Les batteries peuvent \nexploser en cas d'incendie. \n25.\t Lorsque vous n"
+  },
+  {
+    "chunk_id": "0f057c11afa9477d",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "lisation.\n27.\t Empêchez tout démarrage involontaire. Assurez-\nvous que l'interrupteur est en positio"
+  },
+  {
+    "chunk_id": "b213341cafd6e028",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " court-circuit entre les \nbornes de la batterie peut provoquer des brûlures \nou un incendie.\n29.\t Da"
+  },
+  {
+    "chunk_id": "697b6c5f213dca0e",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " d’appareil \nendommagé ou modifié. Les batteries \nendommagées ou modifiées peuvent présenter un \ncom"
+  },
+  {
+    "chunk_id": "b425f269fff308cd",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "es instructions de charge et ne \nchargez pas la batterie ou l’appareil en dehors \nde la plage de tem"
+  },
+  {
+    "chunk_id": "a1793b6b37e98323",
+    "page_number": 33,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "roduit.\n34.\t Ne modifiez pas et ne tentez pas de réparer \nl’appareil ou la batterie (le cas échéant)"
+  },
+  {
+    "chunk_id": "23842e32f281d98a",
+    "page_number": 34,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "34\nFRCA\ntrouvent des bougies allumées sur des meubles \nque l'aspirateur pourrait heurter accidentell"
+  },
+  {
+    "chunk_id": "68ba7cd030647cfd",
+    "page_number": 34,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " entraîner un incendie.\n40.\t Utilisez uniquement des appareils équipés de \nbatteries spécifiquement "
+  },
+  {
+    "chunk_id": "ecdee63eeadea072",
+    "page_number": 34,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " longue \npériode, chargez-le complètement, éteignez-\nle pour le ranger et débranchez la station de \n"
+  },
+  {
+    "chunk_id": "332de62b4403aed4",
+    "page_number": 34,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "de \nmanière inattendue. Débranchez l'appareil avant \ntoute opération de nettoyage ou d’entretien.\n46"
+  },
+  {
+    "chunk_id": "c8f96e636bb2bb39",
+    "page_number": 34,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "on d’accueil si elle est \nendommagée.\n50.\t Retirez la fiche de la prise avant toute opération \nde ne"
+  },
+  {
+    "chunk_id": "f594fb1a7bce5eb5",
+    "page_number": 35,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "35\nFRCA\nDéclaration de la Commission fédérale des \ncommunications (FCC) sur les interférences \nREMAR"
+  },
+  {
+    "chunk_id": "1cbf9dc7d06e5846",
+    "page_number": 35,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ie radiofréquence et, s'il n'est \npas installé et utilisé conformément aux instructions, \npeut provo"
+  },
+  {
+    "chunk_id": "47a9270485767f51",
+    "page_number": 35,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ur est encouragé à essayer de \ncorriger l'interférence par une ou plusieurs des mesures \nCourant dir"
+  },
+  {
+    "chunk_id": "82a7f41ce38a27aa",
+    "page_number": 35,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ultez le revendeur ou un technicien en radio/\ntélévision expérimenté pour obtenir de l’aide. \nCet ap"
+  },
+  {
+    "chunk_id": "e4972716cca33961",
+    "page_number": 35,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ts ou modifications apportés \nà cet appareil non expressément approuvés par la partie \nresponsable d"
+  },
+  {
+    "chunk_id": "1004d9c10f4a6ee5",
+    "page_number": 36,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "36\nFRCA\n(1) Cet appareil ne doit pas provoquer d’interférences. \n(2) Cet appareil doit accepter tout"
+  },
+  {
+    "chunk_id": "1874cb768c86feff",
+    "page_number": 36,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "t l’antenne ou les antennes \nutilisées pour cet émetteur doivent être installées de \nmanière à assur"
+  },
+  {
+    "chunk_id": "f1f26b6c6de1fe47",
+    "page_number": 36,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ce de séparation de 20 cm ou plus \ndoit être maintenue entre l'antenne de cet appareil et les \nperso"
+  },
+  {
+    "chunk_id": "b7aebc2b39c02a0f",
+    "page_number": 36,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "n sont correctement connectés. Double-cliquez sur le \n  \nbouton.\nPour activer le module Wi-Fi sur le"
+  },
+  {
+    "chunk_id": "221d318b3f122078",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "37\nFRCA\nINSTRUCTIONS DE MISE À LA TERRE\nCet appareil doit être mis à la terre. En cas de \ndysfonctio"
+  },
+  {
+    "chunk_id": "a1f1e6f63aa62ca7",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " la terre \nconformément à tous les codes et ordonnances locaux.\nAVERTISSEMENT - Une connexion incorr"
+  },
+  {
+    "chunk_id": "966924da51c15746",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "r un électricien qualifié.\nCet appareil est destiné à être utilisé sur un circuit nominal \nde 120 V "
+  },
+  {
+    "chunk_id": "78a18ee800e676b5",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "eux mois, mais ce n’est pas toujours le cas. \nCertains appareils, en particulier ceux qui ont été \nc"
+  },
+  {
+    "chunk_id": "347f14da272461ee",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ". L’exploitation est soumise aux \ndeux conditions suivantes : \n(1) Cet appareil ne doit pas provoque"
+  },
+  {
+    "chunk_id": "b3578bad2039a202",
+    "page_number": 37,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " le fonctionnement de l'appareil.\nPour garantir la conformité, les opérations à une distance \ninféri"
+  },
+  {
+    "chunk_id": "0a734dcbdb9c05f9",
+    "page_number": 38,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "38\nFRCA\nCOMPOSANTS DU COLIS\n1 CONTENU DU COLIS\n* Les figures de ce manuel sont fournies à titre indi"
+  },
+  {
+    "chunk_id": "c1965e91833ba8d8",
+    "page_number": 39,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "39\nFRCA\n2 DIAGRAMME DE PRODUIT\nRobot\nÀ l’intérieur du robot (sous le capot supérieur)\nPare-chocs\nCou"
+  },
+  {
+    "chunk_id": "e37d2634a52b73c4",
+    "page_number": 39,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "oyage  Appuyez et maintenez : Activer/Désactiver\n      localisé                                     "
+  },
+  {
+    "chunk_id": "46eefb0c0c0d7f16",
+    "page_number": 39,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e nettoyage\nTampons de vadrouille la­\nvables\nBac à poussière \nFiltre\nPort d'élimination de la \npouss"
+  },
+  {
+    "chunk_id": "b21142165f7f73f2",
+    "page_number": 39,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "a musique de \ndémarrage joue et le robot est réinitialisé aux paramètres par défaut.\nIndicateur d’ét"
+  },
+  {
+    "chunk_id": "9f9e32d34f202024",
+    "page_number": 40,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "40\nFRCA\nStation OMNI\nStation OMNI (arrière)\nSac à poussière\nPoignée du sac à poussière\nRéservoir d’e"
+  },
+  {
+    "chunk_id": "fbcf6b1a428a47b8",
+    "page_number": 40,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "sec. \n« I » = MARCHE\n « O » = ARRÊT\nInterrupteur basculant"
+  },
+  {
+    "chunk_id": "192e3da9da029271",
+    "page_number": 41,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "41\nFRCA\n3 Témoin lumineux\nEffet lumineux \nÉtat\nRobot\nBlanc avec effet de respiration\nRecharge\nBlanc "
+  },
+  {
+    "chunk_id": "ca506307873d8264",
+    "page_number": 42,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "42\nFRCA\n4 Vue d'ensemble des capteurs\nNom\nDescription fonctionnelle\nModule de navigation\nLa télémétr"
+  },
+  {
+    "chunk_id": "97af0bfc2e91fc6b",
+    "page_number": 42,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "t à mesurer la distance entre le robot et les obstacles \nenvironnants. Le capteur émet des faisceaux"
+  },
+  {
+    "chunk_id": "56fd3709207c6156",
+    "page_number": 42,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " au bas du robot. Le robot n'avancera pas devant des escaliers (par \nexemple lorsque la hauteur de l"
+  },
+  {
+    "chunk_id": "ac6d53a909e7e1ff",
+    "page_number": 42,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "re au seuil. Le robot détecte ainsi la présence du tapis. Dans le \nlaboratoire ECOVACS, plus de 50 t"
+  },
+  {
+    "chunk_id": "c81514c35b9b5482",
+    "page_number": 42,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " un mur ou des obstacles sur le côté droit, le robot effectue un nettoyage des \nbords pour éviter le"
+  },
+  {
+    "chunk_id": "82c527acce5e6690",
+    "page_number": 43,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "43\nFRCA\nCONFIGURATION ET UTILISATION INITIALES\n1 Remarques à prendre en compte avant le nettoyage\nPo"
+  },
+  {
+    "chunk_id": "bc14803b4e10dbc0",
+    "page_number": 43,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "jets de basse hauteur, tels que les \nbalances.\nOuvrez les portes et aidez le robot à explorer\nOuvrez"
+  },
+  {
+    "chunk_id": "c57d65837f905f96",
+    "page_number": 43,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " pour empêcher le robot de tomber par-dessus \nle bord. \nVeuillez ne pas vous tenir dans des espaces "
+  },
+  {
+    "chunk_id": "de452d073faba624",
+    "page_number": 44,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "44\nFRCA\n2 Démarrage rapide\nRetirez tous les matériaux de protection avant d’utiliser l’appareil.\n1. "
+  },
+  {
+    "chunk_id": "72bdbf01ed9bce94",
+    "page_number": 44,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "station, les 14 cm inférieurs de ces derniers doivent être recouverts.\n• Ne placez pas la station so"
+  },
+  {
+    "chunk_id": "32d33477619f3e92",
+    "page_number": 44,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "0.8m (2.62’)\nCliquez\nRemarque : Suivez les instructions de l’application pour terminer l’enregistrem"
+  },
+  {
+    "chunk_id": "654f3db7b05c68c9",
+    "page_number": 44,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "COVACS HOME » sur l'App Store ou Google Play pour téléchar­\nger l'application."
+  },
+  {
+    "chunk_id": "34e45ef522733853",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "45\nFRCA\n* Les aspirateurs robotisés de la série robot sont conçus pour les scénarios \nde nettoyage d"
+  },
+  {
+    "chunk_id": "ef434e5b50d74fd9",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "r aux contacts de \ncharge de la station pour se charger.\nL'interface infrarouge est désactivée par d"
+  },
+  {
+    "chunk_id": "4a65a9c66703d6a1",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " du \nmode de nettoyage (spécifique à chaque \nproduit). Pour utiliser ces fonctionnalités, \nles utili"
+  },
+  {
+    "chunk_id": "860aabdcddfc853b",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "s 802.11b/g/n et IPv4. \n• N'utilisez pas de VPN (réseau privé virtuel) ou de serveur proxy.\n• N'util"
+  },
+  {
+    "chunk_id": "abd53da6160a141a",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de réseau, le nom du réseau \n(SSID) et le mot de passe sont les mêmes que ceux de votre réseau \npri"
+  },
+  {
+    "chunk_id": "bafaf0b97cd1e6f6",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " paramètres de \ncontrôle, ainsi que le nettoyage personnalisé (en fonction des différents \nproduits)"
+  },
+  {
+    "chunk_id": "a4ff0e761e11ca1d",
+    "page_number": 45,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ler l'appareil. Si vous n'êtes pas d'accord avec notre politique \nde confidentialité et notre contra"
+  },
+  {
+    "chunk_id": "9493633bd7896877",
+    "page_number": 46,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "46\nFRCA\n \nUtilisez l'application ECOVACS HOME pour rappeler le robot ou appuyez sur \n sur le robot p"
+  },
+  {
+    "chunk_id": "bc31165acef40efd",
+    "page_number": 46,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "tilisez un chiffon propre et sec pour essuyer l’eau à la surface du réservoir avant de le mettre \nen"
+  },
+  {
+    "chunk_id": "a35bf38d5043012e",
+    "page_number": 46,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "u’au niveau d’eau maximum. Fermez le couvercle du réservoir \net réinstallez le réservoir d’eau propr"
+  },
+  {
+    "chunk_id": "c1a09f63355ffaf9",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "47\nFRCA\n2. Ouvrez le couvercle de l’unité de solution de nettoyage et remplissez-la de \nsolution de "
+  },
+  {
+    "chunk_id": "c8195b7027185358",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "r de l’unité de solution de \nnettoyage. N’ajoutez pas de solution de nettoyage dans les réservoirs d"
+  },
+  {
+    "chunk_id": "50d020df618fa488",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " nettoyage. Appuyez sur \n sur le robot pour démarrer. Vous \npouvez également utiliser l’application "
+  },
+  {
+    "chunk_id": "eee80e1a19fcc786",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "vrez le bas du meuble;\n③ Configurez une limite virtuelle via l’application.\n9 Utiliser le robot \n• L"
+  },
+  {
+    "chunk_id": "3b0eb815358aff08",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de plus \nde 9 mm de longueur. Il est recommandé de les replier pendant le processus de \nnettoyage, "
+  },
+  {
+    "chunk_id": "f417044edd454649",
+    "page_number": 47,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "oyage à temps comme indiqué par l'application. \nDécouvrez d'autres accessoires sur l'application ECO"
+  },
+  {
+    "chunk_id": "4df40508c03ca21e",
+    "page_number": 48,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "48\nFRCA\n3. Mettre en pause\nAppuyez sur \n sur le robot pour le mettre en pause pendant qu'il travaill"
+  },
+  {
+    "chunk_id": "5df0cfb4d013b942",
+    "page_number": 48,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ermettre au robot de s'amarrer pour \nse recharger.\n5. Retour à la station\n6. Mode Veille profonde\nLe"
+  },
+  {
+    "chunk_id": "83a98870f27d7158",
+    "page_number": 49,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "49\nFRCA\nENTRETIEN RÉGULIER\nPour que le robot fonctionne au mieux de ses performances, effectuez les "
+  },
+  {
+    "chunk_id": "dd36eeaa25c3d4fb",
+    "page_number": 49,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "is\nFiltre\nChaque semaine\nTous les 3 à 6 mois\nCapteur de bord\nRoue universelle \nCapteurs anti-chute\nP"
+  },
+  {
+    "chunk_id": "4ede7fc6d1f60920",
+    "page_number": 49,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " mois\n/\nRemarque : Découvrez d'autres accessoires sur l'application ECOVACS HOME ou sur https://www."
+  },
+  {
+    "chunk_id": "b13eb1cdb0b8f1e7",
+    "page_number": 50,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "50\nFRCA\n2 Entretenir le bac à poussière et le filtre\n2. Ouvrez le filet filtrant et retirez le filtr"
+  },
+  {
+    "chunk_id": "1d759f5d34d005c6",
+    "page_number": 50,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "à poussière et le filtre avec de l’eau et secouez \npour éliminer les gouttes d’eau."
+  },
+  {
+    "chunk_id": "71624043014ad2ad",
+    "page_number": 51,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "51\nFRCA\n3 Entretien de la brosse principale et de la brosse latérale \nNettoyer la brosse rotative\n1."
+  },
+  {
+    "chunk_id": "9ae933dea34e911c",
+    "page_number": 52,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "52\nFRCA\n4 Entretenir d’autres composants \nNettoyez le module d'évitement d'obstacles\nNettoyez le par"
+  },
+  {
+    "chunk_id": "412b4eb8670df683",
+    "page_number": 52,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "étergent.\n• Les contacts de charge contiennent des composants électroniques sensibles. \nNettoyez-les"
+  },
+  {
+    "chunk_id": "3d7b203a0f4083b9",
+    "page_number": 53,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "53\nFRCA\n5 Entretien du bac à poussière\nNettoyez les capteurs anti-chute\nNettoyez la roue universelle"
+  },
+  {
+    "chunk_id": "ca24a5673923c4f6",
+    "page_number": 54,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "54\nFRCA\n2. Installez la base nettoyée et le bac de lavage pour vadrouille. \n6 Entretenir le bac de l"
+  },
+  {
+    "chunk_id": "1f8f0a63d2cda077",
+    "page_number": 54,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "le ranger. \nRamenez le robot à la station avant d'appuyer et de maintenir [icône] \npendant 3 s pour "
+  },
+  {
+    "chunk_id": "9de5ab5b2a34efb5",
+    "page_number": 54,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Veuillez contacter le soutien à la clien­\ntèle pour obtenir de l’aide. Ne le démontez pas vous-même."
+  },
+  {
+    "chunk_id": "91b0836742620303",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "55\nFRCA\nNuméro\npanne\nCause possible\nAction corrective\n1\nLe robot ne peut pas se \nconnecter à l'appli"
+  },
+  {
+    "chunk_id": "ddd34848d1ee2157",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "que possible du routeur.\nLe robot n’est pas dans l’état de configuration. \nAppuyez sur le bouton de "
+  },
+  {
+    "chunk_id": "bee65a33a6e200d1",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "x. \nN’utilisez pas de caractères spéciaux comme ! @#& ¥%/\\.\n2. N’utilisez pas de réseau 5 GHz. \nAppl"
+  },
+  {
+    "chunk_id": "1e865541b0eadc63",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "éplacez le robot vers l’avant de la station pour récupérer la carte.\nRecherchez la carte restaurée d"
+  },
+  {
+    "chunk_id": "3b3bf654b84adc2f",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "llez à ce que le robot revient automatiquement à la station après \nle nettoyage.\n3\nImpossible de cré"
+  },
+  {
+    "chunk_id": "e66b943989d8f61e",
+    "page_number": 55,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "as correctement installée.\nPour une installation correcte, assurez-vous d'entendre un « déclic » \nlo"
+  },
+  {
+    "chunk_id": "398ae80f88924116",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "56\nFRCA\nNuméro\npanne\nCause possible\nAction corrective\n5\nAucun signal n'a été trouvé. \nLe robot ne pe"
+  },
+  {
+    "chunk_id": "332b11a503b118f7",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "is la station.\nIl est recommandé que le robot commence le nettoyage à \npartir de la station.\nLa voie"
+  },
+  {
+    "chunk_id": "d84ca8a6f4bd6548",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Pour plus de détails, \nveuillez suivre les instructions sur l'application.\nLe robot ne peut pas atte"
+  },
+  {
+    "chunk_id": "ff6ff100c06b2c86",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "et que le bouton \n sur le robot \nclignote. Vérifiez si les contacts de charge du robot et de la \nsta"
+  },
+  {
+    "chunk_id": "6feb408916884ccd",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " si le robot n'est pas utilisé pendant \nune longue période.\nIl est recommandé d'utiliser régulièreme"
+  },
+  {
+    "chunk_id": "858c2714eb50c61b",
+    "page_number": 56,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "er régulièrement la brosse \nprincipale, la brosse latérale, le bac à poussière, le filtre et les \nau"
+  },
+  {
+    "chunk_id": "634c58c4472d3802",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "57\nFRCA\n9\nLe robot se bloque pendant \nle travail et s’arrête.\nLe robot est emmêlé avec des objets su"
+  },
+  {
+    "chunk_id": "8e273d3979d1c6b6",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "on ECOVACS HOME.\nLe robot est coincé dans une zone étroite.\nVeuillez ranger la maison, poser une bar"
+  },
+  {
+    "chunk_id": "d3bc61f693d749d6",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ur \ns'assurer qu'elle est \nsoigneusement nettoyée.)\nDes objets tels que des câbles et des pantoufles"
+  },
+  {
+    "chunk_id": "a6ff6676630e790a",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "llez vous abstenir \nd’intervenir (par exemple en déplaçant le robot ou en bloquant \nson itinéraire)."
+  },
+  {
+    "chunk_id": "99280372b1d776f6",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "mplacement de départ. Veuillez utiliser cette \nméthode en toute confiance.\nLa friction entre les rou"
+  },
+  {
+    "chunk_id": "2e2e5b4b1d545c02",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " le nettoyage.\n11\nLe robot ne vide pas le bac \nà poussière après son retour \nà la station. \nLa cabin"
+  },
+  {
+    "chunk_id": "300120a4eae015b8",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de \ndépoussiérage.\nLe déplacement manuel du robot vers la station pourrait ne \npas déclencher la fo"
+  },
+  {
+    "chunk_id": "1136144684d8f018",
+    "page_number": 57,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "sière. \nSi les causes ci-dessus ont été écartées, cela peut être dû à \nune anomalie dans les composa"
+  },
+  {
+    "chunk_id": "b25942effad13212",
+    "page_number": 58,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "58\nFRCA\nNuméro\npanne\nCause possible\nAction corrective\n12\nLe robot ne parvient pas à vider le \nbac à "
+  },
+  {
+    "chunk_id": "fe4604d9d987bec6",
+    "page_number": 58,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ngers. \nSortez le port d'élimination de la poussière et retirez les corps \nétrangers du port d’élimi"
+  },
+  {
+    "chunk_id": "078dd69b158193b5",
+    "page_number": 58,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ue \nle robot fonctionne.\nLe port d'élimination de la poussière est bloqué par des \ncorps étrangers. "
+  },
+  {
+    "chunk_id": "8f8a3b24de0510cb",
+    "page_number": 58,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " fentes de \nmontage de l'ensemble du tampon de nettoyage jusqu'à ce \nque vous entendiez un « clic »."
+  },
+  {
+    "chunk_id": "994d11195aecff90",
+    "page_number": 58,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ".\nLe robot et la station ne sont pas appariés. \nDébranchez la station et attendez 10 s avant de la r"
+  },
+  {
+    "chunk_id": "82c311a50e9d1ac0",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "59\nFRCA\nNuméro\npanne\nCause possible\nAction corrective\n17\nLes roues motrices sont \nbloquées. \nDes cor"
+  },
+  {
+    "chunk_id": "b27745e00c7f8e03",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "pas être vidée.\nLe réservoir d’eau sale n’est pas correctement installé.\nAppuyez doucement sur le ré"
+  },
+  {
+    "chunk_id": "13da1eafe8d0c114",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rmalement. Si le problème survient pendant le processus \nde nettoyage des tampons de nettoyage, term"
+  },
+  {
+    "chunk_id": "926ba1d09b44961c",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ation et nettoyez-le. \nL'orifice d’aspiration du bac de lavage pour vadrouille est \nobstrué par des "
+  },
+  {
+    "chunk_id": "13282614cf4a548d",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "lotteur est coincé et ne parvient pas à \ndescendre dans la bonne position.\nRetirez le bac de lavage "
+  },
+  {
+    "chunk_id": "5808aa63407714e5",
+    "page_number": 59,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "iquement. \nLes plaques de tampon de nettoyage sont emmêlées ou \nbloquées par des corps étrangers. \nV"
+  },
+  {
+    "chunk_id": "773b012e58287b1f",
+    "page_number": 60,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "60\nFRCA\nVeuillez utiliser la caméra mobile pour scanner le code QR et obtenir le guide d'utilisation"
+  },
+  {
+    "chunk_id": "69d401c4d9503a92",
+    "page_number": 60,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " \nenviron 4.5 h\nModèle de station  \nCH2471\nEntrée nominale  \n110-120 V ～   50-60 Hz\nPuissance nomina"
+  },
+  {
+    "chunk_id": "126bed870c4d00c2",
+    "page_number": 61,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "61\nESLA\n1.\t No permita que el aparato se use como juguete. \nSe debe prestar mucha atención cuando lo"
+  },
+  {
+    "chunk_id": "00302fd892f46f43",
+    "page_number": 61,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "piar \ndebido a la presencia de escalones o escaleras, \ndebe hacer funcionar el aparato y seguirlo pa"
+  },
+  {
+    "chunk_id": "f0934a92c79155b7",
+    "page_number": 61,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "s e instrucciones puede provocar una \ndescarga eléctrica, un incendio o lesiones graves. \nasegurarse"
+  },
+  {
+    "chunk_id": "6618c7154fe8562e",
+    "page_number": 61,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "bricante.\n5.\t No manipule el enchufe ni el aparato con las \nmanos mojadas.\n6.\t Está prohibido utiliz"
+  },
+  {
+    "chunk_id": "dcc88bc69ceb9fe7",
+    "page_number": 61,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "5 ˚C/23 ˚F o que \nsuperen los 40 ˚C/104 ˚F). Cargue el robot \na temperaturas superiores a 0 °C/32 °F"
+  },
+  {
+    "chunk_id": "5d6fe80baa035190",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "62\nESLA\nentornos exteriores, comerciales o industriales. \nNo utilice el aparato sobre superficies hú"
+  },
+  {
+    "chunk_id": "1910f16f3104e822",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\n15.\tNo utilice el aparato para recoger objetos \nque estén en llamas o echando humo, como \ncigarrill"
+  },
+  {
+    "chunk_id": "93d902a1cdeca3bf",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "tación. No mueva ni transporte el \naparato o la estación base tirando del cable de \nalimentación. No"
+  },
+  {
+    "chunk_id": "bee0c73d2f81cff6",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "8.\tSi el cable de alimentación está dañado, el \nfabricante o su agente de servicio deben \nreemplazar"
+  },
+  {
+    "chunk_id": "df2685c40063a0ab",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "sgos.\n20.\tAPAGUE el interruptor de encendido antes \nde limpiar el aparato o realizar tareas de \nmant"
+  },
+  {
+    "chunk_id": "92a05d964bce5a29",
+    "page_number": 62,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "on las leyes y regulaciones locales \nantes de desechar el aparato.\n23.\tDeseche las baterías usadas d"
+  },
+  {
+    "chunk_id": "9ffcb8a3f42440ae",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "63\nESLA\nbaterías exploten. \n25.\tDesconecte la estación base del tomacorriente \ncuando no la use y an"
+  },
+  {
+    "chunk_id": "2ffdeedea681a618",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de \napagado antes de conectar la batería, levantar \nel producto o transportarlo.\n28.\tCuando la bate"
+  },
+  {
+    "chunk_id": "7f4e46249b55e7ee",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\nlíquido de la batería; evite el contacto. En caso \nde contacto accidental, lávese la zona afectada "
+  },
+  {
+    "chunk_id": "5ff17aa3a0adb779",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\nexplosiones o riesgos de lesiones.\n31.\tNunca exponga baterías o aparatos al fuego \nni a temperatura"
+  },
+  {
+    "chunk_id": "7028d9b7b0125bc6",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "pecificado \npuede dañar la batería y aumentar el riesgo de \nincendios.\n33.\tLas reparaciones deben se"
+  },
+  {
+    "chunk_id": "65f9255a258232a3",
+    "page_number": 63,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "mésticos \nfuera del área que se va a limpiar.\n36.\tNo utilice la aspiradora en habitaciones donde \nha"
+  },
+  {
+    "chunk_id": "ee97177ad4138548",
+    "page_number": 64,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "64\nESLA\naccidentalmente.\n37.\tNo permita que los niños se sienten sobre la \naspiradora.\n38.\tUse el ap"
+  },
+  {
+    "chunk_id": "19793fcdba6617b5",
+    "page_number": 64,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ice cualquier aparato únicamente \ncon la batería específicamente designada. El \nuso de cualquier otr"
+  },
+  {
+    "chunk_id": "5b9450daa713f3b5",
+    "page_number": 64,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "o y desenchufe la estación base.\n43.\t Para reducir el riesgo de descargas eléctricas, no \nutilice el"
+  },
+  {
+    "chunk_id": "5741cab8bc8cacb0",
+    "page_number": 64,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "areas de mantenimiento.\n46.\tPara reducir el riesgo de lesiones, el usuario \ndebe leer el Manual de i"
+  },
+  {
+    "chunk_id": "7befa8871da0f381",
+    "page_number": 64,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "mpiar la estación base o realizar tareas de \nmantenimiento.\n51.\tInterruptor de encendido: \"I\" = ENCE"
+  },
+  {
+    "chunk_id": "4529c41d4168b7dd",
+    "page_number": 65,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "65\nESLA\nDeclaración de la Comisión Federal de \nComunicaciones (Federal Communications \nCommission, F"
+  },
+  {
+    "chunk_id": "5989e4ce7097cca5",
+    "page_number": 65,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e equipo genera, utiliza \ny puede irradiar energía de radiofrecuencia y, si no se \ninstala y utiliza"
+  },
+  {
+    "chunk_id": "bfad2717053523ae",
+    "page_number": 65,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ervices), \ncapítulo 1, subcapítulo J del título 21 del Código de \nReglamentos Federales (Code of Fed"
+  },
+  {
+    "chunk_id": "5b9efb959c4d2398",
+    "page_number": 65,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "icar la antena receptora.\n Aumentar la distancia de separación entre el equipo y el \nreceptor. \n Con"
+  },
+  {
+    "chunk_id": "471b243eafeea73f",
+    "page_number": 65,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " no puede causar interferencias \ndañinas y (2) este dispositivo debe aceptar cualquier \ninterferenci"
+  },
+  {
+    "chunk_id": "bfc8de273c719f40",
+    "page_number": 66,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "66\nESLA\nEste dispositivo contiene transmisores/receptores \nexentos de licencia que cumplen con las R"
+  },
+  {
+    "chunk_id": "aeca49216c7b1aa4",
+    "page_number": 66,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ertencia de exposición a \nradiofrecuencias\nEste equipo cumple con los límites de exposición a \nla ra"
+  },
+  {
+    "chunk_id": "22eebb6a13daa8d7",
+    "page_number": 66,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "misor. \nPrecaución de exposición máxima permisible (para \ndispositivos móviles, según las secciones "
+  },
+  {
+    "chunk_id": "d5b9097c6cf24cff",
+    "page_number": 66,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ulo Wi-Fi del DEEBOT, siga estos \npasos: encienda el robot y, a continuación, colóquelo sobre \nla es"
+  },
+  {
+    "chunk_id": "63aa6b66f0720107",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "67\nESLA\nINSTRUCCIONES PARA LA CONEXIÓN A \nTIERRA\nEste dispositivo debe conectarse a tierra. Si prese"
+  },
+  {
+    "chunk_id": "de86fcfe884d9472",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "insertarse en un tomacorriente apropiado que \nesté instalado y conectado a tierra correctamente de a"
+  },
+  {
+    "chunk_id": "a1d6420cf4105f84",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ue el enchufe que viene con el dispositivo, si no cabe en \nel tomacorriente, pida a un electricista "
+  },
+  {
+    "chunk_id": "d03c749e600ddf04",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "el enchufe. \nNo se debe usar ningún adaptador con este aparato.\nActualizaciones del dispositivo \nNor"
+  },
+  {
+    "chunk_id": "874b2d38ded3c396",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "nsmisores/receptores \nexentos de licencia que cumplen con las RSS de \nexención de licencia de Innova"
+  },
+  {
+    "chunk_id": "56ebf889ec938a66",
+    "page_number": 67,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "posición de la FCC \ny la ICRF, se debe mantener una distancia de separación \nde 20 cm o más entre la"
+  },
+  {
+    "chunk_id": "66eab33eabc86702",
+    "page_number": 68,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "68\nESLA\nCOMPONENTES DEL PAQUETE\n1 CONTENIDO DEL PAQUETE\n* Las imágenes que aparecen en este manual s"
+  },
+  {
+    "chunk_id": "aadd6c16e99b8140",
+    "page_number": 69,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "69\nESLA\n2 DIAGRAMA DEL PRODUCTO\nRobot\nInterior del robot (debajo de la cubierta superior)\nParachoque"
+  },
+  {
+    "chunk_id": "db6577b7e42a4a85",
+    "page_number": 69,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "/finalizar la  Al mantenerlo presionado: activar/desactivar el bloqueo para niños\n         limpieza "
+  },
+  {
+    "chunk_id": "8ef363431c310e11",
+    "page_number": 69,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de polvo \nFiltro\nPuerto de eliminación de \npolvo\nBotón de liberación\nBotón de restablecimiento\nConf"
+  },
+  {
+    "chunk_id": "21e4c7cb9f127324",
+    "page_number": 69,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rará a los ajustes predeterminados.\nIndicador de estado de Wi-Fi/\nBotón de restablecimiento\nPuerto d"
+  },
+  {
+    "chunk_id": "31627d8fa6582f96",
+    "page_number": 70,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "70\nESLA\nEstación OMNI\nEstación OMNI (parte posterior)\nBolsa de polvo\nManija de la bolsa de polvo\nTan"
+  },
+  {
+    "chunk_id": "849128e8249287e6",
+    "page_number": 71,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "71\nESLA\n3 Luz indicadora\nModo de luz \nEstado\nRobot\nBlanca intermitente\nCargando\nBlanca fija\nCarga co"
+  },
+  {
+    "chunk_id": "253601f1c58d89a7",
+    "page_number": 72,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "72\nESLA\n4 Descripción general de los sensores\nNombre\nDescripción funcional\nMódulo de navegación\nSe u"
+  },
+  {
+    "chunk_id": "7b911ae3f5fa156a",
+    "page_number": 72,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "a medir la distancia entre el robot y los obstáculos \ncircundantes. El sensor emite rayos láser y re"
+  },
+  {
+    "chunk_id": "d1d6f9751560b093",
+    "page_number": 72,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "inferior del robot y el suelo. El robot no avanza cuando hay \nescaleras delante suyo (como cuando la"
+  },
+  {
+    "chunk_id": "302bf467d458332b",
+    "page_number": 72,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "da sea inferior al umbral. Así es como el robot detecta la presencia de \nalfombras. En el laboratori"
+  },
+  {
+    "chunk_id": "468d9a6a789edf19",
+    "page_number": 72,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "y los objetos a sus laterales. Cuando hay una pared o un obstáculo a la derecha del robot, este \nrea"
+  },
+  {
+    "chunk_id": "38ae4326aae4779c",
+    "page_number": 73,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "73\nESLA\nCONFIGURACIÓN INICIAL Y USO\n1 Notas antes de comenzar a limpiar\nPara mejorar la eficiencia d"
+  },
+  {
+    "chunk_id": "a13b701bb2a1b766",
+    "page_number": 73,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " puertas y ayude al robot a explorar\nAbra todas las puertas de las habitaciones para ayudar al robot"
+  },
+  {
+    "chunk_id": "0024401483d5320d",
+    "page_number": 73,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\nNo se pare en espacios estrechos, como pasillos, para \nevitar obstruir el sistema TrueMapping."
+  },
+  {
+    "chunk_id": "e2529eeb5f07eb79",
+    "page_number": 74,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "74\nESLA\n2 Inicio rápido\nRetire todos los materiales de protección antes de utilizar el aparato.\n1. I"
+  },
+  {
+    "chunk_id": "eed67b4648993f06",
+    "page_number": 74,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ión, como espejos y líneas de zócalos brillantes, \nse deben cubrir los 14 cm inferiores de los mismo"
+  },
+  {
+    "chunk_id": "6cf1baeece73668b",
+    "page_number": 74,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "2’)\nChasquido\nNota: Siga las instrucciones en la aplicación para registrarse, iniciar sesión y \ncone"
+  },
+  {
+    "chunk_id": "686bf8f7f33eaa44",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "75\nESLA\n• Esta serie de aspiradoras robot está diseñada para escenarios de limpieza \ndoméstica. Se r"
+  },
+  {
+    "chunk_id": "74a31c227e9bf7a9",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "idad \nprincipal puede conectarse con los contactos \nde carga de la estación para la carga.\nLa interf"
+  },
+  {
+    "chunk_id": "d22b88048fbc9bf6",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ón de mapas y la selección del modo \nde limpieza (específicas de cada producto). \nPara utilizar esta"
+  },
+  {
+    "chunk_id": "26a2201a2d200f55",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "s 802.11b/g/n e IPv4. \n• No debe utilizar VPN (redes privadas virtuales) ni servidores proxy.\n• No d"
+  },
+  {
+    "chunk_id": "2e49ecdd3258ad88",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " red (SSID) y la \ncontraseña deben ser los mismos que los de su red principal.\n• Habilite WPA2 en su"
+  },
+  {
+    "chunk_id": "ae496d1534e50207",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "izada (dependiendo del \nproducto), debe descargar y utilizar la aplicación ECOVACS HOME, \nque se act"
+  },
+  {
+    "chunk_id": "0211a399c8e13591",
+    "page_number": 75,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " funciones no estarán disponibles. Sin embargo, \npodrá seguir utilizando las funciones básicas del a"
+  },
+  {
+    "chunk_id": "33176b0a8e56b711",
+    "page_number": 76,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "76\nESLA\n \nUtilice la aplicación ECOVACS HOME para llamar al robot o presione \n en el \nrobot para que"
+  },
+  {
+    "chunk_id": "b5c84bd082599689",
+    "page_number": 76,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "iar el agua que pueda haber en la superficie del tanque \nantes de colocarlo en su lugar.\n• Cierre bi"
+  },
+  {
+    "chunk_id": "ee8a66b8f691a693",
+    "page_number": 76,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "va a instalarlo. \nTanque de agua sucia\nTanque de agua limpia\nNivel máximo de agua\n8 Adición de soluc"
+  },
+  {
+    "chunk_id": "548979b099828348",
+    "page_number": 77,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "77\nESLA\n2. Abra la unidad de solución de limpieza y llénela con solución de limpieza \nECOVACS (se ve"
+  },
+  {
+    "chunk_id": "c3d2bb0faeab484c",
+    "page_number": 77,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ". No agregue solución de limpieza a los tanques de agua.\n• Para un mejor rendimiento y una vida útil"
+  },
+  {
+    "chunk_id": "22b9f820a3e6c602",
+    "page_number": 77,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ede hacerlo utilizando la aplicación ECOVACS HOME.\n2. Comenzar a limpiar\n1. Comenzar a crear mapas\nA"
+  },
+  {
+    "chunk_id": "771e9195728f96b6",
+    "page_number": 77,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " Funcionamiento del robot \n• El tanque de agua del robot se rellena automáticamente en la estación. "
+  },
+  {
+    "chunk_id": "fefc64ade57a49e2",
+    "page_number": 77,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "as \náreas en las que se encuentran como zonas restringidas configurando límites \nvirtuales en la apl"
+  },
+  {
+    "chunk_id": "adae54fefed894d8",
+    "page_number": 78,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "78\nESLA\n3. Pausar\nToque \n en el robot para pausarlo mientras está en funcionamiento. También \npuede "
+  },
+  {
+    "chunk_id": "98bc138df93c1b3c",
+    "page_number": 78,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "la estación\n6. Modo de suspensión profunda\nEl robot entrará en el modo de suspensión profunda si per"
+  },
+  {
+    "chunk_id": "eac6a385c88b8122",
+    "page_number": 79,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "79\nESLA\nMANTENIMIENTO REGULAR\nPara mantener al robot en condiciones de funcionamiento óptimas, reali"
+  },
+  {
+    "chunk_id": "82622e13fd254fb0",
+    "page_number": 79,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ana\nCada 3 a 6 meses\nSensor de bordes\nRueda universal \nSensores anticaídas\nParachoques\nContactos de "
+  },
+  {
+    "chunk_id": "47a067e4fb1b5b34",
+    "page_number": 79,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " de limpieza\nTodos los meses\n/\nNota: Descubra más accesorios en la aplicación ECOVACS HOME o en http"
+  },
+  {
+    "chunk_id": "b2eb914873aa3713",
+    "page_number": 80,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "80\nESLA\n2 Mantenimiento del contenedor de polvo y el filtro\n2. Abra la red del filtro y retire el fi"
+  },
+  {
+    "chunk_id": "30c612f626d85dd5",
+    "page_number": 81,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "81\nESLA\n3 Mantenimiento del cepillo principal y el cepillo lateral \nLimpieza del cepillo de rodillo."
+  },
+  {
+    "chunk_id": "4a60b99870d48a2f",
+    "page_number": 82,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "82\nESLA\n4 Mantenimiento de otros componentes \nLimpie el módulo de evitación de obstáculos\nLimpie el "
+  },
+  {
+    "chunk_id": "d6eb56cc1403235a",
+    "page_number": 82,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "a contienen componentes electrónicos sensibles. \nLímpielos con un paño seco. Evite utilizar un paño "
+  },
+  {
+    "chunk_id": "fea14fc7a187ded1",
+    "page_number": 83,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "83\nESLA\n5 Mantenimiento del contenedor de polvo\nLimpie el sensor anticaídas\nLimpie la rueda universa"
+  },
+  {
+    "chunk_id": "19102ca8f201a233",
+    "page_number": 84,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "84\nESLA\n2. Instale la base y la bandeja de lavado de las mopas limpias. \n6 Mantenimiento de la bande"
+  },
+  {
+    "chunk_id": "7aba4427a21ed283",
+    "page_number": 84,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " en la estación y, luego, mantenga presionado [ícono] \ndurante tres segundos para apagar el robot. R"
+  },
+  {
+    "chunk_id": "ce87be06306fbace",
+    "page_number": 84,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " al cliente para obtener asistencia. No desmonte la batería \nusted mismo. \nMantener \npresionado\nSi o"
+  },
+  {
+    "chunk_id": "c72da0adfee92ec2",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "85\nESLA\nN.º\nFuncionamiento defectuoso\nPosibles causas\nSolución\n1\nEl robot no puede conectarse \ncon l"
+  },
+  {
+    "chunk_id": "e3c8a56a6bc3c972",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "osible del enrutador.\nEl robot no se encuentra en el estado de configuración. \nPresione el botón de "
+  },
+  {
+    "chunk_id": "22616f2c936faf6e",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "o utilice caracteres especiales, como ! @#& ¥%/\\.\n2. No utilice redes de 5 GHz. \nSe instaló una apli"
+  },
+  {
+    "chunk_id": "87d4880b328a5ddc",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "oloque el robot frente a la estación para restaurar el mapa.\nBusque el mapa almacenado en Administra"
+  },
+  {
+    "chunk_id": "6bd8868cf52571d9",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ués de la limpieza.\n3\nNo se pueden crear mapas en \nla aplicación.\nMover al robot durante la limpieza"
+  },
+  {
+    "chunk_id": "e35e7843e5c9b77c",
+    "page_number": 85,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "instale el cepillo \nlateral, que indica que se instaló correctamente."
+  },
+  {
+    "chunk_id": "7afd8ca17e837953",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "86\nESLA\nN.º\nFuncionamiento defectuoso\nPosibles causas\nSolución\n5\nNo se encontró ninguna señal. \nEl r"
+  },
+  {
+    "chunk_id": "4c9d4d65d0ec87e5",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "enzó a limpiar desde la estación.\nSe recomienda que el robot comience a limpiar desde la \nestación.\n"
+  },
+  {
+    "chunk_id": "2b8683a6f803f96c",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "abilite la reanudación automática. Para obtener más detalles, \nsiga las instrucciones en la aplicaci"
+  },
+  {
+    "chunk_id": "d7371f25548a5310",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ecten \na los contactos de carga de la estación y que el botón \n en el \nrobot parpadee. Verifique que"
+  },
+  {
+    "chunk_id": "e4cad145f162bb97",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ón [Inicio rápido] para instalarla de forma \nadecuada.\nLa batería se descargará excesivamente si el "
+  },
+  {
+    "chunk_id": "52688020b2903283",
+    "page_number": 86,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "llo lateral están enredados, o el \ncontenedor de polvo o el filtro están bloqueados.\nSe recomienda l"
+  },
+  {
+    "chunk_id": "1477622b34a17fc4",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "87\nESLA\n9\nEl robot se atasca y deja de \nfuncionar.\nEl robot se ha enredado con algún objeto en el pi"
+  },
+  {
+    "chunk_id": "e7b89673adb80642",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "aplicación ECOVACS HOME.\nEl robot se quedó atascado en un área estrecha.\nOrdene su casa o establezca"
+  },
+  {
+    "chunk_id": "6a2544adc642f38b",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rse de que quede \ncompletamente limpia).\nHay objetos, como cables y zapatillas, en el suelo que afec"
+  },
+  {
+    "chunk_id": "831c6963dc9ad760",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\nEs posible que las ruedas motrices se deslicen sobre el suelo \ncuando el robot pasa por escalones, "
+  },
+  {
+    "chunk_id": "3e3c705007129eee",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "as, se puede \ngenerar menos fricción entre las ruedas motrices y el piso.\nEspere a que la cera se se"
+  },
+  {
+    "chunk_id": "89285963d77742eb",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "rre el compartimiento de recolección de polvo.\nLa función de vaciado automático no se ha activado en"
+  },
+  {
+    "chunk_id": "efe90fed35953af7",
+    "page_number": 87,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "mienda dejar que el robot regrese a la estación por sí \nsolo. No lo mueva manualmente. \nEn el modo N"
+  },
+  {
+    "chunk_id": "4002d95ace087e14",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "88\nESLA\nN.º\nFuncionamiento defectuoso\nPosibles causas\nSolución\n12\nEl robot no vacía el depósito de \n"
+  },
+  {
+    "chunk_id": "d2686fe3e062f627",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "\neliminación de polvo. \nRetire el contenedor de polvo y quite los objetos extraños del \npuerto de el"
+  },
+  {
+    "chunk_id": "5c623b468ed6124c",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "a de polvo. \n14\nSe producen fugas de polvo \nmientras el robot está en \nfuncionamiento.\nHay objetos e"
+  },
+  {
+    "chunk_id": "89d00c5e1cd4b499",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "las ranuras correspondientes hasta \nescuchar un chasquido.\nHay objetos extraños bloqueando las placa"
+  },
+  {
+    "chunk_id": "d6b396c6136a2a15",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "ntes de volver \na enchufarla. Apague el robot y vuelva a encenderlo. Llévelo \nmanualmente hacia la e"
+  },
+  {
+    "chunk_id": "c3c46a8cb1e4ed16",
+    "page_number": 88,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "otrices para comprobar si hay algún \nobjeto extraño enrollado o atascado y retirarlo. Si el problema"
+  },
+  {
+    "chunk_id": "86a87afd1ec9cd08",
+    "page_number": 89,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "89\nESLA\nN.º\nFuncionamiento defectuoso\nPosibles causas\nSolución\n18\nLa bandeja de lavado de las \nmopas"
+  },
+  {
+    "chunk_id": "160b0bf7989e50bc",
+    "page_number": 89,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " estación no puede drenar el agua con normalidad.\nMantenga pulsado \n para ver si la estación drena e"
+  },
+  {
+    "chunk_id": "3aab8d29de2f8698",
+    "page_number": 89,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": " Si la estación no drena \nel agua, asegúrese de que no haya objetos extraños entre \nel tanque de agu"
+  },
+  {
+    "chunk_id": "894bb12bb6677c6e",
+    "page_number": 89,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "e la bandeja de lavado de las mopas desmontable y el \nraspador y lávelos con agua.\nSi no hay agua en"
+  },
+  {
+    "chunk_id": "424f654c0e5cac2e",
+    "page_number": 89,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": ", comuníquese con el servicio de atención al cliente \npara obtener asistencia. \n19\nLas placas de las"
+  },
+  {
+    "chunk_id": "7f917e8ba4a5cafb",
+    "page_number": 90,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "90\nESLA\nUtilice la cámara de su teléfono para escanear el código QR y obtener la Guía del usuario.\nE"
+  },
+  {
+    "chunk_id": "26ec3a9f0e62c28f",
+    "page_number": 90,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "H2471\nEntrada nominal  \n110 V -120 V ～   50 Hz - 60 Hz\nPotencia nominal  \n20 V \n 2 A\nCorriente de en"
+  },
+  {
+    "chunk_id": "ec60ef37cb81304c",
+    "page_number": 91,
+    "content_type": "text",
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "content": "Ecovacs Home Service Robotics Co., Ltd.\nNo.518 Songwei Road, Wusongjiang Industry Park, Guoxiang Str"
   }
 ]

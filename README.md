@@ -30,6 +30,7 @@
 | 可信验证 | LangGraph 验证节点检查答案是否基于原文，证据不足就拒答或重试 |
 | 增量更新 | SHA256 文件指纹检测变化，没变的文档跳过所有计算，零浪费 |
 | 实验可复现 | 100 条 Golden Dataset 固定不变，V0-V6 控制变量实验，每个模块的增益都有数据证明 |
+| 多文档 + 元数据过滤 | 双说明书（Roborock 中文 + Ecovacs 英文）同库，检索按 source_file 过滤隔离，跨文档页号不冲突 |
 
 ---
 
@@ -184,7 +185,8 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 │   ├── workflow/grounding.py   # V6 确定性句级接地验证（BGE-M3 余弦）
 │   ├── eval/                   # 评测系统
 │   │   ├── metrics.py          #   LLM-as-Judge 指标
-│   │   └── ragas_patch.py      #   RAGAS 兼容补丁
+│   │   ├── ragas_patch.py      #   RAGAS 兼容补丁
+│   │   └── doc_registry.py     #   source_document → source_file 映射（doc 过滤）
 │   └── api/                    # FastAPI 接口
 │       ├── routes.py           #   路由定义
 │       └── deps.py             #   依赖注入
@@ -209,8 +211,10 @@ GPU:        NVIDIA RTX 4060 Laptop (8 GB)
 │   ├── query.py                #   命令行问答
 │   ├── compare_v3.py           #   V2 vs V3 对比
 │   ├── incremental_update.py   #   增量更新
-│   ├── final_evaluation.py     #   最终评测
-│   └── run_v6_eval.py          #   V6 接地评测 + 阈值扫描 + V4 对比
+│   ├── final_evaluation.py     #   最终评测（支持 --dataset/--retrieval-only）
+│   ├── run_v6_eval.py          #   V6 接地评测 + 阈值扫描 + V4 对比
+│   ├── build_extended_dataset.py # 扩展数据集（+8 图片题 +15 Ecovacs 题）
+│   └── check_doc_filter.py     #   doc 级过滤隔离性验证
 │
 ├── docs/                       # 项目文档
 │   ├── PROJECT_CHARTER.md      #   项目章程

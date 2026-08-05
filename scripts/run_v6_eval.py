@@ -94,9 +94,9 @@ def _load_cases(full: bool) -> list[dict]:
 # ── Phase 1: full pipeline ──
 
 
-def _run_case(vqa, case: dict) -> dict:
+def _run_case(vqa, case: dict, doc_filter: str | None = None) -> dict:
     t0 = time.perf_counter()
-    state = vqa.run(case["question"])
+    state = vqa.run(case["question"], doc_filter=doc_filter)
     elapsed = time.perf_counter() - t0
 
     gold = case.get("gold_pages", [])
@@ -266,6 +266,9 @@ def main() -> None:
     from src.generation.generator import generate_answer
     from src.workflow.verified_qa import VerifiedQA
     from src.workflow.grounding import GroundingVerifier, CrossEncoderScorer
+    from src.eval.doc_registry import resolve_doc_filter
+
+    ROBOROCK_FILTER = resolve_doc_filter("Roborock G10S")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -299,7 +302,7 @@ def main() -> None:
             print(f"  [{i:3d}/{len(cases)}] START {case['question'][:40]}...",
                   flush=True)
             try:
-                rec = _run_case(vqa, case)
+                rec = _run_case(vqa, case, doc_filter=ROBOROCK_FILTER)
             except Exception as exc:  # one failing case must not kill the run
                 rec = {
                     "question": case["question"], "label": case["label"],

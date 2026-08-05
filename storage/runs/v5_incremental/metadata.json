@@ -2,5 +2,5 @@
   "experiment": "v5_incremental",
   "version": "V5",
   "collection": "v1_multimodal_kw_20260718_204259",
-  "report": "D:\\Agentproject1\\storage\\runs\\v5_incremental\\update_report.json"
+  "report": "storage/runs/v8_multidoc/update_report.json"
 }

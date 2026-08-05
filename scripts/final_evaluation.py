@@ -40,8 +40,8 @@ def sha256_file(path: Path) -> str:
 
 def load_questions() -> list[dict[str, Any]]:
     questions = json.loads(DATASET_PATH.read_text(encoding="utf-8"))
-    if len(questions) != 100:
-        raise RuntimeError(f"Golden Dataset must contain 100 questions, got {len(questions)}")
+    if not questions:
+        raise RuntimeError("Dataset is empty")
     required = {"question", "reference_answer", "reference_contexts", "gold_pages"}
     for index, question in enumerate(questions, 1):
         missing = required - question.keys()
@@ -122,8 +122,11 @@ def latest_v1_collection() -> str:
     return collections[-1]
 
 
-def retrieve_and_generate(version: str, questions: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def retrieve_and_generate(
+    version: str, questions: list[dict[str, Any]], retrieval_only: bool = False,
+) -> list[dict[str, Any]]:
     from src.generation.generator import generate_answer
+    from src.eval.doc_registry import resolve_doc_filter
     from src.retrieval.retriever import DenseRetriever
     from src.retrieval.hybrid_retriever import HybridRetriever
     from src.retrieval.reranked_retriever import RerankedRetriever
@@ -188,9 +191,10 @@ ANSWER:
     try:
         for question_id, question in enumerate(questions, 1):
             query = question["question"]
+            doc_filter = resolve_doc_filter(question.get("source_document"))
             started = time.perf_counter()
-            if version == "V4":
-                state = vqa.run(query)
+            if version == "V4" and not retrieval_only:
+                state = vqa.run(query, doc_filter=doc_filter)
                 chunks = state.get("retrieved_chunks", [])
                 generated = {
                     "answer": state.get("answer", ""),
@@ -201,17 +205,20 @@ ANSWER:
                 retry_count = state.get("retry_count", 0)
                 trace = state.get("trace", [])
             elif version == "V2":
-                chunks = retriever.search(query, top_k=TOP_K, mode="hybrid")
+                chunks = retriever.search(query, top_k=TOP_K, mode="hybrid", doc_filter=doc_filter)
                 verification, final_status, retry_count, trace = {}, "", 0, []
-                generated = generate_answer(query, chunks)
+                generated = (generate_answer(query, chunks) if not retrieval_only
+                             else {"answer": ""})
             elif version == "V3":
-                chunks = retriever.search(query, top_k=TOP_K, mode="reranked")
+                chunks = retriever.search(query, top_k=TOP_K, mode="reranked", doc_filter=doc_filter)
                 verification, final_status, retry_count, trace = {}, "", 0, []
-                generated = generate_answer(query, chunks)
+                generated = (generate_answer(query, chunks) if not retrieval_only
+                             else {"answer": ""})
             else:
-                chunks = retriever.search(query, top_k=TOP_K)
+                chunks = retriever.search(query, top_k=TOP_K, doc_filter=doc_filter)
                 verification, final_status, retry_count, trace = {}, "", 0, []
-                generated = generate_answer(query, chunks)
+                generated = (generate_answer(query, chunks) if not retrieval_only
+                             else {"answer": ""})
             total_latency = time.perf_counter() - started
             retrieval_latency = total_latency
             generation_latency = total_latency
@@ -219,8 +226,10 @@ ANSWER:
             record = {
                 "question_id": question_id,
                 "question": query,
+                "source_document": question.get("source_document", ""),
                 "gold_pages": question.get("gold_pages", []),
                 "retrieved_pages": pages,
+                "retrieved_sources": [c.get("source_file", "") for c in chunks],
                 "retrieved_contexts": [c.get("content", "") for c in chunks],
                 "answer": generated.get("answer", ""),
                 "citations": generated.get("citations", []),
@@ -228,7 +237,7 @@ ANSWER:
                 "retrieval_latency_s": round(retrieval_latency, 4),
                 "generation_latency_s": round(generation_latency, 4),
             }
-            if version == "V4":
+            if version == "V4" and not retrieval_only:
                 record.update({
                     "verification": verification,
                     "final_status": final_status,
@@ -238,7 +247,7 @@ ANSWER:
             record.update(metric_values(record["gold_pages"], pages))
             results.append(record)
             if question_id % 10 == 0:
-                print(f"{version}: {question_id}/100")
+                print(f"{version}: {question_id}/{len(questions)}")
     finally:
         retriever.close()
     return results
@@ -361,16 +370,20 @@ def evaluate_ragas(
 
 
 def v5_metrics() -> dict[str, Any]:
-    report = PROJECT_ROOT / "storage" / "runs" / "v5_incremental" / "update_report.json"
-    if not report.exists():
-        report = ARCHIVE_DIR / "v5_incremental" / "update_report.json"
-    if not report.exists():
-        raise RuntimeError("V5 update_report.json not found")
-    data = json.loads(report.read_text(encoding="utf-8"))
-    counts = data.get("counts", data)
-    keys = ["added_count", "unchanged_count", "modified_count", "deleted_count",
-            "reprocessed_pages", "reused_chunks", "embedded_chunks", "removed_chunks"]
-    return {key: int(counts.get(key, counts.get(key.replace("_count", ""), 0))) for key in keys}
+    # Prefer the v8 multi-doc report (does not overwrite the original V5 report)
+    candidates = [
+        PROJECT_ROOT / "storage" / "runs" / "v8_multidoc" / "update_report.json",
+        PROJECT_ROOT / "storage" / "runs" / "v5_incremental" / "update_report.json",
+        ARCHIVE_DIR / "v5_incremental" / "update_report.json",
+    ]
+    for report in candidates:
+        if report.exists():
+            data = json.loads(report.read_text(encoding="utf-8"))
+            counts = data.get("counts", data)
+            keys = ["added_count", "unchanged_count", "modified_count", "deleted_count",
+                    "reprocessed_pages", "reused_chunks", "embedded_chunks", "removed_chunks"]
+            return {key: int(counts.get(key, counts.get(key.replace("_count", ""), 0))) for key in keys}
+    raise RuntimeError("V5 update_report.json not found")
 
 
 def archive_old_runs() -> None:
@@ -391,8 +404,29 @@ def write_results(version: str, results: list[dict[str, Any]]) -> None:
 
 
 def main() -> None:
+    import argparse
+    from collections import Counter
+
+    parser = argparse.ArgumentParser(description="Final evaluation (multi-doc aware)")
+    parser.add_argument("--dataset", default="golden_100.json",
+                        help="dataset filename in data/eval_dataset")
+    parser.add_argument("--run-dir", default="storage/runs/final_eval",
+                        help="output run directory (use a new dir for a new dataset)")
+    parser.add_argument("--retrieval-only", action="store_true",
+                        help="skip generation + RAGAS (fast retrieval metrics only)")
+    parser.add_argument("--max-questions", type=int, default=None,
+                        help="limit to first N questions (quick smoke test)")
+    args = parser.parse_args()
+    global DATASET_PATH, RUN_DIR
+    DATASET_PATH = PROJECT_ROOT / "data" / "eval_dataset" / args.dataset
+    RUN_DIR = PROJECT_ROOT / args.run_dir
+
     questions = load_questions()
-    source_pdf = source_document_path()
+    if args.max_questions:
+        questions = questions[: args.max_questions]
+    total = len(questions)
+    modality_counts = dict(Counter(q.get("modality_required", "text") for q in questions))
+    source_docs = sorted({q.get("source_document", "") for q in questions if q.get("source_document")})
     if not (RUN_DIR / "final_metrics.json").exists() and not ARCHIVE_DIR.exists():
         archive_old_runs()
     RUN_DIR.mkdir(parents=True, exist_ok=True)
@@ -401,10 +435,9 @@ def main() -> None:
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
         "dataset_path": str(DATASET_PATH),
         "dataset_sha256": sha256_file(DATASET_PATH),
-        "source_document": str(source_pdf),
-        "source_document_sha256": sha256_file(source_pdf),
-        "total_questions": 100,
-        "modality_counts": {"text": 99, "image": 1},
+        "source_documents": source_docs,
+        "total_questions": total,
+        "modality_counts": modality_counts,
         "ragas_version": "0.4.3",
         "versions": {},
     }
@@ -416,12 +449,15 @@ def main() -> None:
             print(f"{version}: checkpoint exists, loading")
             results = json.loads(output.read_text(encoding="utf-8"))
         else:
-            results = retrieve_and_generate(version, questions)
+            results = retrieve_and_generate(version, questions, retrieval_only=args.retrieval_only)
             write_results(version, results)
-        if len(results) != 100:
-            raise RuntimeError(f"{version} incomplete: {len(results)}/100")
-        print(f"{version}: running RAGAS on 100 questions", flush=True)
-        ragas = evaluate_ragas(version, results, questions)
+        if len(results) != total:
+            raise RuntimeError(f"{version} incomplete: {len(results)}/{total}")
+        if args.retrieval_only:
+            ragas = {}
+        else:
+            print(f"{version}: running RAGAS on {total} questions", flush=True)
+            ragas = evaluate_ragas(version, results, questions)
         retrieval = summarize(results)
         summary = {"version": version, "retrieval_metrics": retrieval, "ragas_metrics": ragas}
         manifest["versions"][version] = summary
@@ -432,10 +468,10 @@ def main() -> None:
     lines = [
         "# Final Evaluation",
         "",
-        "Evaluation Dataset: golden_100.json  ",
-        "Total Questions: 100  ",
-        "Text Questions: 99  ",
-        "Image/Multimodal Questions: 1  ",
+        f"Evaluation Dataset: {DATASET_PATH.name}  ",
+        f"Total Questions: {total}  ",
+        f"Modality Counts: {modality_counts}  ",
+        f"Source Documents: {source_docs}  ",
         "All V0-V4 use the same dataset and evaluation protocol.",
         "",
         "## Retrieval Metrics",
@@ -445,15 +481,16 @@ def main() -> None:
     for version in ["V0", "V1", "V2", "V3", "V4"]:
         m = manifest["versions"][version]["retrieval_metrics"]
         lines.append(f"| {version} | {m['hit_at_5']:.4f} | {m['recall_at_5']:.4f} | {m['mrr']:.4f} | {m['top1_hit_rate']:.4f} | {m['avg_retrieval_latency_s']:.4f}s |")
-    lines += [
-        "", "## RAGAS / Answer Metrics",
-        "| Version | Faithfulness | Context Precision | Context Recall | Answer Relevancy | Avg Generation Latency |",
-        "|---|---:|---:|---:|---:|---:|",
-    ]
-    for version in ["V0", "V1", "V2", "V3", "V4"]:
-        m = manifest["versions"][version]["ragas_metrics"]
-        g = manifest["versions"][version]["retrieval_metrics"]
-        lines.append(f"| {version} | {m['faithfulness']:.4f} | {m['context_precision']:.4f} | {m['context_recall']:.4f} | {m['answer_relevancy']:.4f} | {g['avg_generation_latency_s']:.4f}s |")
+    if not args.retrieval_only:
+        lines += [
+            "", "## RAGAS / Answer Metrics",
+            "| Version | Faithfulness | Context Precision | Context Recall | Answer Relevancy | Avg Generation Latency |",
+            "|---|---:|---:|---:|---:|---:|",
+        ]
+        for version in ["V0", "V1", "V2", "V3", "V4"]:
+            m = manifest["versions"][version]["ragas_metrics"]
+            g = manifest["versions"][version]["retrieval_metrics"]
+            lines.append(f"| {version} | {m['faithfulness']:.4f} | {m['context_precision']:.4f} | {m['context_recall']:.4f} | {m['answer_relevancy']:.4f} | {g['avg_generation_latency_s']:.4f}s |")
     lines += ["", "## V5 Incremental Metrics", "| Metric | Value |", "|---|---:|"]
     for key, value in manifest["v5_incremental_metrics"].items():
         lines.append(f"| {key} | {value} |")

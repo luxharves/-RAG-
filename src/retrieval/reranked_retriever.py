@@ -43,17 +43,20 @@ class RerankedRetriever:
         return self._reranker
 
     def search(
-        self, query: str, top_k: int | None = None, mode: str = "reranked"
+        self, query: str, top_k: int | None = None, mode: str = "reranked",
+        doc_filter: str | None = None,
     ) -> list[dict]:
         final_k = top_k or self.final_top_k
 
         if mode == "v2_hybrid":
-            return self._hybrid.search(query, top_k=final_k, mode="hybrid")
+            return self._hybrid.search(query, top_k=final_k, mode="hybrid",
+                                       doc_filter=doc_filter)
 
         # ── Stage 1: Hybrid candidate recall ──
         try:
             candidates = self._hybrid.search(
-                query, top_k=self.candidate_top_k, mode="hybrid"
+                query, top_k=self.candidate_top_k, mode="hybrid",
+                doc_filter=doc_filter,
             )
         except HybridRetrievalError:
             raise HybridRetrievalError(

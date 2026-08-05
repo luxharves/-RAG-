@@ -87,6 +87,9 @@ def main() -> None:
     from src.retrieval.reranked_retriever import RerankedRetriever
     from src.generation.generator import generate_answer
     from src.workflow.verified_qa import VerifiedQA
+    from src.eval.doc_registry import resolve_doc_filter
+
+    ROBOROCK_FILTER = resolve_doc_filter("Roborock G10S")
 
     # ── Setup ──
     retriever = RerankedRetriever(
@@ -123,7 +126,7 @@ def main() -> None:
     for i, case in enumerate(all_cases, 1):
         q_text = case["question"]
         t0 = time.perf_counter()
-        state = vqa.run(q_text)
+        state = vqa.run(q_text, doc_filter=ROBOROCK_FILTER)
         elapsed = time.perf_counter() - t0
 
         gold = case.get("gold_pages", [])

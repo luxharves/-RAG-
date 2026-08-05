@@ -135,3 +135,24 @@
 | 交叉编码器分数 | median 0.95 (183 句, min 0.032) |
 
 - 5 个拒答中 4 个先于接地(检索相关性 1 + LLM 自拒 3);**1 个为接地过度拒答**:"清洁尘盒时可以用洗涤剂吗" 的答案正确(说明书:"不要添加任何洗涤剂"),但短句"不可以用洗涤剂。"是否定释义,交叉编码器仅给 0.032,支撑率 0.5 < 0.7 → 拒答。记录为接地边界。
+
+## V8 数据强化 — 扩图片题 + 第二本说明书(doc 级过滤)
+
+| 项 | 内容 |
+|---|---|
+| 数据集 | `golden_extended.json` = 100 + 8 图片题 + 15 Ecovacs 题 = **123 题**(Roborock 108 / Ecovacs 15;text 114 / image 9) |
+| 第二手册 | Ecovacs DEEBOT T30C Manual.pdf(91 页英文,三语 EN/FR/ES,EN p1-30)摄入进同一 collection + BM25(新增 ~335 chunk) |
+| doc 过滤 | 检索链(Dense/BM25/Hybrid/Reranked/VerifiedQA)贯通 `doc_filter`,Milvus 按 `source_file` 过滤,BM25 打分后过滤 |
+| 隔离验证 | `scripts/check_doc_filter.py`:Roborock query 过滤后 5/5 全回 Roborock;Ecovacs query 过滤后 5/5 全回 Ecovacs;unfiltered 混合 ✅ |
+
+### 关键决策
+
+- **独立 golden_extended.json,不动 golden_100.json** —— 保住 V0-V6 存档数字(95/100 仍有效);见 DECISIONS D-007。
+- **Ecovacs 题中文题面 + 英文 reference_contexts** —— 直接测 BGE-M3 跨语言检索;见 DECISIONS D-008。
+- Ecovacs 手册全量摄入含 FR/ES chunk,中文 query 靠英文 chunk 命中(可选后续只留英文页)。
+
+### 评测
+
+- `scripts/final_evaluation.py` 泛化:`--dataset` / `--run-dir` / `--retrieval-only` / `--max-questions`;去掉硬编码 100。
+- 检索-only 冒烟(12 题)通过:V0-V4 在扩展集上正常跑,doc_filter 贯通无报错。
+- 完整 123 题检索-only 评测命令:`python scripts/final_evaluation.py --dataset golden_extended.json --run-dir storage/runs/final_eval_extended --retrieval-only`(V3/V4 rerank 较慢,~40-80 min)。

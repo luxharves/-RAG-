@@ -1,0 +1,91 @@
+{
+  "run_id": "final_eval_20260805_113151",
+  "timestamp": "2026-08-05T11:31:51",
+  "dataset_path": "D:\\Agentproject1\\data\\eval_dataset\\golden_extended.json",
+  "dataset_sha256": "92830da0f2ed1a23f27d48dc5ad6077694dd59dd318353e50fe45844a9134a7e",
+  "source_documents": [
+    "Roborock G10S"
+  ],
+  "total_questions": 12,
+  "modality_counts": {
+    "text": 12
+  },
+  "ragas_version": "0.4.3",
+  "versions": {
+    "V0": {
+      "version": "V0",
+      "retrieval_metrics": {
+        "evaluated_question_count": 12,
+        "hit_at_5": 1.0,
+        "recall_at_5": 0.875,
+        "mrr": 0.7083,
+        "top1_hit_rate": 0.5,
+        "avg_retrieval_latency_s": 0.6837,
+        "avg_generation_latency_s": 0.6837
+      },
+      "ragas_metrics": {}
+    },
+    "V1": {
+      "version": "V1",
+      "retrieval_metrics": {
+        "evaluated_question_count": 12,
+        "hit_at_5": 1.0,
+        "recall_at_5": 0.875,
+        "mrr": 0.6903,
+        "top1_hit_rate": 0.5,
+        "avg_retrieval_latency_s": 0.8122,
+        "avg_generation_latency_s": 0.8122
+      },
+      "ragas_metrics": {}
+    },
+    "V2": {
+      "version": "V2",
+      "retrieval_metrics": {
+        "evaluated_question_count": 12,
+        "hit_at_5": 0.8333,
+        "recall_at_5": 0.75,
+        "mrr": 0.6528,
+        "top1_hit_rate": 0.5,
+        "avg_retrieval_latency_s": 0.8065,
+        "avg_generation_latency_s": 0.8065
+      },
+      "ragas_metrics": {}
+    },
+    "V3": {
+      "version": "V3",
+      "retrieval_metrics": {
+        "evaluated_question_count": 12,
+        "hit_at_5": 0.9167,
+        "recall_at_5": 0.8333,
+        "mrr": 0.75,
+        "top1_hit_rate": 0.6667,
+        "avg_retrieval_latency_s": 25.5982,
+        "avg_generation_latency_s": 25.5982
+      },
+      "ragas_metrics": {}
+    },
+    "V4": {
+      "version": "V4",
+      "retrieval_metrics": {
+        "evaluated_question_count": 12,
+        "hit_at_5": 0.9167,
+        "recall_at_5": 0.8333,
+        "mrr": 0.75,
+        "top1_hit_rate": 0.6667,
+        "avg_retrieval_latency_s": 29.1058,
+        "avg_generation_latency_s": 29.1058
+      },
+      "ragas_metrics": {}
+    }
+  },
+  "v5_incremental_metrics": {
+    "added_count": 0,
+    "unchanged_count": 4,
+    "modified_count": 0,
+    "deleted_count": 0,
+    "reprocessed_pages": 0,
+    "reused_chunks": 414,
+    "embedded_chunks": 0,
+    "removed_chunks": 0
+  }
+}

@@ -115,9 +115,13 @@ class HybridRetriever:
         return self._bm25
 
     def search(
-        self, query: str, top_k: int = 5, mode: str = "hybrid"
+        self, query: str, top_k: int = 5, mode: str = "hybrid",
+        doc_filter: str | None = None,
     ) -> list[dict]:
         """Search with specified mode: dense, bm25, hybrid.
+
+        doc_filter: a source_file path to restrict results to one document
+            (passed through to both dense and BM25 before fusion).
 
         Returns results with: retrieval_channel, retrieval_score,
         dense_rank, dense_score, bm25_rank, bm25_score,
@@ -128,7 +132,7 @@ class HybridRetriever:
 
         # Dense
         try:
-            dense_results = self._ensure_dense().search(query, top_k=20)
+            dense_results = self._ensure_dense().search(query, top_k=20, doc_filter=doc_filter)
             dense_ok = True
         except Exception:
             dense_results = []
@@ -138,7 +142,7 @@ class HybridRetriever:
         try:
             bm25_retriever = self._ensure_bm25()
             if bm25_retriever.is_loaded:
-                bm25_results = bm25_retriever.search(query, top_k=20)
+                bm25_results = bm25_retriever.search(query, top_k=20, doc_filter=doc_filter)
                 bm25_ok = True
             else:
                 bm25_results = []

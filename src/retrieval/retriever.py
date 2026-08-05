@@ -17,6 +17,15 @@ from pymilvus import MilvusClient  # noqa: E402
 from src.infra.embedder import Embedder  # noqa: E402
 
 
+def make_source_file_filter(source_file: str) -> str:
+    """Build a Milvus filter expression matching one source_file (escaped).
+
+    Mirrors the backslash-escaping precedent in IncrementalIndexer._delete_document.
+    """
+    escaped = source_file.replace("\\", "\\\\").replace('"', '\\"')
+    return f'source_file == "{escaped}"'
+
+
 class DenseRetriever:
     """Retrieves top-K chunks via dense vector similarity."""
 
@@ -48,8 +57,15 @@ class DenseRetriever:
         self,
         query: str,
         top_k: int = 5,
+        doc_filter: str | None = None,
     ) -> list[dict]:
         """Search for top-K chunks matching the query.
+
+        Args:
+            query: the query text.
+            top_k: number of results.
+            doc_filter: a source_file path to restrict results to one document
+                (metadata filtering); None = search the whole collection.
 
         Returns list of {chunk_id, content, source_file, page_number,
                           content_type, retrieval_score, retrieval_channel}.
@@ -62,7 +78,8 @@ class DenseRetriever:
         # Ensure collection is loaded
         client.load_collection(self.collection_name)
 
-        results = client.search(
+        filter_expr = make_source_file_filter(doc_filter) if doc_filter else None
+        search_kwargs = dict(
             collection_name=self.collection_name,
             data=[query_vector],
             limit=top_k,
@@ -71,6 +88,9 @@ class DenseRetriever:
                 "content_type", "document_id",
             ],
         )
+        if filter_expr:
+            search_kwargs["filter"] = filter_expr
+        results = client.search(**search_kwargs)
 
         hits = []
         for hit in results[0]:

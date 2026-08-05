@@ -2,11 +2,11 @@
 
 ## 当前状态
 
-- 当前阶段：Phase 11 (V7 模型网关容错)
+- 当前阶段：Phase 12 (V8 数据强化)
 - 阶段状态：PASS
-- 当前版本：V7 + FastAPI + React 全栈
-- 最近完成：V7 LLM 网关（超时 60s + 指数退避重试 + 熔断器 + 多 provider 兜底链 + 兜底应答）；demo 验证 failover
-- 已知限制：Milvus Lite 单进程；交叉编码器对"主题相关编造"仍有边界（弗兰肯斯坦局限）；熔断状态仅进程内（uvicorn 重启重置，无 Redis）
+- 当前版本：V8 多文档 + 多模态 + FastAPI + React 全栈
+- 最近完成：golden_extended.json(123 题,图片题 1→9);Ecovacs 第二本说明书摄入;检索链 doc 级过滤贯通;check_doc_filter 隔离验证通过
+- 已知限制：Milvus Lite 单进程；交叉编码器对"主题相关编造"仍有边界（弗兰肯斯坦局限）；熔断状态仅进程内（uvicorn 重启重置，无 Redis）；Ecovacs 手册三语全量摄入（FR/ES 为噪音）
 
 ## Phase 7 — 增量更新
 

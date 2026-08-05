@@ -29,3 +29,14 @@
 
 - 状态：PROVISIONAL
 - 原因：当前 GPU 为 RTX 4060 Laptop、约 8GB 显存。实现时默认低 Batch 和半精度，并把模型设备、Batch Size 和最大长度配置化；若 BGE-Reranker-Large 无法稳定加载，必须记录证据后再讨论兼容替代方案。
+
+## D-007：多文档数据集用独立 golden_extended.json，不追加进 golden_100.json
+
+- 状态：ACCEPTED
+- 原因：golden_100 的 V0-V6 存档评测数字和哈希都基于它，追加会使其失效（需 75+ min 重跑）。新建 golden_extended.json = 100 + 8 图片题 + 15 Ecovacs 题 = 123 题，保留历史数字的同时扩展多文档/多模态覆盖。
+
+## D-008：Ecovacs 题用中文题面 + 英文 reference_contexts
+
+- 状态：ACCEPTED
+- 原因：Ecovacs 手册为英文（91 页三语，EN p1-30）。中文题 + 英文上下文直接测 BGE-M3 的跨语言检索能力（中文 query 命中英文 chunk），生成器仍用中文回答。
+

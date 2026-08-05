@@ -31,5 +31,16 @@
     "num_chunks": 1,
     "version": "65f0a35a19c356b1",
     "last_updated": "2026-07-19T18:56:46"
+  },
+  "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf": {
+    "source_file": "D:\\Agentproject1\\data\\raw_docs\\Ecovacs DEEBOT T30C Manual.pdf",
+    "document_id": "a206dd254f22",
+    "file_hash": "f0b3fabca85413f544c427ea5c82a18c99591823ae2735d082758e59f658d121",
+    "file_size": 23201795,
+    "total_pages": 91,
+    "text_pages": 91,
+    "num_chunks": 335,
+    "version": "f0b3fabca85413f5",
+    "last_updated": "2026-08-05T11:28:19"
   }
 }

@@ -36,21 +36,31 @@ class BM25Retriever:
         else:
             self._bm25 = None
 
-    def search(self, query: str, top_k: int = 10) -> list[dict]:
-        """Search and return results with metadata."""
+    def search(self, query: str, top_k: int = 10,
+               doc_filter: str | None = None) -> list[dict]:
+        """Search and return results with metadata.
+
+        doc_filter: a source_file path to restrict results to one document
+            (filtered post-scoring, before truncation).
+        """
         if self._bm25 is None:
             return []
         tokens = self.tokenize(query)
         scores = self._bm25.get_scores(tokens)
-        # Get top-k indices
-        ranked = sorted(enumerate(scores), key=lambda x: x[1], reverse=True)[:top_k]
+        # Rank all, then filter by doc before truncation (cheap: get_scores is vectorized)
+        ranked = sorted(enumerate(scores), key=lambda x: x[1], reverse=True)
         results = []
         for rank, (idx, score) in enumerate(ranked, 1):
+            if doc_filter is not None and \
+                    self._metadata[idx].get("source_file", "") != doc_filter:
+                continue
             meta = dict(self._metadata[idx])
             meta["bm25_score"] = round(float(score), 4)
-            meta["bm25_rank"] = rank
+            meta["bm25_rank"] = len(results) + 1
             meta["retrieval_channel"] = "bm25"
             results.append(meta)
+            if len(results) >= top_k:
+                break
         return results
 
     def save(self, path: str | Path | None = None) -> None:
