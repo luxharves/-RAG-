@@ -53,3 +53,14 @@
 - .env 9 变量全部匹配代码
 - 全量测试 109/109 passed（无锁冲突）
 - Phase 8 最终判定: PASS
+
+## 2026-08-05：V8 多文档与 V9 语义缓存
+
+- 新增第二本说明书 Ecovacs DEEBOT T30C，并通过 `doc_filter` 贯通 Dense、BM25、Hybrid、Reranker 和 VerifiedQA 检索链路。
+- 新增 `golden_extended.json`，共 123 题（114 text、9 image），完成 V0–V4 retrieval-only 扩展评测。
+- 扩展集 V3/V4：Hit@5=0.9756、Recall@5=0.9593、MRR=0.8916、Top-1=0.8293。
+- 明确：123 题扩展集未运行 RAGAS；100 题 RAGAS 结果继续保留在 `storage/runs/final_eval/`。
+- 新增 V9 `/query` 两级缓存：精确 SHA256 + BGE-M3 语义余弦，SQLite 持久化。
+- V9 缓存评测：精确命中 12/12，语义命中 4/12，平均命中延迟约 31ms。
+- 新增语义缓存单元测试，配合网关和最终评测测试定向验证共 44 passed；前端 lint/build 通过。
+- 已知限制：全量 pytest 包含慢速模型/检索路径，短时间窗口内未完成；语义缓存未自动绑定知识库版本，更新知识库后应清理缓存。

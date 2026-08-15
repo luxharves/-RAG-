@@ -8,6 +8,20 @@
 - 最近完成：/query 两级缓存(精确 SHA256 + 语义余弦);缓存命中 ~31ms(全管线 ~20s+),精确重跑 100% 命中;前端缓存命中徽标
 - 已知限制：Milvus Lite 单进程；交叉编码器对"主题相关编造"仍有边界（弗兰肯斯坦局限）；熔断状态仅进程内（uvicorn 重启重置，无 Redis）；Ecovacs 手册三语全量摄入（FR/ES 为噪音）
 
+## V7–V9 当前状态
+
+| 版本 | 能力 | 状态 | 证据 |
+|---|---|---|---|
+| V7 | LLM Gateway：超时、重试、熔断、Provider 兜底 | PASS | `tests/test_gateway.py`，故障注入 demo |
+| V8 | 多文档、doc_filter、扩展图片/跨语言检索 | PASS | `golden_extended.json` 123 题 retrieval-only |
+| V9 | 精确/语义查询缓存 | PASS | `storage/runs/v9_cache/cache_eval.json`，专项测试 |
+
+### 评测边界
+
+- 正式 RAGAS 对比：`golden_100.json`，100 题，结果位于 `storage/runs/final_eval/`。
+- 多文档扩展检索：`golden_extended.json`，123 题，结果位于 `storage/runs/final_eval_extended_full/`。
+- 123 题扩展评测当前未运行 RAGAS，不能与 100 题 RAGAS 指标直接合并。
+
 ## Phase 7 — 增量更新
 
 ### Hash 和版本策略
@@ -129,3 +143,5 @@ Golden Dataset（`data/eval_dataset/golden_100.json`）：
 | Phase 9D | PASS | 实验评估页：V0-V5 指标对比+CSS图表+技术演进+案例+结论；GET /experiments；123/123 测试 |
 | Phase 10 (V6) | PASS | 句级接地验证；交叉编码器替换余弦；投毒测试 82% 拦截；20+2 评测 17/20+2/2；158/158 测试 |
 | Phase 11 (V7) | PASS | LLM 网关：60s 超时+重试+熔断+兜底链+兜底应答；LLMClient 门面零改调用点；19 网关测试；demo failover |
+| Phase 12 (V8) | PASS | 多文档 doc_filter、Ecovacs 英文手册、9 条图片题；123 题 retrieval-only 扩展评测 |
+| Phase 13 (V9) | PASS | `/query` 两级缓存；精确命中 12/12；命中延迟约 31ms；语义缓存专项测试通过 |
