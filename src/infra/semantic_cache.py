@@ -23,6 +23,13 @@ def _cos(a: list[float], b: list[float]) -> float:
     return sum(x * y for x, y in zip(a, b))
 
 
+def _normalize_query_plus_salt(query: str, salt: str = "") -> str:
+    """Normalized query + optional salt (e.g. doc_filter), separated by NUL so
+    identical questions scoped to different documents get distinct keys."""
+    norm = " ".join(query.lower().split())
+    return norm + ("\x00" + salt if salt else "")
+
+
 class SemanticCache:
     def __init__(
         self,
@@ -56,9 +63,17 @@ class SemanticCache:
     def _normalize(query: str) -> str:
         return " ".join(query.lower().split())
 
+    @staticmethod
+    def _key_text(query: str, salt: str = "") -> str:
+        """Normalized query + a salt (e.g. doc_filter) so identical questions
+        scoped to different documents never share a cache key."""
+        return _normalize_query_plus_salt(query, salt)
+
     @classmethod
-    def _hash(cls, query: str) -> str:
-        return hashlib.sha256(cls._normalize(query).encode("utf-8")).hexdigest()
+    def _hash(cls, query: str, salt: str = "") -> str:
+        return hashlib.sha256(
+            _normalize_query_plus_salt(query, salt).encode("utf-8")
+        ).hexdigest()
 
     def _expired(self, created_at: float) -> bool:
         if not self.ttl_days:
@@ -67,10 +82,11 @@ class SemanticCache:
 
     # ── public ──
 
-    def get(self, query: str) -> tuple[dict, str] | None:
+    def get(self, query: str, salt: str = "") -> tuple[dict, str] | None:
         """Return ``(response_dict, source)`` on hit (source: "exact"/"semantic"),
-        or None on miss. Marks a hit (and bumps hit_count) on a hit."""
-        qh = self._hash(query)
+        or None on miss. Marks a hit (and bumps hit_count) on a hit.
+        ``salt`` (e.g. the doc_filter) separates cache keys per document scope."""
+        qh = self._hash(query, salt)
         with self._lock:
             # 1. exact
             row = self._conn.execute(
@@ -87,7 +103,7 @@ class SemanticCache:
                 return json.loads(row[0]), "exact"
 
             # 2. semantic (paraphrase)
-            vec = self.embedder.encode(self._normalize(query))
+            vec = self.embedder.encode(self._key_text(query, salt))
             rows = self._conn.execute(
                 "SELECT query_hash, query_vector, response, created_at FROM cache"
             ).fetchall()
@@ -113,10 +129,11 @@ class SemanticCache:
             self._miss += 1
             return None
 
-    def put(self, query: str, response: dict) -> None:
-        """Store a response keyed by the (normalized) query + its embedding."""
-        qh = self._hash(query)
-        vec = json.dumps(self.embedder.encode(self._normalize(query)))
+    def put(self, query: str, response: dict, salt: str = "") -> None:
+        """Store a response keyed by the (normalized) query + its embedding.
+        ``salt`` must match the salt passed to :meth:`get` (doc_filter scope)."""
+        qh = self._hash(query, salt)
+        vec = json.dumps(self.embedder.encode(self._key_text(query, salt)))
         resp = json.dumps(response, ensure_ascii=False)
         with self._lock:
             self._conn.execute(

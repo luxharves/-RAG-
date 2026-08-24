@@ -15,12 +15,12 @@ export function Dashboard() {
       </div>
 
       <div className="grid-2 mb-4">
-        <StatCard title="系统版本" value="V5 + FastAPI" />
-        <StatCard title="检索通道" value="Dense + BM25 + RRF" />
+        <StatCard title="系统版本" value="V9（V0–V9 演进）" />
+        <StatCard title="检索通道" value="Dense + BM25 + RRF + Rerank" />
         <StatCard title="精排模型" value="BGE-Reranker-v2-m3" />
-        <StatCard title="验证引擎" value="LangGraph Verify" />
-        <StatCard title="多模态" value="6 图片 + 3 表格" />
-        <StatCard title="Golden Dataset" value="100 条固定回归集" />
+        <StatCard title="验证引擎" value="确定性句级接地" />
+        <StatCard title="多模态" value="文本 + 图片 + 表格" />
+        <StatCard title="Golden Dataset" value="100 条 + 123 条扩展" />
       </div>
 
       <h2 className="section-title" style={{ marginTop: 40 }}>核心能力</h2>

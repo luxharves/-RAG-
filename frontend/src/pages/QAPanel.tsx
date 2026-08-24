@@ -23,6 +23,7 @@ const TYPE_ICONS: Record<string, string> = {
 export function QAPanel() {
   const [question, setQuestion] = useState("");
   const [experiment, setExperiment] = useState("v4");
+  const [sourceDocument, setSourceDocument] = useState(""); // "" = 全部说明书
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<QueryResponse | null>(null);
@@ -33,7 +34,11 @@ export function QAPanel() {
     setResult(null);
     setLoading(true);
     try {
-      const data = await fetchQuery({ question: q, experiment });
+      const data = await fetchQuery({
+        question: q,
+        experiment,
+        source_document: sourceDocument || undefined,
+      });
       setResult(data);
     } catch (e: any) {
       setError(e.message || "请求失败");
@@ -55,7 +60,7 @@ export function QAPanel() {
     <div>
       <h1 className="mb-3">维保问答</h1>
       <p className="section-subtitle">
-        V4 LangGraph 可信问答：Hybrid Retrieval → Reranker → Verify → Answer
+        LangGraph 可信问答：Hybrid Retrieval → Reranker → 生成 → V6 句级接地验证 → 引用答案（V9 语义缓存加速）
       </p>
 
       {/* Input area */}
@@ -76,6 +81,16 @@ export function QAPanel() {
           >
             {loading ? "查询中..." : "提交问题"}
           </button>
+          <select
+            className="select"
+            value={sourceDocument}
+            onChange={(e) => setSourceDocument(e.target.value)}
+            title="限定检索到单本说明书（V8 doc_filter）"
+          >
+            <option value="">📚 全部说明书</option>
+            <option value="Roborock G10S">Roborock G10S</option>
+            <option value="Ecovacs DEEBOT T30C">Ecovacs DEEBOT T30C</option>
+          </select>
           <select
             className="select"
             value={experiment}

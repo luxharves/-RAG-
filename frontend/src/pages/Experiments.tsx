@@ -1,12 +1,18 @@
 import { useEffect, useState } from "react";
-import { fetchExperiments, fetchExperiment, fetchHealth, fetchFinalEval } from "../api/client";
-import type { ExperimentListItem, ExperimentMetrics, ExperimentSummary, FinalEvalMetrics } from "../api/client";
+import { fetchExperiments, fetchExperiment, fetchHealth, fetchFinalEval, fetchVersions } from "../api/client";
+import type { ExperimentListItem, ExperimentMetrics, ExperimentSummary, FinalEvalMetrics, VersionHighlights } from "../api/client";
 
 const VERSION_NAMES: Record<string, string> = {
   v0_baseline: "V0 Baseline", v1_multimodal: "V1 Multimodal",
   v2_comparison: "V2 Hybrid", v3_rerank: "V3 Reranker",
   v4_verified: "V4 Verify", v5_incremental: "V5 Incremental",
+  v6_grounding: "V6 Grounding", v8_multidoc: "V8 Multi-doc",
+  v9_cache: "V9 Cache",
 };
+
+// Generic RAGAS metrics table only compares V0–V5 (the RAGAS-comparable set);
+// V6/V8/V9 have their own dedicated sections below.
+const RAGAS_ORDER = ["v0_baseline", "v1_multimodal", "v2_comparison", "v3_rerank", "v4_verified", "v5_incremental"];
 
 const FINAL_EVAL_MAP: Record<string, string> = {
   V0: "v0_baseline", V1: "v1_multimodal", V2: "v2_comparison",
@@ -20,6 +26,10 @@ const EVOLUTION_STEPS = [
   { v: "V3", title: "+ BGE-Reranker", desc: "二阶段精排、Top-1 +5%、MRR +1.9%、20/20 排序变化", icon: "🎯" },
   { v: "V4", title: "+ LangGraph Verify", desc: "验证节点 + 证据链追踪 + 越界拒答 + 重试机制", icon: "✅" },
   { v: "V5", title: "+ 增量更新", desc: "SHA256 Hash 检测、unchanged 0 Embedding、BM25 增量", icon: "📦" },
+  { v: "V6", title: "+ 确定性接地", desc: "句级交叉编码器验证（替代 LLM 自查）+ 引用审计，投毒测试拦截 82%", icon: "🛡️" },
+  { v: "V7", title: "+ LLM Gateway", desc: "60s 超时 + 指数退避重试 + 断路器 + 多 Provider 故障转移", icon: "🚦" },
+  { v: "V8", title: "+ 多文档检索", desc: "双说明书 + doc_filter 元数据隔离，123 题 retrieval-only MRR 0.89", icon: "📚" },
+  { v: "V9", title: "+ 语义缓存", desc: "SHA256 精确 + BGE-M3 语义两级缓存，命中 ~31ms 省 LLM 调用", icon: "⚡" },
 ];
 
 const METRIC_LABELS: Record<string, string> = {
@@ -40,6 +50,7 @@ export function Experiments() {
   const [metrics, setMetrics] = useState<Record<string, ExperimentMetrics>>({});
   const [summaries, setSummaries] = useState<Record<string, ExperimentSummary>>({});
   const [finalEval, setFinalEval] = useState<FinalEvalMetrics | null>(null);
+  const [versions, setVersions] = useState<VersionHighlights | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [banner, setBanner] = useState<string | null>(null);
@@ -52,10 +63,12 @@ export function Experiments() {
     (async () => {
       setLoading(true);
       try {
-        const [expData, finalEvalData] = await Promise.all([
+        const [expData, finalEvalData, verData] = await Promise.all([
           fetchExperiments().catch(() => ({ experiments: [] })),
           fetchFinalEval().catch(() => null),
+          fetchVersions().catch(() => null),
         ]);
+        if (verData) setVersions(verData);
         setExps(expData.experiments.filter(e => e.available));
         if (finalEvalData) setFinalEval(finalEvalData);
 
@@ -103,9 +116,9 @@ export function Experiments() {
     })();
   }, []);
 
-  const displayOrder = exps.length > 0
-    ? exps.map(e => e.id).sort()
-    : ["v0_baseline", "v1_multimodal", "v2_comparison", "v3_rerank", "v4_verified", "v5_incremental"];
+  // Generic RAGAS table compares only the V0–V5 set (V6/V8/V9 have dedicated sections)
+  const available = new Set(exps.map(e => e.id));
+  const displayOrder = RAGAS_ORDER.filter(id => available.has(id));
 
   let bestRecall = 0, bestMrr = 0, bestFaith = 0, bestCtxRecall = 0;
   let bestRecallV = "", bestMrrV = "", bestFaithV = "", bestCtxRecallV = "";
@@ -126,7 +139,8 @@ export function Experiments() {
     <div>
       <h1 className="mb-3">实验评估</h1>
       <p className="section-subtitle">
-        基于固定 100 条 Golden Dataset，对 V0–V5 实验版本进行控制变量对比
+        基于固定 100 条 Golden Dataset 的 RAGAS 对比（V0–V4）+ 增量更新（V5）+ 确定性接地（V6）
+        + 多文档检索（V8）+ 语义缓存（V9）
       </p>
 
       {banner && (
@@ -261,6 +275,67 @@ export function Experiments() {
             <div className="empty-state mb-4">暂无缓存实验数据</div>
           )}
 
+          {/* V6 deterministic grounding */}
+          {versions && (
+            <>
+              <h2 className="section-title">V6 确定性接地验证</h2>
+              <div className="grid-stat-sm mb-4">
+                <VStat label="全量评测 answered" value={`${versions.v6_grounding.answered}/${versions.v6_grounding.total}`} good />
+                <VStat label="句级支撑率" value={`${(versions.v6_grounding.avg_support_ratio * 100).toFixed(1)}%`} good />
+                <VStat label="投毒拦截率" value={`${versions.v6_grounding.poison_flagged}/${versions.v6_grounding.poison_total}（${(versions.v6_grounding.poison_rate * 100).toFixed(0)}%）`} good />
+                <VStat label="过度拒答" value={`${versions.v6_grounding.over_refused}/100`} />
+              </div>
+              <div className="card mb-4" style={{ lineHeight: "var(--leading-relaxed)" }}>
+                <p><strong>验证机制</strong>：答案拆句 → 每句与检索 chunk 用 BGE-Reranker 交叉编码器逐对打分 → 支撑率 ≥ 0.7 才放行；引用由系统"计算"而非 LLM"声称"，并逐条审计 <code>[来源: X, 第Y页]</code>。投毒测试对真实答案追加编造句（"本产品由核聚变反应堆提供动力"等），交叉编码器拦截 {versions.v6_grounding.poison_flagged}/{versions.v6_grounding.poison_total}；BGE-M3 余弦方案为 0/{versions.v6_grounding.poison_total}（主题词抬高相似度，无判别力）。</p>
+              </div>
+            </>
+          )}
+
+          {/* V7 LLM gateway */}
+          {versions && (
+            <>
+              <h2 className="section-title">V7 LLM Gateway 韧性</h2>
+              <div className="grid-stat-sm mb-4">
+                <VStat label="单次超时" value={`${versions.v7_gateway.timeout_s}s`} />
+                <VStat label="最大重试" value={`${versions.v7_gateway.max_retries}`} />
+                <VStat label="熔断阈值" value={`连败 ${versions.v7_gateway.circuit_threshold} 次`} />
+                <VStat label="冷却时间" value={`${versions.v7_gateway.cooldown_s}s`} />
+              </div>
+            </>
+          )}
+
+          {/* V8 multi-doc */}
+          {versions && (
+            <>
+              <h2 className="section-title">V8 多文档检索</h2>
+              <div className="grid-stat-sm mb-4">
+                <VStat label="扩展评测题数" value={`${versions.v8_multidoc.questions}`} good />
+                <VStat label="V3 Hit@5" value={versions.v8_multidoc.v3_hit_at_5.toFixed(4)} good />
+                <VStat label="V3 MRR" value={versions.v8_multidoc.v3_mrr.toFixed(4)} good />
+                <VStat label="Ecovacs 跨语言 MRR" value={versions.v8_multidoc.ecovacs_mrr.toFixed(2)} good />
+              </div>
+              <div className="card mb-4" style={{ lineHeight: "var(--leading-relaxed)" }}>
+                <p>第二本英文说明书（Ecovacs DEEBOT T30C）与中文 Roborock 同库。检索按 <code>source_file</code> 元数据过滤（doc_filter），融合前隔离，避免跨书页码冲突与来源混淆。123 题 retrieval-only 评测（{versions.v8_multidoc.text} 文本 + {versions.v8_multidoc.image} 图片），V3 Hit@5 {versions.v8_multidoc.v3_hit_at_5.toFixed(4)}、MRR {versions.v8_multidoc.v3_mrr.toFixed(4)}。</p>
+              </div>
+            </>
+          )}
+
+          {/* V9 semantic cache */}
+          {versions && (
+            <>
+              <h2 className="section-title">V9 语义缓存</h2>
+              <div className="grid-stat-sm mb-4">
+                <VStat label="精确命中" value={`${versions.v9_cache.exact_hits}/${versions.v9_cache.warmed}`} good />
+                <VStat label="语义命中" value={`${versions.v9_cache.semantic_hits}`} />
+                <VStat label="命中延迟" value={`${(versions.v9_cache.avg_cached_s * 1000).toFixed(0)}ms`} good />
+                <VStat label="节省 LLM 调用" value={`${versions.v9_cache.llm_calls_saved}`} good />
+              </div>
+              <div className="card mb-4" style={{ lineHeight: "var(--leading-relaxed)" }}>
+                <p>两级缓存：SHA256 精确 + BGE-M3 语义余弦（阈值 0.9）。重复/近似问题跳过全管线（未命中 {versions.v9_cache.avg_uncached_s}s）直接返回，平均命中 {(versions.v9_cache.avg_cached_s * 1000).toFixed(0)}ms，精确重跑 {versions.v9_cache.exact_hits}/{versions.v9_cache.warmed}，省 {versions.v9_cache.llm_calls_saved} 次 LLM 调用。SQLite 持久化、TTL 支持；按 doc_filter 加盐隔离不同说明书的缓存。</p>
+              </div>
+            </>
+          )}
+
           {/* Cases */}
           <h2 className="section-title">典型案例</h2>
           <div style={{ display: "grid", gap: 8, marginBottom: 24 }}>
@@ -283,10 +358,23 @@ export function Experiments() {
             <p>✅ <strong>BGE-Reranker</strong>（V3）全面提升：Recall@5 0.91、MRR 0.86、Faithfulness 0.95、Context Precision 0.87 —— 全部指标最优，代价是 20s 延迟（6x）。</p>
             <p>✅ <strong>LangGraph Verify</strong>（V4）保持 V3 的检索质量，Context Recall 最优（0.88），越界问题正确 refused。Faithfulness 略低于 V3（0.90 vs 0.95），验证机制可能过度保守。</p>
             <p>✅ <strong>增量更新</strong>（V5）unchanged 文档 0 Embedding，39 chunks 全部复用，Hash 检测准确，BM25 增量同步正常。</p>
-            <p style={{ color: "var(--color-accent)" }}>⚠️ V2→V3 的 Reranker 带来全面但昂贵（6x 延迟）的提升。Context Precision 从 V0 的 0.69 提升至 V3 的 0.87，进步显著。</p>
+            <p>🛡️ <strong>确定性接地</strong>（V6）句级交叉编码器验证替代 LLM 自查，投毒测试拦截 82% 编造句（余弦为 0%）；引用由系统计算而非 LLM 声称。</p>
+            <p>🚦 <strong>LLM Gateway</strong>（V7）60s 超时 + 指数退避重试 + 每 Provider 断路器 + 多 Provider 故障转移，全挂时兜底句自动落入可信拒答。</p>
+            <p>📚 <strong>多文档检索</strong>（V8）双说明书 + doc_filter 元数据隔离，跨语言检索 MRR 0.90，123 题 retrieval-only Hit@5 0.9756。</p>
+            <p>⚡ <strong>语义缓存</strong>（V9）两级缓存命中 ~31ms（全管线 20s+），精确重跑 12/12，节省 LLM 调用成本。</p>
+            <p style={{ color: "var(--color-accent)" }}>⚠️ V2→V3 的 Reranker 带来全面但昂贵（6x 延迟）的提升。Context Precision 从 V0 的 0.69 提升至 V3 的 0.87，进步显著；V6 已知边界为 1/100 过度拒答（否定释义短句），V9 缓存知识库更新后需清理。</p>
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+function VStat({ label, value, good }: { label: string; value: string; good?: boolean }) {
+  return (
+    <div className="card card-sm" style={{ textAlign: "center" }}>
+      <div className="stat-label">{label}</div>
+      <div style={{ fontSize: 20, fontWeight: 700, color: good ? "var(--color-success)" : "var(--color-text)" }}>{value}</div>
     </div>
   );
 }

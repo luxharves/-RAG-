@@ -25,6 +25,7 @@ router = APIRouter()
 class QueryRequest(BaseModel):
     question: str
     experiment: str = "v4"
+    source_document: str | None = None  # friendly name, e.g. "Roborock G10S" (V8)
 
 
 class QueryResponse(BaseModel):
@@ -38,6 +39,7 @@ class QueryResponse(BaseModel):
     timing_s: float
     cache_hit: bool = False
     cache_source: str | None = None  # "exact" | "semantic" | None
+    doc_filter: str | None = None    # resolved source_file scope (V8)
 
 
 class IngestResponse(BaseModel):
@@ -82,7 +84,7 @@ async def health():
     final_eval_exists = (PROJECT_ROOT / "storage" / "runs" / "final_eval" / "final_metrics.json").exists()
     return {
         "status": "ok",
-        "version": "V5",
+        "version": "V9",
         "collection": get_latest_v1_collection(),
         "milvus": settings.milvus_uri,
         "bm25_docs": get_bm25().num_docs,
@@ -179,15 +181,21 @@ async def list_documents():
 
 @router.post("/query", response_model=QueryResponse)
 async def query(req: QueryRequest):
-    """Answer using V4 (LangGraph) pipeline, with a V9 semantic cache fast-path."""
+    """Answer via the LangGraph pipeline (V4→V6), with optional doc_filter
+    scope (V8) and the V9 semantic-cache fast-path. The cache is salted with
+    the doc_filter so answers scoped to different manuals never collide."""
     t0 = time.perf_counter()
     settings = get_settings()
+
+    from src.eval.doc_registry import resolve_doc_filter
+    doc_filter = resolve_doc_filter(req.source_document) if req.source_document else None
+    salt = doc_filter or ""
 
     # ── V9 semantic cache: exact (SHA256) then semantic (BGE-M3 cosine) ──
     cache = None
     if settings.cache_enabled:
         cache = get_semantic_cache()
-        cached = cache.get(req.question)
+        cached = cache.get(req.question, salt=salt)
         if cached is not None:
             resp, source = cached
             resp["cache_hit"] = True
@@ -196,7 +204,7 @@ async def query(req: QueryRequest):
             return QueryResponse(**resp)
 
     vqa = get_vqa()
-    state = vqa.run(req.question)
+    state = vqa.run(req.question, doc_filter=doc_filter)
 
     sources = []
     for c in state.get("retrieved_chunks", []):
@@ -225,10 +233,119 @@ async def query(req: QueryRequest):
             "sentence_evidence": vr.get("sentence_evidence"),
         },
         timing_s=round(time.perf_counter() - t0, 2),
+        doc_filter=doc_filter,
     )
     if cache is not None:
-        cache.put(req.question, resp.model_dump())
+        cache.put(req.question, resp.model_dump(), salt=salt)
     return resp
+
+
+@router.get("/system")
+async def system_status():
+    """Live system state: LLM gateway circuit breakers (V7), semantic cache
+    stats (V9), and grounding verifier config (V6)."""
+    settings = get_settings()
+    from src.infra.gateway import get_gateway
+    gateway = get_gateway()
+    cache = get_semantic_cache() if settings.cache_enabled else None
+    return {
+        "version": "V9",
+        "gateway": gateway.state_dump(),
+        "cache": cache.stats() if cache else None,
+        "grounding": {
+            "verifier_mode": settings.verifier_mode,
+            "scorer": settings.grounding_scorer,
+            "scorer_floor": settings.grounding_scorer_floor,
+            "min_support_ratio": settings.grounding_min_support_ratio,
+        },
+    }
+
+
+@router.get("/versions")
+async def version_highlights():
+    """V6/V8/V9 evaluation highlights, read from storage JSONs (README values
+    as fallback so the page renders even before a fresh eval run)."""
+    settings = get_settings()
+    from src.infra.gateway import get_gateway
+
+    # ── V6 deterministic grounding ──
+    v6 = {"total": 100, "answered": 95, "avg_support_ratio": 0.9935,
+          "poison_flagged": 28, "poison_total": 34, "poison_rate": round(28 / 34, 4),
+          "over_refused": 1, "retries_used": 5}
+    p = PROJECT_ROOT / "storage" / "runs" / "v6_grounding" / "metadata.json"
+    if p.exists():
+        try:
+            m = json.loads(p.read_text(encoding="utf-8"))
+            v6 = {**v6,
+                  "total": m.get("total_cases", 100),
+                  "answered": m.get("fixed_answered", 95),
+                  "avg_support_ratio": m.get("avg_support_ratio", 0.9935),
+                  "retries_used": m.get("retries_used", 5)}
+        except Exception:
+            pass
+    pp = PROJECT_ROOT / "storage" / "runs" / "v6_grounding" / "poison_test.json"
+    if pp.exists():
+        try:
+            rows = json.loads(pp.read_text(encoding="utf-8"))
+            flagged = sum(1 for r in rows if r.get("poison_flagged_unsupported"))
+            total = len(rows)
+            if total:
+                v6 = {**v6, "poison_flagged": flagged, "poison_total": total,
+                      "poison_rate": round(flagged / total, 4)}
+        except Exception:
+            pass
+
+    # ── V7 LLM gateway (live config) ──
+    gw = get_gateway()
+    v7 = {"timeout_s": settings.llm_timeout,
+          "max_retries": settings.llm_max_retries,
+          "circuit_threshold": settings.llm_circuit_threshold,
+          "cooldown_s": settings.llm_circuit_cooldown,
+          "configured_providers": len(gw.state_dump().get("providers", []))}
+
+    # ── V8 multi-doc (123-question retrieval-only) ──
+    v8 = {"questions": 123, "text": 114, "image": 9,
+          "v3_hit_at_5": 0.9756, "v3_mrr": 0.8916, "v3_top1": 0.8293,
+          "ecovacs_mrr": 0.90}
+    p = PROJECT_ROOT / "storage" / "runs" / "final_eval_extended_full" / "final_metrics.json"
+    if p.exists():
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+            rm = d.get("versions", {}).get("V3", {}).get("retrieval_metrics", {})
+            v8 = {**v8,
+                  "questions": d.get("total_questions", 123),
+                  "v3_hit_at_5": rm.get("hit_at_5", 0.9756),
+                  "v3_mrr": rm.get("mrr", 0.8916),
+                  "v3_top1": rm.get("top1_hit_rate", 0.8293)}
+            split = d.get("versions", {}).get("V3", {}).get("split_by_document", {})
+            eco = split.get("Ecovacs DEEBOT T30C") or split.get("Ecovacs")
+            if eco:
+                v8["ecovacs_mrr"] = eco.get("mrr", 0.90)
+        except Exception:
+            pass
+
+    # ── V9 semantic cache ──
+    v9 = {"warmed": 12, "exact_hits": 12, "semantic_hits": 4,
+          "overall_hit_rate": 0.6667, "avg_cached_s": 0.031,
+          "avg_uncached_s": 113.62, "llm_calls_saved": 12}
+    p = PROJECT_ROOT / "storage" / "runs" / "v9_cache" / "cache_eval.json"
+    if p.exists():
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+            v9 = {**v9,
+                  "warmed": d.get("warmed", 12),
+                  "exact_hits": d.get("exact_hits", 12),
+                  "semantic_hits": d.get("semantic_hits", 4),
+                  "overall_hit_rate": d.get("overall_hit_rate", 0.6667),
+                  "avg_cached_s": d.get("avg_cached_s", 0.031),
+                  "avg_uncached_s": d.get("avg_uncached_s", 113.62),
+                  "llm_calls_saved": d.get("llm_calls_saved", 12)}
+        except Exception:
+            pass
+
+    return {"version": "V9",
+            "v6_grounding": v6, "v7_gateway": v7,
+            "v8_multidoc": v8, "v9_cache": v9}
 
 
 @router.post("/evaluate")

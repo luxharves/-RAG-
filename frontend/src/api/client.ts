@@ -18,6 +18,7 @@ export async function fetchHealth(): Promise<HealthResponse> {
 export interface QueryRequest {
   question: string;
   experiment: string;
+  source_document?: string | null; // friendly name, e.g. "Roborock G10S" (V8)
 }
 
 export interface Source {
@@ -202,6 +203,59 @@ export async function fetchEvaluation(id: string): Promise<Record<string, unknow
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ experiment: id }),
   });
+  if (!res.ok) throw new Error(`Failed: ${res.status}`);
+  return res.json();
+}
+
+// ── V6–V9 highlights (GET /versions) ──
+
+export interface VersionHighlights {
+  version: string;
+  v6_grounding: {
+    total: number; answered: number; avg_support_ratio: number;
+    poison_flagged: number; poison_total: number; poison_rate: number;
+    over_refused: number; retries_used: number;
+  };
+  v7_gateway: {
+    timeout_s: number; max_retries: number; circuit_threshold: number;
+    cooldown_s: number; configured_providers: number;
+  };
+  v8_multidoc: {
+    questions: number; text: number; image: number;
+    v3_hit_at_5: number; v3_mrr: number; v3_top1: number; ecovacs_mrr: number;
+  };
+  v9_cache: {
+    warmed: number; exact_hits: number; semantic_hits: number;
+    overall_hit_rate: number; avg_cached_s: number; avg_uncached_s: number; llm_calls_saved: number;
+  };
+}
+
+export async function fetchVersions(): Promise<VersionHighlights> {
+  const res = await fetch(`${BASE}/versions`);
+  if (!res.ok) throw new Error(`Failed: ${res.status}`);
+  return res.json();
+}
+
+// ── Live system state (GET /system) ──
+
+export interface SystemResponse {
+  version: string;
+  gateway: {
+    providers: Array<{
+      name: string; state: string; consecutive_failures: number;
+      opened_at: number | null; seconds_until_half_open: number | null;
+    }>;
+  };
+  cache: {
+    entries: number; hits: number; miss: number; hit_rate: number; threshold: number;
+  } | null;
+  grounding: {
+    verifier_mode: string; scorer: string; scorer_floor: number; min_support_ratio: number;
+  };
+}
+
+export async function fetchSystem(): Promise<SystemResponse> {
+  const res = await fetch(`${BASE}/system`);
   if (!res.ok) throw new Error(`Failed: ${res.status}`);
   return res.json();
 }
