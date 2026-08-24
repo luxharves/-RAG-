@@ -33,11 +33,16 @@ class DenseRetriever:
         self,
         collection_name: str = "v0_naive_rag",
         uri: str | None = None,
+        embedder: Embedder | None = None,
     ):
         self.collection_name = collection_name
         self.uri = uri or _DEFAULT_MILVUS_URI
         self._client: MilvusClient | None = None
-        self._embedder: Embedder | None = None
+        # Injectable shared instance (e.g. deps.get_embedder) so the semantic
+        # cache and the retriever reuse ONE BGE-M3 — a 2nd local load on an 8GB
+        # GPU trips the 8GB budget and stalls the first search (mirrors the
+        # shared-reranker pattern in RerankedRetriever).
+        self._embedder: Embedder | None = embedder
 
     def _ensure_client(self) -> MilvusClient:
         if self._client is None:

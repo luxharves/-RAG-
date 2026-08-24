@@ -96,15 +96,20 @@ class HybridRetriever:
         self,
         collection_name: str = "v1_multimodal_kw",
         bm25_index_path: str | None = None,
+        embedder=None,
     ):
         self.collection_name = collection_name
         self._dense: DenseRetriever | None = None
         self._bm25: BM25Retriever | None = None
         self._bm25_path = bm25_index_path
+        self._embedder = embedder  # shared BGE-M3 (see DenseRetriever)
 
     def _ensure_dense(self) -> DenseRetriever:
         if self._dense is None:
-            self._dense = DenseRetriever(collection_name=self.collection_name)
+            self._dense = DenseRetriever(
+                collection_name=self.collection_name,
+                embedder=self._embedder,
+            )
         return self._dense
 
     def _ensure_bm25(self) -> BM25Retriever:

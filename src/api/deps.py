@@ -80,6 +80,9 @@ def get_retriever():
         collection_name=get_latest_v1_collection(),
         bm25_index_path=str(PROJECT_ROOT / "storage" / "bm25"),
         reranker=get_reranker(),
+        # Share the ONE BGE-M3 with the semantic cache (avoids a 2nd GPU load
+        # that stalls the first search on an 8GB card).
+        embedder=get_embedder(),
     )
 
 
